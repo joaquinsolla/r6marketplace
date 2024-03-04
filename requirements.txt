@@ -1,0 +1,5 @@
+aiohttp
+asyncio
+matplotlib
+numpy
+websockets
