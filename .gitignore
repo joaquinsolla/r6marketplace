@@ -5,6 +5,8 @@ __pycache__/
 
 # Custom
 assets/credentials/
+creds
+.idea
 
 # C extensions
 *.so
