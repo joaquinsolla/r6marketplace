@@ -352,68 +352,68 @@ class Auth:
             return -1
 
         name = None
-        tags = None
-        item_type = None
+        tags = []
+        item_type = "No data"
 
-        lowest_buyer = None
-        highest_buyer = None
-        volume_buyers = None
+        lowest_buyer = "No data"
+        highest_buyer = "No data"
+        volume_buyers = 0
 
-        lowest_seller = None
-        highest_seller = None
-        volume_sellers = None
+        lowest_seller = "No data"
+        highest_seller = "No data"
+        volume_sellers = 0
 
-        last_sold = None
+        last_sold = "No data"
 
-        asset_url = None
+        asset_url = "No data"
         try:
             name = res["data"]["game"]["marketableItem"]["item"]["name"]
         except:
-            print(f'ERR')
+            print(f'[X] Error processing item. No name found.\n\t' + str(res["data"]))
         try:
             tags = res["data"]["game"]["marketableItem"]["item"]["tags"]
         except:
-            print(f'ERR')
+            pass
         try:
             item_type = res["data"]["game"]["marketableItem"]["item"]["type"]
         except:
-            print(f'ERR')
+            pass
 
         try:
             lowest_buyer = res["data"]["game"]["marketableItem"]["marketData"]["buyStats"][0]["lowestPrice"]
         except:
-            print(f'ERR')
+            pass
         try:
             highest_buyer = res["data"]["game"]["marketableItem"]["marketData"]["buyStats"][0]["highestPrice"]
         except:
-            print(f'ERR')
+            pass
         try:
             volume_buyers = res["data"]["game"]["marketableItem"]["marketData"]["buyStats"][0]["activeCount"]
         except:
-            print(f'ERR')
+            pass
 
         try:
             lowest_seller = res["data"]["game"]["marketableItem"]["marketData"]["sellStats"][0]["lowestPrice"]
         except:
-            print(f'ERR')
+            pass
         try:
             highest_seller = res["data"]["game"]["marketableItem"]["marketData"]["sellStats"][0]["highestPrice"]
         except:
-            print(f'ERR')
+            pass
         try:
             volume_sellers = res["data"]["game"]["marketableItem"]["marketData"]["sellStats"][0]["activeCount"]
         except:
-            print(f'ERR')
+            pass
 
         try:
             last_sold = res["data"]["game"]["marketableItem"]["marketData"]["lastSoldAt"][0]["price"]
         except:
-            print(f'ERR')
+            pass
 
         try:
             asset_url = res["data"]["game"]["marketableItem"]["item"]["assetUrl"]
         except:
-            print(f'ERR')
+            pass
 
         return [
             name,

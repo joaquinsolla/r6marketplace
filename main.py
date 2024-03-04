@@ -61,7 +61,7 @@ async def scan_market():
                     data[item_id]
                 except:
                     data[item_id] = {
-                        "id-name": key,
+                        "id-name": key.split(' ', 1)[1] if ' ' in key else key,
                         "type": res[1],
                         "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId="+item_id,
                         "asset-url": res[10],
@@ -69,6 +69,9 @@ async def scan_market():
                         "sales_history": [],
                         "updated": time.time()
                     }
+
+                # if in need to reset names
+                # data[item_id]["id-name"] = key.split(' ', 1)[1] if ' ' in key else key
 
                 if data[item_id]["data"] is None or data[item_id]["data"] != {
                     "sellers": res[8],
@@ -112,15 +115,16 @@ def check_for_discounts():
         if price is not None:
             url = value.get('url')
             name = value.get('id-name')
-            if (price <= limit_high and not name.startswith("*")) or (price <= limit_medium and name.startswith("*")):
-                if url is not None and name is not None:
-                    discounts[name] = {
-                        "price": price,
-                        "url": url,
-                        "updated": time.time()
-                    }
-                else:
-                    print("[X] Url or Name is None")
+            if not name.startswith("-") and not isinstance(price, str):
+                if (price <= limit_premium and name.startswith("!")) or (price <= limit_high and name.startswith("*")) or (price <= limit_medium and name.startswith("^")) or (price <= limit_low and name.startswith("=")):
+                    if url is not None and name is not None:
+                        discounts[name] = {
+                            "price": price,
+                            "url": url,
+                            "updated": time.time()
+                        }
+                    else:
+                        print("[X] Url or Name is None")
         else:
             print("[X] Price is None")
 
@@ -131,11 +135,13 @@ def check_for_discounts():
             price = value.get('price')
             url = value.get('url')
             aligned_name = (str(key) + ":").ljust(40)
-            print(" + " + str(aligned_name) + "\t" + str(price) + " - " + str(url))
+            print(str(aligned_name) + "\t" + str(price) + " - " + str(url))
 
 # Initialize vars
-limit_high = 2600
-limit_medium = 1100
+limit_premium = 2600
+limit_high = 1100
+limit_medium = 750
+limit_low = 500
 data, item_ids = check_files()
 discounts = {}
 
