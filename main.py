@@ -89,8 +89,8 @@ async def scan_market():
 
                 # if in need to reset names
                 # data[item_id]["id-name"] = key.split(' ', 1)[1] if ' ' in key else key
-                data[item_id]["id-name"] = key
-                print("RESET: " + key)
+                # data[item_id]["id-name"] = key
+                # print("RESET: " + key)
 
                 if data[item_id]["data"] is None or data[item_id]["data"] != {
                     "sellers": res[8],
@@ -139,15 +139,21 @@ def check_for_discounts():
             minimum_profit = value.get('data').get('minimum-profit')
             asset_url = value.get('asset-url')
 
+            sales_history = value.get('sales_history')
+            prices = [sale[0] for sale in sales_history]
+            last_sales = prices[-10:]
+            last_sales_string = "Last sales: " + ", ".join(str(price) for price in last_sales)
+
             if not name.startswith("-"):
-                if (price <= limit_premium and name.startswith("!")) or (price <= limit_high and name.startswith("*")) or (price <= limit_medium and name.startswith("^")) or (price <= limit_low and name.startswith("=")):
+                if (price <= limit_glacier_gold_dust and name.startswith("+")) or (price <= limit_premium and name.startswith("!")) or (price <= limit_high and name.startswith("*")) or (price <= limit_medium and name.startswith("^")) or (price <= limit_low and name.startswith("=")):
                     if url is not None and name is not None:
                         discounts[name] = {
                             "price": price,
                             "minimum-profit": minimum_profit,
                             "url": url,
                             "asset-url": asset_url,
-                            "updated": time.time()
+                            "updated": time.time(),
+                            "last_sales_string": last_sales_string
                         }
                     else:
                         print("[X] Url or Name is None")
@@ -167,6 +173,7 @@ def check_for_discounts():
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 # Initialize vars
+limit_glacier_gold_dust = 4000
 limit_premium = 2600
 limit_high = 1100
 limit_medium = 750

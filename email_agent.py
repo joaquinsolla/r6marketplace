@@ -37,9 +37,17 @@ def discounts_valid():
             for field in old_discounts:
                 if "updated" in old_discounts[field]:
                     del old_discounts[field]["updated"]
+                    del old_discounts[field]["url"]
+                    del old_discounts[field]["asset-url"]
+                    del old_discounts[field]["minimum-profit"]
+                    del old_discounts[field]["last_sales_string"]
             for field in new_discounts:
                 if "updated" in new_discounts[field]:
                     del new_discounts[field]["updated"]
+                    del new_discounts[field]["url"]
+                    del new_discounts[field]["asset-url"]
+                    del new_discounts[field]["minimum-profit"]
+                    del new_discounts[field]["last_sales_string"]
             return not old_discounts == new_discounts, "Same discounts as before"
 
 def send_email():
@@ -59,9 +67,12 @@ def send_email():
             url = value.get('url')
             minimum_profit = value.get('minimum-profit')
             asset_url = value.get('asset-url')
+            last_sales_string = value.get('last_sales_string')
+
             total_discounts += 1
-            message += (str(total_discounts) + ". " + str(key) + ":  " + str(price) + "\n" +
+            message += (str(total_discounts) + ". " + str(key) + ":  [ " + str(price) + " ]\n" +
                         "Minimum profit: " + str(minimum_profit) + "\n" +
+                        last_sales_string + ".\n" +
                         str(url) + "\n\n")
 
             response = requests.get(asset_url)

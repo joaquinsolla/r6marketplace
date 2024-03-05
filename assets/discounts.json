@@ -1,9 +1,26 @@
 {
+  "+ gold dust sasg-12": {
+    "price": 4000,
+    "minimum-profit": 4445,
+    "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=f5d7ed4e-d60d-485b-9d05-c960cd338b2e",
+    "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/d447044d_0035_44a2_4c94_3fab4cd1636c.png",
+    "updated": 1709641206.8136168,
+    "last_sales_string": "Last sales: 3000, 3700, 3500, 3899, 3800, 2500"
+  },
   "! dead sheriff uniform": {
     "price": 2399,
     "minimum-profit": 2666,
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=44932fee-5159-4fae-27fc-7fe2efb1fb46",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/2594253f_1aa9_4d1c_0b8a_05e459bd7c3c.png",
-    "updated": 1709639226.000382
+    "updated": 1709641206.8136168,
+    "last_sales_string": "Last sales: 2950, 2400, 2500"
+  },
+  "! signature six '19": {
+    "price": 2600,
+    "minimum-profit": 2889,
+    "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=9f0ffbab-ab76-4c4f-bcfa-c3d302397213",
+    "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/044f74cb_f5ce_4166_c88c_d72e7dbafb33.png",
+    "updated": 1709641206.8136168,
+    "last_sales_string": "Last sales: 2625, 2600, 2700, 814, 2700, 2750, 2700, 2600, 2700, 2500"
   }
 }
