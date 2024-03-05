@@ -68,7 +68,7 @@ def send_email():
             image_data = response.content
 
             image_attachment = MIMEImage(image_data)
-            image_attachment.add_header('Content-Disposition', 'inline', filename=(key) + ".png")
+            image_attachment.add_header('Content-Disposition', 'attachment', filename=(key) + ".png")
             msg.attach(image_attachment)
 
         now = datetime.now()
