@@ -1,7 +1,9 @@
 {
-  "rogue '19 uniform": {
-    "price": 1100,
-    "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=474cc2e1-1b2e-4aba-9f32-9f7a7370864a",
-    "updated": 1709579787.8077524
+  "! dead sheriff uniform": {
+    "price": 2399,
+    "minimum-profit": 2666,
+    "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=44932fee-5159-4fae-27fc-7fe2efb1fb46",
+    "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/2594253f_1aa9_4d1c_0b8a_05e459bd7c3c.png",
+    "updated": 1709638803.1241088
   }
 }

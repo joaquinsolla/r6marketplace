@@ -2,6 +2,7 @@ from __future__ import annotations
 import asyncio
 import contextlib
 import json
+import math
 import sys
 import time
 import warnings
@@ -52,7 +53,7 @@ def write_to_log():
         data_file.write("\n" + now_formatted)
         data_file.close()
 
-        print("[ Wrote to log ]")
+        print("[ Log updated ]")
 
 async def scan_market():
     with (contextlib.suppress(Exception)):
@@ -77,7 +78,7 @@ async def scan_market():
                     data[item_id]
                 except:
                     data[item_id] = {
-                        "id-name": key.split(' ', 1)[1] if ' ' in key else key,
+                        "id-name": key,
                         "type": res[1],
                         "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId="+item_id,
                         "asset-url": res[10],
@@ -88,6 +89,8 @@ async def scan_market():
 
                 # if in need to reset names
                 # data[item_id]["id-name"] = key.split(' ', 1)[1] if ' ' in key else key
+                data[item_id]["id-name"] = key
+                print("RESET: " + key)
 
                 if data[item_id]["data"] is None or data[item_id]["data"] != {
                     "sellers": res[8],
@@ -96,7 +99,8 @@ async def scan_market():
                     "highest-seller": res[7],
                     "lowest-buyer": res[3],
                     "highest-buyer": res[4],
-                    "last-sold": res[9]
+                    "last-sold": res[9],
+                    "minimum-profit": math.ceil(float(res[6]) / 0.9) if not isinstance(res[6], str) else "No data"
                 }:
                     data[item_id]["data"] = {
                         "sellers": res[8],
@@ -105,7 +109,8 @@ async def scan_market():
                         "highest-seller": res[7],
                         "lowest-buyer": res[3],
                         "highest-buyer": res[4],
-                        "last-sold": res[9]
+                        "last-sold": res[9],
+                        "minimum-profit": math.ceil(float(res[6]) / 0.9) if not isinstance(res[6], str) else "No data"
                     }
                     data[item_id]["updated"] = time.time()
                     print(" + New DATA: \t" + key)
@@ -127,22 +132,27 @@ def check_for_discounts():
         updated_data = json.load(file)
 
     for key, value in updated_data.items():
-        price = value.get('data', {}).get('lowest-seller')
-        if price is not None:
+        price = value.get('data').get('lowest-seller')
+        if price is not None and not isinstance(price, str):
             url = value.get('url')
             name = value.get('id-name')
-            if not name.startswith("-") and not isinstance(price, str):
+            minimum_profit = value.get('data').get('minimum-profit')
+            asset_url = value.get('asset-url')
+
+            if not name.startswith("-"):
                 if (price <= limit_premium and name.startswith("!")) or (price <= limit_high and name.startswith("*")) or (price <= limit_medium and name.startswith("^")) or (price <= limit_low and name.startswith("=")):
                     if url is not None and name is not None:
                         discounts[name] = {
                             "price": price,
+                            "minimum-profit": minimum_profit,
                             "url": url,
+                            "asset-url": asset_url,
                             "updated": time.time()
                         }
                     else:
                         print("[X] Url or Name is None")
-        else:
-            print("[X] Price is None")
+            else:
+                print(" - Item in quarantine " + name)
 
     if len(discounts) == 0:
         print(" - No discounts")
@@ -151,10 +161,9 @@ def check_for_discounts():
             price = value.get('price')
             url = value.get('url')
             aligned_name = (str(key) + ":").ljust(40)
-            print(str(aligned_name) + "\t" + str(price) + " - " + str(url))
+            print(" + " + str(aligned_name) + "\t" + str(price) + " - " + str(url))
 
 # Initial settings
-#sys.stdout = open('output.txt', 'w')
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 # Initialize vars

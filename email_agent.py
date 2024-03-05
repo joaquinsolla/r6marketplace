@@ -1,9 +1,12 @@
 import contextlib
 import json
 import smtplib
+from email.mime.image import MIMEImage
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime
+
+import requests
 
 
 def save_to_json(source, target_url):
@@ -49,11 +52,25 @@ def send_email():
         message = ''
         total_discounts = 0
 
+        msg = MIMEMultipart()
+
         for key, value in discounts_data.items():
             price = value.get('price')
             url = value.get('url')
+            minimum_profit = value.get('minimum-profit')
+            asset_url = value.get('asset-url')
             total_discounts += 1
-            message += (str(total_discounts) + ". " + str(key) + ":  " + str(price) + "\n" + str(url) + "\n\n")
+            message += (str(total_discounts) + ". " + str(key) + ":  " + str(price) + "\n" +
+                        "Minimum profit: " + str(minimum_profit) + "\n" +
+                        str(url) + "\n\n")
+
+            response = requests.get(asset_url)
+            image_data = response.content
+
+            image_attachment = MIMEImage(image_data)
+            image_attachment.add_header('Content-Disposition', 'inline', filename=(key) + ".png")
+            msg.attach(image_attachment)
+
         now = datetime.now()
         now_formatted = now.strftime('%d/%m/%Y %H:%M')
         message += "Updated: " + now_formatted
@@ -77,7 +94,6 @@ def send_email():
         smtp_server = 'smtp.gmail.com'
         smtp_port = 587  # TLS Port
 
-        msg = MIMEMultipart()
         msg['From'] = email_address
         msg['To'] = recipient
         msg['Subject'] = subject
@@ -93,5 +109,5 @@ def send_email():
         print('[ Email Sent ]')
         return True
     else:
-        print('[!] ' + not_valid_message)
+        print('[!] Email not sent: ' + not_valid_message)
         return False
