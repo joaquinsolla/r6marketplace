@@ -91,5 +91,7 @@ def send_email():
 
         server.quit()
         print('[ Email Sent ]')
+        return True
     else:
         print('[!] ' + not_valid_message)
+        return False

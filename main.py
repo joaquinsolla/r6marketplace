@@ -2,11 +2,13 @@ from __future__ import annotations
 import asyncio
 import contextlib
 import json
+import sys
 import time
 import warnings
 from os.path import exists
 from auth import Auth
 from email_agent import send_email
+from datetime import datetime
 
 
 def check_files():
@@ -37,6 +39,20 @@ def save_to_json(source, target_url):
         data_file.close()
 
         print("[ Saved: " + target_url + " ]")
+
+def write_to_log():
+    with contextlib.suppress(Exception):
+
+        now = datetime.now()
+        now_formatted = now.strftime('%d/%m/%Y %H:%M')
+        if email_sent:
+            now_formatted += " - Discounts: " + str(len(discounts))
+
+        data_file = open('log.txt', "a")
+        data_file.write("\n" + now_formatted)
+        data_file.close()
+
+        print("[ Wrote to log ]")
 
 async def scan_market():
     with (contextlib.suppress(Exception)):
@@ -137,6 +153,10 @@ def check_for_discounts():
             aligned_name = (str(key) + ":").ljust(40)
             print(str(aligned_name) + "\t" + str(price) + " - " + str(url))
 
+# Initial settings
+#sys.stdout = open('output.txt', 'w')
+warnings.filterwarnings("ignore", category=DeprecationWarning)
+
 # Initialize vars
 limit_premium = 2600
 limit_high = 1100
@@ -146,9 +166,9 @@ data, item_ids = check_files()
 discounts = {}
 
 # Execution
-warnings.filterwarnings("ignore", category=DeprecationWarning)
 asyncio.get_event_loop().run_until_complete(scan_market())
 save_to_json(data, "assets/data.json")
 check_for_discounts()
 save_to_json(discounts, "assets/discounts.json")
-send_email()
+email_sent = send_email()
+write_to_log()

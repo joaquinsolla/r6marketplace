@@ -1,0 +1,83 @@
+[ Files Checked ]
+[ Authenticated ]
+ + New DATA: 	! glacier m590a1
+ + New DATA: 	! glacier ar33
+ + New DATA: 	! glacier fmg9
+ + New DATA: 	! glacier smg-11
+ + New DATA: 	! glacier g36c
+ + New DATA: 	! glacier r4-c
+ + New DATA: 	! glacier 556xi
+ + New DATA: 	! glacier f2
+ + New DATA: 	! glacier 417
+ + New DATA: 	! glacier p9
+ + New SALES: 	! glacier p9
+ + New DATA: 	! glacier lfp586
+ + New DATA: 	! glacier mp5
+ + New DATA: 	! glacier p90
+ + New DATA: 	! glacier pmm
+ + New DATA: 	! glacier ots-03
+ + New DATA: 	! glacier ak-12
+ + New DATA: 	! glacier gsh-18
+ + New SALES: 	! glacier gsh-18
+ + New DATA: 	! glacier 9x19vsn
+ + New DATA: 	! glacier 552 commando
+ + New DATA: 	! glacier g8a1
+ + New DATA: 	! glacier m870
+ + New DATA: 	! glacier 416-c carbine
+ + New DATA: 	! glacier mp7
+ + New DATA: 	! glacier c8-sfw
+ + New DATA: 	! glacier mk1 9mm
+ + New DATA: 	! glacier 9mm c1
+ + New DATA: 	! glacier super 90
+ + New DATA: 	! gold dust 556xi
+ + New DATA: 	! gold dust r4-c
+ + New DATA: 	! gold dust mp7
+ + New DATA: 	! gold dust sasg-12
+ + New DATA: 	! gold dust l85a2
+ + New DATA: 	! gold dust 416-c carbine
+ + New DATA: 	! gold dust ar33
+ + New DATA: 	* field prep uniform
+ + New DATA: 	* rogue '18 uniform
+ + New DATA: 	* immortals '18 uniform
+ + New DATA: 	^ rogue '19 uniform
+ + New DATA: 	^ mousesports '18 uniform
+ + New DATA: 	^ ninjas in pyjamas '18 uniform
+ + New DATA: 	-^ mousesports '18 headgear
+ + New DATA: 	! crossfader
+ + New DATA: 	! leon furioso
+ + New DATA: 	-! signature six '19
+ + New SALES: 	-! signature six '19
+ + New DATA: 	* evil geniuses '19 f2
+ + New DATA: 	^ drkn si '22 flagship type-89
+ + New DATA: 	^ nora rengo '19 mpx
+ + New DATA: 	^ fazeclan '19 r4-c
+ + New DATA: 	^ pina colada r4-c
+ + New SALES: 	^ pina colada r4-c
+ + New DATA: 	-= rogue '18 c8-sfw
+ + New SALES: 	-= rogue '18 c8-sfw
+ + New DATA: 	= rusty trigger
+ + New DATA: 	= cloud9 '19 mpx
+ + New DATA: 	-= penta '19 f2
+ + New DATA: 	! ence charm
+ + New DATA: 	^ search and rescue
+ + New SALES: 	^ search and rescue
+ + New DATA: 	= symbol shambles
+ + New DATA: 	! siege pro league charm
+ + New DATA: 	! six invitational vip '18
+ + New DATA: 	! six invitational vip '19
+ + New DATA: 	* six major usa diamond '19
+ + New SALES: 	* six major usa diamond '19
+ + New DATA: 	* six invitational diamond '18
+ + New SALES: 	* six invitational diamond '18
+ + New DATA: 	! black ice r4-c
+ + New SALES: 	! black ice r4-c
+ + New DATA: 	* black ice mp5
+ + New SALES: 	* black ice mp5
+ + New DATA: 	* black ice mp7
+ + New SALES: 	* black ice mp7
+[ Session Closed ]
+[ Saved: assets/data.json ]
+[ Checking For Discounts ]
+ - No discounts
+[ Saved: assets/discounts.json ]
+[!] No discounts found
