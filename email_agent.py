@@ -5,7 +5,6 @@ from email.mime.image import MIMEImage
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime
-
 import requests
 
 
@@ -35,19 +34,21 @@ def discounts_valid():
 
         else:
             for field in old_discounts:
-                if "updated" in old_discounts[field]:
-                    del old_discounts[field]["updated"]
-                    del old_discounts[field]["url"]
-                    del old_discounts[field]["asset-url"]
-                    del old_discounts[field]["minimum-profit"]
-                    del old_discounts[field]["last_sales_string"]
+                del old_discounts[field]["minimum-profit"]
+                del old_discounts[field]["sellers"]
+                del old_discounts[field]["buyers"]
+                del old_discounts[field]["last_sales_string"]
+                del old_discounts[field]["url"]
+                del old_discounts[field]["asset-url"]
+                del old_discounts[field]["updated"]
             for field in new_discounts:
-                if "updated" in new_discounts[field]:
-                    del new_discounts[field]["updated"]
-                    del new_discounts[field]["url"]
-                    del new_discounts[field]["asset-url"]
-                    del new_discounts[field]["minimum-profit"]
-                    del new_discounts[field]["last_sales_string"]
+                del new_discounts[field]["minimum-profit"]
+                del new_discounts[field]["sellers"]
+                del new_discounts[field]["buyers"]
+                del new_discounts[field]["last_sales_string"]
+                del new_discounts[field]["url"]
+                del new_discounts[field]["asset-url"]
+                del new_discounts[field]["updated"]
             return not old_discounts == new_discounts, "Same discounts as before"
 
 def send_email():
@@ -64,14 +65,23 @@ def send_email():
 
         for key, value in discounts_data.items():
             price = value.get('price')
-            url = value.get('url')
+            avg_price = value.get('avg-price')
+            discounted_percentage = value.get('discounted-percentage')
             minimum_profit = value.get('minimum-profit')
-            asset_url = value.get('asset-url')
+            sellers = value.get('sellers')
+            buyers = value.get('buyers')
+            highest_buyer = value.get('highest-buyer')
             last_sales_string = value.get('last_sales_string')
+            url = value.get('url')
+            asset_url = value.get('asset-url')
 
             total_discounts += 1
-            message += (str(total_discounts) + ". " + str(key) + ":  [ " + str(price) + " ]\n" +
+            message += ("<b>" + str(total_discounts) + ". " + str(key).upper() + ": " + str(price) + " (" + str(discounted_percentage) + "%)</b>\n" +
+                        "Avg price: " + str(avg_price) + "\n" +
                         "Minimum profit: " + str(minimum_profit) + "\n" +
+                        "Sellers: " + str(sellers) + "\n" +
+                        "Buyers: " + str(buyers) + "\n" +
+                        "Highest buyer: " + str(highest_buyer) + "\n" +
                         last_sales_string + ".\n" +
                         str(url) + "\n\n")
 
@@ -99,7 +109,7 @@ def send_email():
         email_address = creds[0]
         password = creds[1]
         recipient = subs[0]
-        subject = 'Total Discounts: ' + str(total_discounts)
+        subject = now_formatted + " - " + str(total_discounts) + " Discounts"
         body = message
 
         smtp_server = 'smtp.gmail.com'
@@ -108,7 +118,7 @@ def send_email():
         msg['From'] = email_address
         msg['To'] = recipient
         msg['Subject'] = subject
-        msg.attach(MIMEText(body, 'plain'))
+        msg.attach(MIMEText('<html><body>' + body.replace('\n', '<br>') + '</body></html>', 'html'))
 
         server = smtplib.SMTP(smtp_server, smtp_port)
         server.starttls()

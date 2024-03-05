@@ -1,7 +1,1 @@
-+ Glacier/Gold dust
-! Premium priority
-* High priority
-^ Medium priority
-= Low priority
-
 - Quarantine

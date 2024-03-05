@@ -2,7 +2,6 @@ from __future__ import annotations
 import asyncio
 import contextlib
 import json
-import math
 import sys
 import time
 import warnings
@@ -43,7 +42,7 @@ def save_to_json(source, target_url):
 
 def write_to_log():
     with contextlib.suppress(Exception):
-
+        email_sent = False #    cambiar
         now = datetime.now()
         now_formatted = now.strftime('%d/%m/%Y %H:%M')
         if email_sent:
@@ -88,9 +87,16 @@ async def scan_market():
                     }
 
                 # if in need to reset names
-                # data[item_id]["id-name"] = key.split(' ', 1)[1] if ' ' in key else key
                 # data[item_id]["id-name"] = key
                 # print("RESET: " + key)
+
+                if data[item_id]["data"] is not None:
+                    if len(data[item_id]["sales_history"]) == 0:
+                        avg_price = "No data"
+                    else:
+                        sales_history = data[item_id]["sales_history"]
+                        sales = [sale[0] for sale in sales_history]
+                        avg_price = int(sum(sales) / len(sales))
 
                 if data[item_id]["data"] is None or data[item_id]["data"] != {
                     "sellers": res[8],
@@ -100,7 +106,8 @@ async def scan_market():
                     "lowest-buyer": res[3],
                     "highest-buyer": res[4],
                     "last-sold": res[9],
-                    "minimum-profit": math.ceil(float(res[6]) / 0.9) if not isinstance(res[6], str) else "No data"
+                    "minimum-profit": int(float(res[6]) / 0.9) if not isinstance(res[6], str) else "No data",
+                    "avg-price": avg_price
                 }:
                     data[item_id]["data"] = {
                         "sellers": res[8],
@@ -110,13 +117,17 @@ async def scan_market():
                         "lowest-buyer": res[3],
                         "highest-buyer": res[4],
                         "last-sold": res[9],
-                        "minimum-profit": math.ceil(float(res[6]) / 0.9) if not isinstance(res[6], str) else "No data"
+                        "minimum-profit": int(float(res[6]) / 0.9) if not isinstance(res[6], str) else "No data",
+                        "avg-price": avg_price
                     }
                     data[item_id]["updated"] = time.time()
                     print(" + New DATA: \t" + key)
 
                 if len(data[item_id]["sales_history"]) == 0 or data[item_id]["sales_history"][len(data[item_id]["sales_history"]) - 1][0] != res[9]:
                     data[item_id]["sales_history"] = data[item_id]["sales_history"] + [[res[9], time.time()]]
+                    sales = [sale[0] for sale in data[item_id]["sales_history"]]
+                    avg_price = int(sum(sales) / len(sales))
+                    data[item_id]["data"]["avg-price"] = avg_price
                     data[item_id]["updated"] = time.time()
                     print(" + New SALES: \t" + key)
 
@@ -134,29 +145,41 @@ def check_for_discounts():
     for key, value in updated_data.items():
         price = value.get('data').get('lowest-seller')
         if price is not None and not isinstance(price, str):
-            url = value.get('url')
             name = value.get('id-name')
+            avg_price = value.get('data').get('avg-price')
+            discounted_percentage = int((1 - (price / avg_price)) * 100)
             minimum_profit = value.get('data').get('minimum-profit')
-            asset_url = value.get('asset-url')
+            sellers = value.get('data').get('sellers')
+            buyers = value.get('data').get('buyers')
+            highest_buyer = value.get('data').get('highest-buyer')
 
             sales_history = value.get('sales_history')
             prices = [sale[0] for sale in sales_history]
-            last_sales = prices[-10:]
+            last_sales = prices[-5:]
             last_sales_string = "Last sales: " + ", ".join(str(price) for price in last_sales)
 
+            url = value.get('url')
+            asset_url = value.get('asset-url')
+
             if not name.startswith("-"):
-                if (price <= limit_glacier_gold_dust and name.startswith("+")) or (price <= limit_premium and name.startswith("!")) or (price <= limit_high and name.startswith("*")) or (price <= limit_medium and name.startswith("^")) or (price <= limit_low and name.startswith("=")):
-                    if url is not None and name is not None:
-                        discounts[name] = {
-                            "price": price,
-                            "minimum-profit": minimum_profit,
-                            "url": url,
-                            "asset-url": asset_url,
-                            "updated": time.time(),
-                            "last_sales_string": last_sales_string
-                        }
-                    else:
-                        print("[X] Url or Name is None")
+                if not isinstance(avg_price, str):
+                    if price <= (avg_price*0.8):
+                        if url is not None and name is not None:
+                            discounts[name] = {
+                                "price": price,
+                                "avg-price": avg_price,
+                                "discounted-percentage": discounted_percentage,
+                                "minimum-profit": minimum_profit,
+                                "sellers": sellers,
+                                "buyers": buyers,
+                                "highest-buyer": highest_buyer,
+                                "last_sales_string": last_sales_string,
+                                "url": url,
+                                "asset-url": asset_url,
+                                "updated": time.time()
+                            }
+                        else:
+                            print("[X] Url or Name is None")
             else:
                 print(" - Item in quarantine " + name)
 
@@ -164,20 +187,17 @@ def check_for_discounts():
         print(" - No discounts")
     else:
         for key, value in discounts.items():
-            price = value.get('price')
             url = value.get('url')
-            aligned_name = (str(key) + ":").ljust(40)
-            print(" + " + str(aligned_name) + "\t" + str(price) + " - " + str(url))
+            aligned_name = (str(key) + ":").ljust(35)
+            aligned_price = (str(value.get('price'))).ljust(6)
+            aligned_avg = (str(value.get('avg-price'))).ljust(6)
+            aligned_percentage = (str(value.get('discounted-percentage')) + "%").ljust(3)
+            print(" + " + str(aligned_name) + "\t" + str(aligned_price) + " " + str(aligned_percentage) + "\t\tAVG: " + str(aligned_avg) + "\t\t" + str(url))
 
 # Initial settings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 # Initialize vars
-limit_glacier_gold_dust = 4000
-limit_premium = 2600
-limit_high = 1100
-limit_medium = 750
-limit_low = 500
 data, item_ids = check_files()
 discounts = {}
 

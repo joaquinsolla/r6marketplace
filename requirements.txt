@@ -3,3 +3,4 @@ asyncio
 matplotlib
 numpy
 websockets
+requests
