@@ -23,6 +23,10 @@ Then, create the folder '/assets/credentials', then you will create 3 files insi
 - 'email_subscribers.txt'
   - One email per line
 
+### Recommended scan intervals: Every 10 minutes
+If you check an excessive amount of items or scan the marketplace in very small periods of time, you can get rate limited.
+My settings: 175 items to check every 10 minutes.
+
 ## Main Execution
 Install dependencies
 ```sh

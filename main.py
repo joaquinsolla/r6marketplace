@@ -162,7 +162,7 @@ def check_for_discounts():
 
             if not name.startswith("-"):
                 if not isinstance(avg_price, str):
-                    if price <= (avg_price*0.8):
+                    if price <= (avg_price*0.75):
                         if url is not None and name is not None:
                             discounts[name] = {
                                 "price": price,
