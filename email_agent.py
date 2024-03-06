@@ -1,6 +1,7 @@
 import contextlib
 import json
 import smtplib
+from email.mime.application import MIMEApplication
 from email.mime.image import MIMEImage
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
@@ -62,6 +63,11 @@ def send_email():
         total_discounts = 0
 
         msg = MIMEMultipart()
+
+        with open('assets/data.html', 'rb') as file:
+            html_attachment = MIMEApplication(file.read(), _subtype='html')
+            html_attachment.add_header('Content-Disposition', 'attachment', filename='data.html')
+            msg.attach(html_attachment)
 
         for key, value in discounts_data.items():
             price = value.get('price')

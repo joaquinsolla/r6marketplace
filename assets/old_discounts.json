@@ -1,28 +1,28 @@
 {
-  "glacier f2": {
-    "price": 28000,
-    "avg-price": 31300,
-    "discounted-percentage": 10,
-    "roi": 31111,
-    "sellers": 34,
-    "buyers": 767,
-    "highest-buyer": 27464,
-    "last_sales_string": "Last sales: 30000, 31000, 32000, 30000, 29000",
-    "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=47eb21ff-8ef6-489a-879e-c21bce34baa4",
-    "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/9f13e340_3f21_8b0e_21ba_1e7efb19147e.png",
-    "updated": 1709683939.4328332
+  "evil geniuses '19 uniform": {
+    "price": 1190,
+    "avg-price": 1626,
+    "discounted-percentage": 26,
+    "roi": 1322,
+    "sellers": 43,
+    "buyers": 13,
+    "highest-buyer": 1000,
+    "last_sales_string": "Last sales: 1750, 1600, 1750, 1900, 1200",
+    "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=e59deadb-5e5e-42b5-8081-3ba106f8cd20",
+    "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/e824c8d5_59c2_d491_49e2_7847a590677a.png",
+    "updated": 1709756257.0017612
   },
-  "dead sheriff uniform": {
-    "price": 2300,
-    "avg-price": 2561,
-    "discounted-percentage": 10,
-    "roi": 2555,
-    "sellers": 16,
-    "buyers": 7,
-    "highest-buyer": 640,
-    "last_sales_string": "Last sales: 2950, 2400, 2500, 2395",
-    "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=44932fee-5159-4fae-27fc-7fe2efb1fb46",
-    "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/2594253f_1aa9_4d1c_0b8a_05e459bd7c3c.png",
-    "updated": 1709683939.4328332
+  "nora rengo '19 uniform": {
+    "price": 550,
+    "avg-price": 789,
+    "discounted-percentage": 30,
+    "roi": 611,
+    "sellers": 36,
+    "buyers": 10,
+    "highest-buyer": 464,
+    "last_sales_string": "Last sales: 850, 849, 850, 800, 600",
+    "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=ac380f05-31cd-477f-9898-72c62cfa1b31",
+    "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/20171379_712c_ebea_5977_c76b62a8d77c.png",
+    "updated": 1709756257.0017612
   }
 }
