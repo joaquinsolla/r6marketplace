@@ -2,7 +2,6 @@ from __future__ import annotations
 import asyncio
 import contextlib
 import json
-import sys
 import time
 import warnings
 from os.path import exists
@@ -42,7 +41,7 @@ def save_to_json(source, target_url):
 
 def write_to_log():
     with contextlib.suppress(Exception):
-        email_sent = False #    cambiar
+
         now = datetime.now()
         now_formatted = now.strftime('%d/%m/%Y %H:%M')
         if email_sent:
@@ -106,7 +105,7 @@ async def scan_market():
                     "lowest-buyer": res[3],
                     "highest-buyer": res[4],
                     "last-sold": res[9],
-                    "minimum-profit": int(float(res[6]) / 0.9) if not isinstance(res[6], str) else "No data",
+                    "roi": int(float(res[6]) / 0.9) if not isinstance(res[6], str) else "No data",
                     "avg-price": avg_price
                 }:
                     data[item_id]["data"] = {
@@ -117,7 +116,7 @@ async def scan_market():
                         "lowest-buyer": res[3],
                         "highest-buyer": res[4],
                         "last-sold": res[9],
-                        "minimum-profit": int(float(res[6]) / 0.9) if not isinstance(res[6], str) else "No data",
+                        "roi": int(float(res[6]) / 0.9) if not isinstance(res[6], str) else "No data",
                         "avg-price": avg_price
                     }
                     data[item_id]["updated"] = time.time()
@@ -148,7 +147,7 @@ def check_for_discounts():
             name = value.get('id-name')
             avg_price = value.get('data').get('avg-price')
             discounted_percentage = int((1 - (price / avg_price)) * 100)
-            minimum_profit = value.get('data').get('minimum-profit')
+            roi = value.get('data').get('roi')
             sellers = value.get('data').get('sellers')
             buyers = value.get('data').get('buyers')
             highest_buyer = value.get('data').get('highest-buyer')
@@ -169,7 +168,7 @@ def check_for_discounts():
                                 "price": price,
                                 "avg-price": avg_price,
                                 "discounted-percentage": discounted_percentage,
-                                "minimum-profit": minimum_profit,
+                                "roi": roi,
                                 "sellers": sellers,
                                 "buyers": buyers,
                                 "highest-buyer": highest_buyer,

@@ -34,7 +34,7 @@ def discounts_valid():
 
         else:
             for field in old_discounts:
-                del old_discounts[field]["minimum-profit"]
+                del old_discounts[field]["roi"]
                 del old_discounts[field]["sellers"]
                 del old_discounts[field]["buyers"]
                 del old_discounts[field]["last_sales_string"]
@@ -42,7 +42,7 @@ def discounts_valid():
                 del old_discounts[field]["asset-url"]
                 del old_discounts[field]["updated"]
             for field in new_discounts:
-                del new_discounts[field]["minimum-profit"]
+                del new_discounts[field]["roi"]
                 del new_discounts[field]["sellers"]
                 del new_discounts[field]["buyers"]
                 del new_discounts[field]["last_sales_string"]
@@ -67,7 +67,7 @@ def send_email():
             price = value.get('price')
             avg_price = value.get('avg-price')
             discounted_percentage = value.get('discounted-percentage')
-            minimum_profit = value.get('minimum-profit')
+            roi = value.get('roi')
             sellers = value.get('sellers')
             buyers = value.get('buyers')
             highest_buyer = value.get('highest-buyer')
@@ -78,7 +78,7 @@ def send_email():
             total_discounts += 1
             message += ("<b>" + str(total_discounts) + ". " + str(key).upper() + ": " + str(price) + " (" + str(discounted_percentage) + "%)</b>\n" +
                         "Avg price: " + str(avg_price) + "\n" +
-                        "Minimum profit: " + str(minimum_profit) + "\n" +
+                        "ROI: " + str(roi) + "\n" +
                         "Sellers: " + str(sellers) + "\n" +
                         "Buyers: " + str(buyers) + "\n" +
                         "Highest buyer: " + str(highest_buyer) + "\n" +
