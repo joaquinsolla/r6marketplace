@@ -49,7 +49,7 @@ def write_to_log():
         if email_sent:
             now_formatted += " - Discounts: " + str(len(discounts))
 
-        data_file = open('log.txt', "a")
+        data_file = open('assets/log.txt', "a")
         data_file.write("\n" + now_formatted)
         data_file.close()
 
@@ -87,9 +87,7 @@ async def scan_market():
                         "updated": time.time()
                     }
 
-                # if in need to reset names
-                # data[item_id]["id-name"] = key
-                # print("RESET: " + key)
+                data[item_id]["id-name"] = key
 
                 if data[item_id]["data"] is not None:
                     if len(data[item_id]["sales_history"]) == 0:

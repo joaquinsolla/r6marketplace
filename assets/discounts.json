@@ -1,28 +1,41 @@
 {
-  "evil geniuses '19 uniform": {
-    "price": 1190,
-    "avg-price": 1626,
-    "discounted-percentage": 26,
-    "roi": 1322,
-    "sellers": 43,
-    "buyers": 13,
-    "highest-buyer": 1000,
-    "last_sales_string": "Last sales: 1750, 1600, 1750, 1900, 1200",
-    "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=e59deadb-5e5e-42b5-8081-3ba106f8cd20",
-    "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/e824c8d5_59c2_d491_49e2_7847a590677a.png",
-    "updated": 1709756257.0017612
+  "cloud9 '19 uniform": {
+    "price": 900,
+    "avg-price": 1167,
+    "discounted-percentage": 22,
+    "roi": 1000,
+    "sellers": 48,
+    "buyers": 25,
+    "highest-buyer": 750,
+    "last_sales_string": "Last sales: 950, 1000, 1050, 999, 1000",
+    "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=dcd1a3ea-e889-4abd-9704-4753c43c38be",
+    "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/2138ad44_9a48_fed1_318e_b00b9af42e91.png",
+    "updated": 1709766588.377412
   },
-  "nora rengo '19 uniform": {
-    "price": 550,
-    "avg-price": 789,
+  "symbol shambles": {
+    "price": 500,
+    "avg-price": 692,
+    "discounted-percentage": 27,
+    "roi": 555,
+    "sellers": 127,
+    "buyers": 185,
+    "highest-buyer": 450,
+    "last_sales_string": "Last sales: 600, 700, 650, 700, 500",
+    "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=cc19c2be-e7c0-cd41-23a9-8b5e5a794ed5",
+    "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/80e69597_2b9b_adf4_bca5_f334001bd6d5.png",
+    "updated": 1709766588.3784022
+  },
+  "natus vincere '19 headgear": {
+    "price": 600,
+    "avg-price": 862,
     "discounted-percentage": 30,
-    "roi": 611,
-    "sellers": 36,
-    "buyers": 10,
-    "highest-buyer": 464,
-    "last_sales_string": "Last sales: 850, 849, 850, 800, 600",
-    "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=ac380f05-31cd-477f-9898-72c62cfa1b31",
-    "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/20171379_712c_ebea_5977_c76b62a8d77c.png",
-    "updated": 1709756257.0017612
+    "roi": 666,
+    "sellers": 13,
+    "buyers": 5,
+    "highest-buyer": 500,
+    "last_sales_string": "Last sales: 899, 900, 950, 1000, 700",
+    "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=21025524-bc75-48fa-b745-40b54a464184",
+    "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/41e784d3_699d_9f4c_4f1d_d6f65a39b726.png",
+    "updated": 1709766588.3784022
   }
 }

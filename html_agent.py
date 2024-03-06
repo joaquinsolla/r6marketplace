@@ -118,3 +118,5 @@ def data_to_html():
 
     data_html.close()
     print("[ HTML built: assets/data.html ]")
+
+data_to_html()
