@@ -1,28 +1,15 @@
 {
-  "rogue '18 uniform": {
-    "price": 1200,
-    "avg-price": 1624,
-    "discounted-percentage": 26,
-    "roi": 1333,
-    "sellers": 57,
-    "buyers": 40,
-    "highest-buyer": 1127,
-    "last_sales_string": "Last sales: 1856, 1849, 1850, 1600, 1700",
-    "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=9c722f04-d20d-4d67-bb28-f2b3c6a42bea",
-    "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/99725c06_1de5_0161_093f_df4124a586ab.png",
-    "updated": 1709768457.675877
-  },
-  "cloud9 '19 uniform": {
-    "price": 900,
-    "avg-price": 1158,
-    "discounted-percentage": 22,
-    "roi": 1000,
-    "sellers": 48,
-    "buyers": 25,
-    "highest-buyer": 750,
-    "last_sales_string": "Last sales: 1000, 1050, 999, 1000, 900",
-    "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=dcd1a3ea-e889-4abd-9704-4753c43c38be",
-    "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/2138ad44_9a48_fed1_318e_b00b9af42e91.png",
-    "updated": 1709768457.675877
+  "evil geniuses charm": {
+    "price": 400,
+    "avg-price": 1079,
+    "discounted-percentage": 62,
+    "roi": 444,
+    "sellers": 14,
+    "buyers": 3,
+    "highest-buyer": 250,
+    "last_sales_string": "Last sales: 1148, 1149, 900, 1200, 1000",
+    "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=defc769c-cde9-48c4-b0be-d29bdde33c6c",
+    "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/248ca27d_a313_e68b_2e9a_597f12e22310.png",
+    "updated": 1709799054.3138618
   }
 }

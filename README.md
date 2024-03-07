@@ -13,6 +13,8 @@ Next, add an 'ids.json' file to '/assets', and place any items and their item ID
 
 Also create empty 'assets/data.html' and 'assets/log.txt' files.
 
+Create folder 'assets/plots' if it doesn't exist.
+
 Then, create the folder '/assets/credentials', then you will create 3 files inside:
 - 'bot_credentials.txt'
   - Line 1: The bot email (ex. r6bot@gmail.com)
@@ -62,6 +64,16 @@ python .\manual_agent.py
 python .\html_agent.py
 ```
 Once generated, open the file 'assets/data.html' with your Internet browser.
+
+### Get plot of an item's sales as a picture
+Paste the item's id as the 'item_id' variable in the 'graphic_agent.py' file. Example:
+```
+item_id = "2f4918b3-cd1e-4a3c-b08e-27b300b0e3c1"
+```
+Then run the file:
+```sh
+python .\graphic_agent.py
+```
 
 ## Credit
 Part of the code of this project (specially the Auth code) was sourced from https://github.com/hiibolt/r6econ and https://github.com/CNDRD/siegeapi. Special thanks to their developers.

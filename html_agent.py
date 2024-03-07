@@ -99,7 +99,7 @@ def data_to_html():
             data_html.write('<tr>\n')
             data_html.write(f'<td style="text-align: left">{item_data["id-name"].upper()}</td>\n')
             data_html.write(f'<td><a href="{item_data["url"]}" target="_blank">URL</a></td>\n')
-            data_html.write(f'<td><img src="{item_data["asset-url"]}" alt="Imagen" height="50px"></td>\n')
+            data_html.write(f'<td><img src="{item_data["asset-url"]}" alt="Imagen" max-height="50px" height="auto"></td>\n')
             data_html.write(f'<td>{item_data["data"]["avg-price"]}</td>\n')
             data_html.write(f'<td style="font-weight: bold">{item_data["data"]["lowest-seller"]}</td>\n')
             data_html.write(f'<td>{item_data["data"]["roi"]}</td>\n')
