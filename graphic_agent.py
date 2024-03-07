@@ -41,5 +41,10 @@ def item_sales_to_plot(my_item_id):
         print("[!] Cannot build plot: Item " + item + " has no sales")
         return "No data"
 
-#item_id = "2f4918b3-cd1e-4a3c-b08e-27b300b0e3c1"
-#item_sales_to_plot(item_id)
+if __name__ == "__main__":
+    import sys
+    if len(sys.argv) > 1:
+        item_id = sys.argv[1]
+        item_sales_to_plot(item_id)
+    else:
+        print("[X] Argument 'item_id' is needed!")

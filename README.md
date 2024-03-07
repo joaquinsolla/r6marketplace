@@ -50,29 +50,26 @@ Be careful! If you forget the space after the hyphen the quarantine won't work.
 If you want to receive those items in your emails again just remove the "- ".
 
 ### Check a specific item
-Paste the item's id as the 'item_id' variable in the 'manual_agent.py' file. Example:
-```
-item_id = "f619eb19-de6e-4dcd-96eb-08b45f80fe64"
-```
-Then run the file:
+Execute the file 'manual_agent.py' by passing the item's id as an argument (do not use brackets ""). It also works with items that do not appear in 'assets/data.json' o 'assets/ids.json'.Example:
 ```sh
-python .\manual_agent.py
+python ./manual_agent.py f619eb19-de6e-4dcd-96eb-08b45f80fe64
 ```
 
 ### Generate HTML file from data.json
 ```sh
-python .\html_agent.py
+python ./html_agent.py
 ```
 Once generated, open the file 'assets/data.html' with your Internet browser.
 
 ### Get plot of an item's sales as a picture
-Paste the item's id as the 'item_id' variable in the 'graphic_agent.py' file. Example:
-```
-item_id = "2f4918b3-cd1e-4a3c-b08e-27b300b0e3c1"
-```
-Then run the file:
+Execute the file 'graphic_agent.py' by passing the item's id as an argument (do not use brackets ""). Note that it only works with items that have sales registered in 'assets/data.json'. Example:
 ```sh
-python .\graphic_agent.py
+python ./graphic_agent.py 2f4918b3-cd1e-4a3c-b08e-27b300b0e3c1
+```
+
+### Send an email manually with last scanned data
+```sh
+python ./email_agent.py
 ```
 
 ## Credit
