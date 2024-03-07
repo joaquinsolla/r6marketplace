@@ -34,7 +34,7 @@ async def manual_check(item):
                 }
             }
 
-            print(" + Manual Item:" + str(item) +"\n"+
+            print(" + Manual Item: " + str(item) +"\n"+
                 "\tROI: " + str(json_item.get("data").get("roi")) + "\n"
                 "\tLowest seller: " + str(json_item.get("data").get("lowest-seller")) + "\n"
                 "\tHighest seller: " + str(json_item.get("data").get("highest-seller")) + "\n"
@@ -49,5 +49,10 @@ async def manual_check(item):
             await auth.close()
             print("[ Session Closed ]")
 
-item_id = "b550ea3c-4518-4f0e-b906-bcaa8d491cf6"
-asyncio.get_event_loop().run_until_complete(manual_check(item_id))
+if __name__ == "__main__":
+    import sys
+    if len(sys.argv) > 1:
+        item_id = sys.argv[1]
+        asyncio.get_event_loop().run_until_complete(manual_check(item_id))
+    else:
+        print("[X] Argument 'item_id' is needed!")

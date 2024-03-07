@@ -6,7 +6,7 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/009db75f_dc5e_46b4_9a62_867c95f2bff8.png",
     "data": {
       "sellers": 30,
-      "buyers": 844,
+      "buyers": 842,
       "lowest-seller": 34000,
       "highest-seller": 150000,
       "lowest-buyer": 120,
@@ -117,7 +117,7 @@
         1709796002.7902224
       ]
     ],
-    "updated": 1709813367.5815754,
+    "updated": 1709814039.962078,
     "sales-plot-path": "assets/plots/glacier m590a1.jpg"
   },
   "c7dc7bfd-4e61-440d-9232-ca087580024e": {
@@ -212,7 +212,7 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/3dcd8950_619d_d78d_3326_8659822a72d5.png",
     "data": {
       "sellers": 28,
-      "buyers": 202,
+      "buyers": 201,
       "lowest-seller": 7500,
       "highest-seller": 150000,
       "lowest-buyer": 120,
@@ -259,7 +259,7 @@
         1709761803.5560565
       ]
     ],
-    "updated": 1709812050.83745,
+    "updated": 1709814040.5323107,
     "sales-plot-path": "assets/plots/glacier p226 mk 25.jpg"
   },
   "4fc78237-6a9d-4c11-aaf3-170bf787d824": {
@@ -269,7 +269,7 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/c346a2d1_7533_036a_c356_ec6c02d13e52.png",
     "data": {
       "sellers": 20,
-      "buyers": 214,
+      "buyers": 213,
       "lowest-seller": 20999,
       "highest-seller": 111112,
       "lowest-buyer": 120,
@@ -356,7 +356,7 @@
         1709784603.4575865
       ]
     ],
-    "updated": 1709812051.3518753,
+    "updated": 1709814040.8345506,
     "sales-plot-path": "assets/plots/glacier ar33.jpg"
   },
   "820cda34-3e45-4983-b7c7-e0d4cf7a3f2f": {
