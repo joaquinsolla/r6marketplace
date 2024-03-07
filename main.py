@@ -9,6 +9,7 @@ from auth import Auth
 from email_agent import send_email
 from datetime import datetime
 
+from graphic_agent import item_sales_to_plot
 from html_agent import data_to_html
 
 
@@ -84,6 +85,7 @@ async def scan_market():
                         "asset-url": res[10],
                         "data": None,
                         "sales_history": [],
+                        "sales-plot-path": None,
                         "updated": time.time()
                     }
 
@@ -127,6 +129,8 @@ async def scan_market():
                     sales = [sale[0] for sale in data[item_id]["sales_history"]]
                     avg_price = int(sum(sales) / len(sales))
                     data[item_id]["data"]["avg-price"] = avg_price
+                    sales_plot_path = item_sales_to_plot(item_id)
+                    data[item_id]["sales-plot-path"] = sales_plot_path
                     data[item_id]["updated"] = time.time()
                     print(" + New SALES: \t" + key)
 
@@ -159,6 +163,7 @@ def check_for_discounts():
 
             url = value.get('url')
             asset_url = value.get('asset-url')
+            sales_plot_path = value.get('sales-plot-path')
 
             if not name.startswith("-"):
                 if not isinstance(avg_price, str):
@@ -175,6 +180,7 @@ def check_for_discounts():
                                 "last_sales_string": last_sales_string,
                                 "url": url,
                                 "asset-url": asset_url,
+                                "sales-plot-path": sales_plot_path,
                                 "updated": time.time()
                             }
                         else:

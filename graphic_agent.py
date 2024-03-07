@@ -7,7 +7,7 @@ def item_sales_to_plot(my_item_id):
     with open('assets/data.json', 'r') as f:
         json_data = json.load(f)
 
-    sales_history = json_data[my_item_id]["sales_history"][-50:]
+    sales_history = json_data[my_item_id]["sales_history"][-100:]
     item = json_data[my_item_id]["id-name"]
 
     if len(sales_history) > 0:
@@ -34,9 +34,12 @@ def item_sales_to_plot(my_item_id):
         plt.grid(True)
         plt.tight_layout()
         plt.savefig(os.path.join('assets', 'plots', f"{item}.jpg"))
-        print("[ Plot saved: " + f"{item}.jpg" + " ]")
+        plt.close()
+        print(" + Plot saved:\t" + f"{item}.jpg")
+        return f"assets/plots/{item}.jpg"
     else:
         print("[!] Cannot build plot: Item " + item + " has no sales")
+        return "No data"
 
-item_id = "2f4918b3-cd1e-4a3c-b08e-27b300b0e3c1"
-item_sales_to_plot(item_id)
+#item_id = "2f4918b3-cd1e-4a3c-b08e-27b300b0e3c1"
+#item_sales_to_plot(item_id)

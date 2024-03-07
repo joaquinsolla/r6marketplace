@@ -41,6 +41,7 @@ def discounts_valid():
                 del old_discounts[field]["last_sales_string"]
                 del old_discounts[field]["url"]
                 del old_discounts[field]["asset-url"]
+                del old_discounts[field]["sales-plot-path"]
                 del old_discounts[field]["updated"]
             for field in new_discounts:
                 del new_discounts[field]["roi"]
@@ -49,6 +50,7 @@ def discounts_valid():
                 del new_discounts[field]["last_sales_string"]
                 del new_discounts[field]["url"]
                 del new_discounts[field]["asset-url"]
+                del new_discounts[field]["sales-plot-path"]
                 del new_discounts[field]["updated"]
             return not old_discounts == new_discounts, "Same discounts as before"
 
@@ -80,6 +82,7 @@ def send_email():
             last_sales_string = value.get('last_sales_string')
             url = value.get('url')
             asset_url = value.get('asset-url')
+            sales_plot_path = value.get('sales-plot-path')
 
             total_discounts += 1
             message += ("<b>" + str(total_discounts) + ". " + str(key).upper() + ": " + str(price) + " (" + str(discounted_percentage) + "%)</b>\n" +
@@ -95,7 +98,14 @@ def send_email():
             image_data = response.content
 
             image_attachment = MIMEImage(image_data)
-            image_attachment.add_header('Content-Disposition', 'attachment', filename=(key) + ".png")
+            image_attachment.add_header('Content-Disposition', 'attachment', filename=key + ".png")
+            msg.attach(image_attachment)
+
+            with open(sales_plot_path, 'rb') as file:
+                image_data = file.read()
+
+            image_attachment = MIMEImage(image_data)
+            image_attachment.add_header('Content-Disposition', 'attachment', filename=(key + " plot.png"))
             msg.attach(image_attachment)
 
         now = datetime.now()

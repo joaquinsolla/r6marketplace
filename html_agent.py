@@ -91,6 +91,7 @@ def data_to_html():
         data_html.write('<th><button onclick="ordenarTabla(10)">Buyers</button></th>\n')
         data_html.write('<th><button onclick="ordenarTabla(11)">Last Sold</button></th>\n')
         data_html.write('<th><button onclick="ordenarTabla(12)">Updated</button></th>\n')
+        data_html.write('<th>Sales Plot</th>\n')
         data_html.write('</tr>\n')
 
         for item_id, item_data in json_data.items():
@@ -99,7 +100,7 @@ def data_to_html():
             data_html.write('<tr>\n')
             data_html.write(f'<td style="text-align: left">{item_data["id-name"].upper()}</td>\n')
             data_html.write(f'<td><a href="{item_data["url"]}" target="_blank">URL</a></td>\n')
-            data_html.write(f'<td><img src="{item_data["asset-url"]}" alt="Imagen" max-height="50px" height="auto"></td>\n')
+            data_html.write(f'<td><img src="{item_data["asset-url"]}" alt="Image" height="100px" onclick="window.open(\'{item_data["asset-url"]}\', \'_blank\');"></td>\n')
             data_html.write(f'<td>{item_data["data"]["avg-price"]}</td>\n')
             data_html.write(f'<td style="font-weight: bold">{item_data["data"]["lowest-seller"]}</td>\n')
             data_html.write(f'<td>{item_data["data"]["roi"]}</td>\n')
@@ -110,6 +111,11 @@ def data_to_html():
             data_html.write(f'<td>{item_data["data"]["buyers"]}</td>\n')
             data_html.write(f'<td>{item_data["data"]["last-sold"]}</td>\n')
             data_html.write(f'<td>{updated_formatted}</td>\n')
+            if item_data["sales-plot-path"] == "No data":
+                data_html.write(f'<td>{item_data["sales-plot"]}</td>\n')
+            else:
+                sales_plot_path = item_data["sales-plot-path"].replace("assets/", "")
+                data_html.write(f'<td><img src="{sales_plot_path}" alt="Sales" height="100px" onclick="window.open(\'{sales_plot_path}\', \'_blank\');"></td>\n')
             data_html.write('</tr>\n')
 
         data_html.write('</table>\n')
@@ -119,4 +125,4 @@ def data_to_html():
     data_html.close()
     print("[ HTML built: assets/data.html ]")
 
-data_to_html()
+#data_to_html()

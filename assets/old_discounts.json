@@ -1,15 +1,44 @@
 {
-  "evil geniuses charm": {
+  "penta '18 uniform": {
+    "price": 1000,
+    "avg-price": 1153,
+    "discounted-percentage": 13,
+    "roi": 1111,
+    "sellers": 44,
+    "buyers": 10,
+    "highest-buyer": 950,
+    "last_sales_string": "Last sales: 1150, 1100, 1200, 1100, 1000",
+    "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=8d99c769-d4ea-4d2f-a189-2bd879bb7b82",
+    "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/8b90fbc7_7af2_6447_d20f_777832f0bfcc.png",
+    "sales-plot-path": "assets/plots/penta '18 uniform.jpg",
+    "updated": 1709813653.960145
+  },
+  "penta '19 headgear": {
+    "price": 700,
+    "avg-price": 838,
+    "discounted-percentage": 16,
+    "roi": 777,
+    "sellers": 19,
+    "buyers": 0,
+    "highest-buyer": "No data",
+    "last_sales_string": "Last sales: 900, 899, 900, 899, 700",
+    "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=33eafa2f-51c5-48b6-a56f-f182d76d212b",
+    "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/325b2b39_17ae_e844_246d_7cd617074480.png",
+    "sales-plot-path": "assets/plots/penta '19 headgear.jpg",
+    "updated": 1709813653.960145
+  },
+  "hot chopper 556xi": {
     "price": 400,
-    "avg-price": 1079,
-    "discounted-percentage": 62,
+    "avg-price": 450,
+    "discounted-percentage": 11,
     "roi": 444,
-    "sellers": 14,
-    "buyers": 3,
-    "highest-buyer": 250,
-    "last_sales_string": "Last sales: 1148, 1149, 900, 1200, 1000",
-    "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=defc769c-cde9-48c4-b0be-d29bdde33c6c",
-    "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/248ca27d_a313_e68b_2e9a_597f12e22310.png",
-    "updated": 1709799054.3138618
+    "sellers": 202,
+    "buyers": 101,
+    "highest-buyer": 350,
+    "last_sales_string": "Last sales: 500, 525, 498, 500, 520",
+    "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=eeaeb5af-5f51-4ef2-bd7b-ee7eb30343ef",
+    "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/0774f107_6224_0f0a_a97e_7f3790822693.png",
+    "sales-plot-path": "assets/plots/hot chopper 556xi.jpg",
+    "updated": 1709813653.9611433
   }
 }
