@@ -199,18 +199,22 @@ def check_for_discounts():
             aligned_percentage = (str(value.get('discounted-percentage')) + "%").ljust(3)
             print(" + " + str(aligned_name) + "\t" + str(aligned_price) + " " + str(aligned_percentage) + "\t\tAVG: " + str(aligned_avg) + "\t\t" + str(url))
 
+
+
 # Initial settings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 # Initialize vars
 data, item_ids = check_files()
 discounts = {}
+email_sent = False
 
 # Execution
-asyncio.get_event_loop().run_until_complete(scan_market())
-save_to_json(data, "assets/data.json")
-data_to_html()
-check_for_discounts()
-save_to_json(discounts, "assets/discounts.json")
-email_sent = send_email()
-write_to_log()
+if __name__ == "__main__":
+    asyncio.get_event_loop().run_until_complete(scan_market())
+    save_to_json(data, "assets/data.json")
+    data_to_html()
+    check_for_discounts()
+    save_to_json(discounts, "assets/discounts.json")
+    email_sent = send_email()
+    write_to_log()
