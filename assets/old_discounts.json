@@ -1,16 +1,16 @@
 {
-  "evil geniuses '19 mp5": {
-    "price": 900,
-    "avg-price": 1268,
-    "discounted-percentage": 29,
-    "roi": 1000,
-    "sellers": 39,
-    "buyers": 32,
-    "highest-buyer": 800,
-    "last_sales_string": "Last sales: 1300, 1399, 1400, 1390, 1200",
-    "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=ced2005b-2430-4a38-b291-64dad7e34794",
-    "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/722e0f63_f277_7d27_0d64_d3ec26dc2bfd.png",
-    "sales-plot-path": "assets/plots/evil geniuses '19 mp5.jpg",
-    "updated": 1709823066.1261897
+  "hornet headgear": {
+    "price": 1000,
+    "avg-price": 1524,
+    "discounted-percentage": 34,
+    "roi": 1111,
+    "sellers": 36,
+    "buyers": 13,
+    "highest-buyer": 859,
+    "last_sales_string": "Last sales: 1650, 1600, 1599, 1500, 1000",
+    "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=8ce711bc-1237-48db-9d58-715cd7294d12",
+    "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/5a4bd5cf_eb44_ed8d_8e3d_3fc0a924cba3.png",
+    "sales-plot-path": "assets/plots/hornet headgear.jpg",
+    "updated": 1709881274.675909
   }
 }

@@ -64,7 +64,7 @@ Once generated, open the file 'assets/data.html' with your Internet browser.
 ### Get plot of an item's sales as a picture
 Execute the file 'graphic_agent.py' by passing the item's id as an argument (do not use brackets ""). Note that it only works with items that have sales registered in 'assets/data.json'. Example:
 ```sh
-python ./graphic_agent.py 2f4918b3-cd1e-4a3c-b08e-27b300b0e3c1
+python ./graphic_agent.py aee4bdf2-0b54-4c6d-af93-9fe4848e1f76
 ```
 
 ### Send an email manually with last scanned data

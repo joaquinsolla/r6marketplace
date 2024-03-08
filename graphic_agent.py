@@ -7,7 +7,7 @@ def item_sales_to_plot(my_item_id):
     with open('assets/data.json', 'r') as f:
         json_data = json.load(f)
 
-    sales_history = json_data[my_item_id]["sales_history"][-100:]
+    sales_history = json_data[my_item_id]["sales_history"][-200:]
     item = json_data[my_item_id]["id-name"]
 
     if len(sales_history) > 0:
@@ -19,7 +19,7 @@ def item_sales_to_plot(my_item_id):
         min_date = min(timestamps).strftime('%d/%m/%Y')
         max_date = max(timestamps).strftime('%d/%m/%Y')
 
-        plt.figure(figsize=(10, 6))
+        plt.figure(figsize=(12, 6))
         plt.plot(sale_indices, prices, marker='o', linestyle='-')
         plt.title(item.upper())
         plt.ylabel('Price')
