@@ -112,7 +112,7 @@ def data_to_html():
             data_html.write(f'<td>{item_data["data"]["last-sold"]}</td>\n')
             data_html.write(f'<td>{updated_formatted}</td>\n')
             if item_data["sales-plot-path"] == "No data":
-                data_html.write(f'<td>{item_data["sales-plot"]}</td>\n')
+                data_html.write(f'<td>{item_data["sales-plot-path"]}</td>\n')
             else:
                 sales_plot_path = item_data["sales-plot-path"].replace("assets/", "")
                 data_html.write(f'<td><img src="{sales_plot_path}" alt="Sales" height="100px" onclick="window.open(\'{sales_plot_path}\', \'_blank\');"></td>\n')

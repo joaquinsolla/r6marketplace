@@ -85,7 +85,7 @@ async def scan_market():
                         "asset-url": res[10],
                         "data": None,
                         "sales_history": [],
-                        "sales-plot-path": None,
+                        "sales-plot-path": "No data",
                         "updated": time.time()
                     }
 
@@ -98,6 +98,9 @@ async def scan_market():
                         sales_history = data[item_id]["sales_history"]
                         sales = [sale[0] for sale in sales_history]
                         avg_price = int(sum(sales) / len(sales))
+
+                if data[item_id]["data"] is None:
+                    avg_price = "No data"
 
                 if data[item_id]["data"] is None or data[item_id]["data"] != {
                     "sellers": res[8],
@@ -129,11 +132,12 @@ async def scan_market():
                     sales = [sale[0] for sale in data[item_id]["sales_history"]]
                     avg_price = int(sum(sales) / len(sales))
                     data[item_id]["data"]["avg-price"] = avg_price
-                    sales_plot_path = item_sales_to_plot(item_id)
+                    sales_plot_path = item_sales_to_plot(data[item_id])
                     data[item_id]["sales-plot-path"] = sales_plot_path
                     data[item_id]["updated"] = time.time()
                     print(" + New SALES: \t" + key)
-
+        except Exception as e:
+            print("[X] Exception caught: " + e)
         finally:
             await auth.close()
             print("[ Session Closed ]")
