@@ -8,8 +8,7 @@ def item_sales_to_plot_by_id(my_item_id):
         json_data = json.load(f)
 
     if my_item_id in json_data:
-        print("IN JSON")
-        sales_history = json_data[my_item_id]["sales_history"][-200:]
+        sales_history = json_data[my_item_id]["sales_history"][-1000:]
         item = json_data[my_item_id]["id-name"]
 
         if len(sales_history) > 0:
@@ -22,7 +21,7 @@ def item_sales_to_plot_by_id(my_item_id):
             max_date = max(timestamps).strftime('%d/%m/%Y')
 
             plt.figure(figsize=(12, 6))
-            plt.plot(sale_indices, prices, marker='o', linestyle='-')
+            plt.plot(sale_indices, prices, linestyle='-')
             plt.title(item.upper())
             plt.ylabel('Price')
             plt.xlabel(f'Last {len(sales_history)} sales\n{min_date} to {max_date}')
@@ -42,10 +41,7 @@ def item_sales_to_plot_by_id(my_item_id):
         else:
             print("[!] Cannot build plot: Item " + item + " has no sales")
             return "No data"
-
     else:
-        print("NOT - IN JSON")
-
         plt.figure(figsize=(12, 6))
         plt.title("No data")
         plt.ylabel('Price')
@@ -57,7 +53,7 @@ def item_sales_to_plot_by_id(my_item_id):
 
 def item_sales_to_plot(item_data):
 
-    sales_history = item_data["sales_history"][-200:]
+    sales_history = item_data["sales_history"][-1000:]
     item = item_data["id-name"]
 
     if len(sales_history) > 0:
@@ -70,7 +66,7 @@ def item_sales_to_plot(item_data):
         max_date = max(timestamps).strftime('%d/%m/%Y')
 
         plt.figure(figsize=(12, 6))
-        plt.plot(sale_indices, prices, marker='o', linestyle='-')
+        plt.plot(sale_indices, prices, linestyle='-')
         plt.title(item.upper())
         plt.ylabel('Price')
         plt.xlabel(f'Last {len(sales_history)} sales\n{min_date} to {max_date}')

@@ -1,30 +1,16 @@
 {
-  "void edge uniform clash": {
-    "price": 3000,
-    "avg-price": 4499,
-    "discounted-percentage": 33,
-    "roi": 3333,
-    "sellers": 4,
-    "buyers": 2,
-    "highest-buyer": 150,
-    "last_sales_string": "Last sales: 4499",
-    "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=aee0689a-96f3-4e5f-893b-d7d40ac3b4a0",
-    "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/83f9d36b_2077_34fe_a10e_1bc8d4de0f62.png",
-    "sales-plot-path": "assets/plots/void edge uniform clash.jpg",
-    "updated": 1710069876.6576197
-  },
-  "void edge uniform fuze": {
-    "price": 2000,
-    "avg-price": 3700,
-    "discounted-percentage": 45,
-    "roi": 2222,
-    "sellers": 9,
-    "buyers": 0,
-    "highest-buyer": "No data",
-    "last_sales_string": "Last sales: 3700",
-    "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=577d5662-0a87-48ac-b74d-237775dd995d",
-    "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/1d32a3da_b674_6134_8236_e6191a85acd9.png",
-    "sales-plot-path": "assets/plots/void edge uniform fuze.jpg",
-    "updated": 1710069876.6576197
+  "crepuscular": {
+    "price": 6900,
+    "avg-price": 8986,
+    "discounted-percentage": 23,
+    "roi": 7666,
+    "sellers": 32,
+    "buyers": 247,
+    "highest-buyer": 6000,
+    "last_sales_string": "Last sales: 8000, 7900, 8000, 138, 6899",
+    "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=7fb6f739-4e8b-9b32-b167-bfb0d8197513",
+    "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/775a951a_e761_957a_399c_82a627a75593.png",
+    "sales-plot-path": "assets/plots/crepuscular.jpg",
+    "updated": 1710183719.8182936
   }
 }

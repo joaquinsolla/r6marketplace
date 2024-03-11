@@ -91,7 +91,7 @@ def send_email():
                         "Sellers: " + str(sellers) + "\n" +
                         "Buyers: " + str(buyers) + "\n" +
                         "Highest buyer: " + str(highest_buyer) + "\n" +
-                        last_sales_string + ".\n" +
+                        last_sales_string + "\n" +
                         str(url) + "\n\n")
 
             response = requests.get(asset_url)
