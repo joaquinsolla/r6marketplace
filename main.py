@@ -125,7 +125,7 @@ async def scan_market():
                         "avg-price": avg_price
                     }
                     data[item_id]["updated"] = time.time()
-                    print(" + New DATA: \t" + key)
+                    print(" + New data: \t" + key)
 
                 if len(data[item_id]["sales_history"]) == 0 or data[item_id]["sales_history"][len(data[item_id]["sales_history"]) - 1][0] != res[9]:
                     data[item_id]["sales_history"] = data[item_id]["sales_history"] + [[res[9], time.time()]]
@@ -135,7 +135,7 @@ async def scan_market():
                     sales_plot_path = item_sales_to_plot(data[item_id])
                     data[item_id]["sales-plot-path"] = sales_plot_path
                     data[item_id]["updated"] = time.time()
-                    print(" + New SALES: \t" + key)
+                    print(" + New sales: \t" + key)
         except Exception as e:
             print("[X] Exception caught: " + str(e))
         finally:

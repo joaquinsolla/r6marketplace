@@ -34,10 +34,13 @@ def item_sales_to_plot_by_id(my_item_id):
 
             plt.grid(True)
             plt.tight_layout()
-            plt.savefig(os.path.join('assets', 'plots', f"{item}.jpg"))
+
+            plot_name = item.lstrip("- ")
+
+            plt.savefig(os.path.join('assets', 'plots', f"{plot_name}.jpg"))
             plt.close()
-            print(" + Plot saved:\t" + f"{item}.jpg")
-            return f"assets/plots/{item}.jpg"
+            print(" + Plot saved:\t" + f"{plot_name}.jpg")
+            return f"assets/plots/{plot_name}.jpg"
         else:
             print("[!] Cannot build plot: Item " + item + " has no sales")
             return "No data"
@@ -79,10 +82,13 @@ def item_sales_to_plot(item_data):
 
         plt.grid(True)
         plt.tight_layout()
-        plt.savefig(os.path.join('assets', 'plots', f"{item}.jpg"))
+
+        plot_name = item.lstrip("- ")
+
+        plt.savefig(os.path.join('assets', 'plots', f"{plot_name}.jpg"))
         plt.close()
-        print(" + Plot saved:\t" + f"{item}.jpg")
-        return f"assets/plots/{item}.jpg"
+        print(" + Plot saved:\t" + f"{plot_name}.jpg")
+        return f"assets/plots/{plot_name}.jpg"
     else:
         print("[!] Cannot build plot: Item " + item + " has no sales")
         return "No data"
