@@ -1,6 +1,7 @@
 from __future__ import annotations
 import contextlib
 import json
+import subprocess
 import time
 import warnings
 from os.path import exists
@@ -223,4 +224,4 @@ if __name__ == "__main__":
     #save_to_json(discounts, "assets/discounts.json")
     #email_sent = send_email()
     #write_to_log()
-    upload_website()
+    subprocess.run(["python", "website/git_agent.py"])
