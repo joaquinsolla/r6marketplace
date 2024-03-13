@@ -27,7 +27,7 @@ Then, create the folder '/assets/credentials', then you will create 3 files insi
 
 ### Recommended scan intervals: Every 10 minutes
 If you check an excessive amount of items or scan the marketplace in very small periods of time, you can get rate limited.
-My settings: 204 items to check every 10 minutes.
+My recommended settings: Over 200 items to check every 10 minutes.
 
 ### Automatic website commits
 By default, you have to comment the line 'upload_website()' in 'main.py'. If you want to enable the auto-commit feature you have to configure your own website repository (I recommend GitHub Pages) and link it with the 'website' folder.

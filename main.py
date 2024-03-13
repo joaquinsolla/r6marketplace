@@ -225,5 +225,5 @@ if __name__ == "__main__":
     # upload_website()
     check_for_discounts()
     save_to_json(discounts, "assets/discounts.json")
-    email_sent = send_email()
+    #email_sent = send_email()
     write_to_log()
