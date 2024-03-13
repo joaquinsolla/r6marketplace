@@ -14,7 +14,7 @@ def data_to_html():
         data_html.write('<html>\n')
         data_html.write('<head>\n')
         data_html.write('<title>R6 Marketplace Data</title>\n')
-        data_html.write('<link rel="icon" type="image/x-icon" href="favicon.ico">\n')
+        data_html.write('<link rel="icon" type="image/x-icon" href="./favicon.ico">\n')
         data_html.write('<style>\n')
         data_html.write('table {\n')
         data_html.write('    width: 100%;\n')
