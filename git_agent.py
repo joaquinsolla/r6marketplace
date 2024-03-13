@@ -21,6 +21,8 @@ def upload_website():
 
     print("[ Uploaded website ]")
 
+    os.chdir(current_directory)
+
 
 if __name__ == "__main__":
     upload_website()

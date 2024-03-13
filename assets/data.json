@@ -5,15 +5,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=2f4918b3-cd1e-4a3c-b08e-27b300b0e3c1",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/009db75f_dc5e_46b4_9a62_867c95f2bff8.png",
     "data": {
-      "sellers": 42,
-      "buyers": 586,
-      "lowest-seller": 23000,
+      "sellers": 43,
+      "buyers": 589,
+      "lowest-seller": 22900,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 22560,
-      "last-sold": 25555,
-      "roi": 25555,
-      "avg-price": 27504
+      "highest-buyer": 22000,
+      "last-sold": 22000,
+      "roi": 25444,
+      "avg-price": 27421
     },
     "sales_history": [
       [
@@ -275,9 +275,13 @@
       [
         25555,
         1710295490.519549
+      ],
+      [
+        22000,
+        1710300275.872295
       ]
     ],
-    "updated": 1710298022.595951,
+    "updated": 1710300276.6227942,
     "sales-plot-path": "website/plots/glacier m590a1.jpg"
   },
   "c7dc7bfd-4e61-440d-9232-ca087580024e": {
@@ -286,15 +290,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=c7dc7bfd-4e61-440d-9232-ca087580024e",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/9f1b8e0e_620c_779e_61a0_ce0e5c96c94f.png",
     "data": {
-      "sellers": 25,
-      "buyers": 359,
-      "lowest-seller": 24998,
+      "sellers": 24,
+      "buyers": 357,
+      "lowest-seller": 24999,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 20000,
-      "last-sold": 24990,
-      "roi": 27775,
-      "avg-price": 24602
+      "last-sold": 24998,
+      "roi": 27776,
+      "avg-price": 24610
     },
     "sales_history": [
       [
@@ -488,9 +492,13 @@
       [
         24990,
         1710298022.91864
+      ],
+      [
+        24998,
+        1710300276.9363286
       ]
     ],
-    "updated": 1710298023.628278,
+    "updated": 1710300277.1661592,
     "sales-plot-path": "website/plots/glacier l85a2.jpg"
   },
   "1146bd66-822e-498f-aa22-d7796ddf3e48": {
@@ -499,7 +507,7 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=1146bd66-822e-498f-aa22-d7796ddf3e48",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/3dcd8950_619d_d78d_3326_8659822a72d5.png",
     "data": {
-      "sellers": 31,
+      "sellers": 32,
       "buyers": 133,
       "lowest-seller": 4900,
       "highest-seller": 150000,
@@ -667,7 +675,7 @@
         1710296378.0080962
       ]
     ],
-    "updated": 1710298023.9667473,
+    "updated": 1710300277.4758155,
     "sales-plot-path": "website/plots/glacier p226 mk 25.jpg"
   },
   "4fc78237-6a9d-4c11-aaf3-170bf787d824": {
@@ -676,14 +684,14 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=4fc78237-6a9d-4c11-aaf3-170bf787d824",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/c346a2d1_7533_036a_c356_ec6c02d13e52.png",
     "data": {
-      "sellers": 32,
-      "buyers": 163,
-      "lowest-seller": 19299,
+      "sellers": 31,
+      "buyers": 162,
+      "lowest-seller": 17999,
       "highest-seller": 111112,
       "lowest-buyer": 120,
       "highest-buyer": 14000,
       "last-sold": 13500,
-      "roi": 21443,
+      "roi": 19998,
       "avg-price": 18468
     },
     "sales_history": [
@@ -880,7 +888,7 @@
         1710291614.0329335
       ]
     ],
-    "updated": 1710296379.0732448,
+    "updated": 1710300277.77289,
     "sales-plot-path": "website/plots/glacier ar33.jpg"
   },
   "820cda34-3e45-4983-b7c7-e0d4cf7a3f2f": {
@@ -890,11 +898,11 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/aab033b6_c7db_ccce_32df_3b3648fc2cf4.png",
     "data": {
       "sellers": 45,
-      "buyers": 210,
+      "buyers": 212,
       "lowest-seller": 12000,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 10000,
+      "highest-buyer": 10259,
       "last-sold": 12000,
       "roi": 13333,
       "avg-price": 15446
@@ -1121,7 +1129,7 @@
         1710298024.6449554
       ]
     ],
-    "updated": 1710298024.8927658,
+    "updated": 1710300278.0735242,
     "sales-plot-path": "website/plots/glacier fmg9.jpg"
   },
   "73512c14-2110-44be-9f56-eb7c48281dff": {
@@ -1130,15 +1138,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=73512c14-2110-44be-9f56-eb7c48281dff",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/69fd6436_b10f_7a13_cdea_96d81637c1ee.png",
     "data": {
-      "sellers": 26,
-      "buyers": 1100,
-      "lowest-seller": 34000,
+      "sellers": 25,
+      "buyers": 1090,
+      "lowest-seller": 34998,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 30001,
-      "last-sold": 34999,
-      "roi": 37777,
-      "avg-price": 38388
+      "last-sold": 34000,
+      "roi": 38886,
+      "avg-price": 38279
     },
     "sales_history": [
       [
@@ -1296,9 +1304,13 @@
       [
         34999,
         1710293154.8542962
+      ],
+      [
+        34000,
+        1710300278.4011352
       ]
     ],
-    "updated": 1710298025.2654734,
+    "updated": 1710300278.6251771,
     "sales-plot-path": "website/plots/glacier smg-11.jpg"
   },
   "7520880d-88bd-4ffd-8d96-4d9b8471f925": {
@@ -1308,7 +1320,7 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/6c581bda_348c_dc93_ff37_1db4e7dee861.png",
     "data": {
       "sellers": 43,
-      "buyers": 339,
+      "buyers": 337,
       "lowest-seller": 24999,
       "highest-seller": 70000,
       "lowest-buyer": 120,
@@ -1515,7 +1527,7 @@
         1710291616.3530238
       ]
     ],
-    "updated": 1710298025.5564477,
+    "updated": 1710300278.9194167,
     "sales-plot-path": "website/plots/glacier mp5k.jpg"
   },
   "c780a450-8ac5-473b-8d2f-b7aac243e9f2": {
@@ -1524,15 +1536,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=c780a450-8ac5-473b-8d2f-b7aac243e9f2",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/8a7081a5_1413_a67b_1658_9dbf0a499065.png",
     "data": {
-      "sellers": 59,
-      "buyers": 1343,
+      "sellers": 58,
+      "buyers": 1334,
       "lowest-seller": 32000,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 23000,
-      "last-sold": 30000,
+      "last-sold": 32000,
       "roi": 35555,
-      "avg-price": 37379
+      "avg-price": 37279
     },
     "sales_history": [
       [
@@ -1746,9 +1758,13 @@
       [
         30000,
         1710296380.5133371
+      ],
+      [
+        32000,
+        1710300279.2729733
       ]
     ],
-    "updated": 1710298025.8965082,
+    "updated": 1710300279.4927485,
     "sales-plot-path": "website/plots/glacier g36c.jpg"
   },
   "f619eb19-de6e-4dcd-96eb-08b45f80fe64": {
@@ -1758,7 +1774,7 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/2b6786b3_794a_c843_8ec7_081904813d79.png",
     "data": {
       "sellers": 67,
-      "buyers": 3078,
+      "buyers": 3072,
       "lowest-seller": 64000,
       "highest-seller": 150000,
       "lowest-buyer": 120,
@@ -1977,7 +1993,7 @@
         1710296381.0779927
       ]
     ],
-    "updated": 1710298026.2160218,
+    "updated": 1710300279.8650987,
     "sales-plot-path": "website/plots/glacier r4-c.jpg"
   },
   "4e0bbd3f-b483-4941-be12-812af0e00715": {
@@ -2170,7 +2186,7 @@
         1710292674.0752227
       ]
     ],
-    "updated": 1710298026.623941,
+    "updated": 1710300280.140742,
     "sales-plot-path": "website/plots/glacier m45 meusoc.jpg"
   },
   "3b259c5a-8f1f-4cc8-9c51-befc5693bb25": {
@@ -2179,15 +2195,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=3b259c5a-8f1f-4cc8-9c51-befc5693bb25",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/98100374_915c_5023_8abe_c590fc800bd7.png",
     "data": {
-      "sellers": 44,
-      "buyers": 115,
+      "sellers": 42,
+      "buyers": 114,
       "lowest-seller": 8000,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 6000,
-      "last-sold": 8000,
+      "last-sold": 7500,
       "roi": 8888,
-      "avg-price": 8832
+      "avg-price": 8800
     },
     "sales_history": [
       [
@@ -2353,9 +2369,13 @@
       [
         8000,
         1710298027.0432003
+      ],
+      [
+        7500,
+        1710300280.4974854
       ]
     ],
-    "updated": 1710298027.2936087,
+    "updated": 1710300280.7184215,
     "sales-plot-path": "website/plots/glacier 5.7 usg.jpg"
   },
   "74ea0bde-c802-4684-a5fd-b619ede00cd7": {
@@ -2365,7 +2385,7 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/5bc65865_1fec_5c18_f351_d9b5cd7df318.png",
     "data": {
       "sellers": 39,
-      "buyers": 67,
+      "buyers": 66,
       "lowest-seller": 7000,
       "highest-seller": 69000,
       "lowest-buyer": 120,
@@ -2580,7 +2600,7 @@
         1710298027.587826
       ]
     ],
-    "updated": 1710298027.8620055,
+    "updated": 1710300281.130411,
     "sales-plot-path": "website/plots/glacier m1014.jpg"
   },
   "da8bad72-043a-4014-97d6-d8b99628a43e": {
@@ -2590,14 +2610,14 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/cff0339b_6a91_8036_185b_8cdeb060f951.png",
     "data": {
       "sellers": 59,
-      "buyers": 674,
+      "buyers": 670,
       "lowest-seller": 22900,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 22500,
-      "last-sold": 23000,
+      "last-sold": 20000,
       "roi": 25444,
-      "avg-price": 23865
+      "avg-price": 23804
     },
     "sales_history": [
       [
@@ -2847,9 +2867,13 @@
       [
         23000,
         1710292677.1708305
+      ],
+      [
+        20000,
+        1710300281.433244
       ]
     ],
-    "updated": 1710298028.269054,
+    "updated": 1710300281.6648717,
     "sales-plot-path": "website/plots/glacier 556xi.jpg"
   },
   "aa3781de-2bc5-45b7-8a59-1bebe4ef6d4b": {
@@ -2858,15 +2882,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=aa3781de-2bc5-45b7-8a59-1bebe4ef6d4b",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/aed7a965_890f_03b8_37c5_8842ce8af345.png",
     "data": {
-      "sellers": 38,
+      "sellers": 37,
       "buyers": 278,
-      "lowest-seller": 18888,
+      "lowest-seller": 20000,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 17000,
-      "last-sold": 18000,
-      "roi": 20986,
-      "avg-price": 25033
+      "highest-buyer": 18000,
+      "last-sold": 18888,
+      "roi": 22222,
+      "avg-price": 24897
     },
     "sales_history": [
       [
@@ -3044,9 +3068,13 @@
       [
         18000,
         1710296383.4047537
+      ],
+      [
+        18888,
+        1710300281.9564993
       ]
     ],
-    "updated": 1710298028.6708248,
+    "updated": 1710300282.173552,
     "sales-plot-path": "website/plots/glacier ump45.jpg"
   },
   "47eb21ff-8ef6-489a-879e-c21bce34baa4": {
@@ -3056,7 +3084,7 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/9f13e340_3f21_8b0e_21ba_1e7efb19147e.png",
     "data": {
       "sellers": 46,
-      "buyers": 525,
+      "buyers": 523,
       "lowest-seller": 25000,
       "highest-seller": 150000,
       "lowest-buyer": 120,
@@ -3307,7 +3335,7 @@
         1710291621.9338286
       ]
     ],
-    "updated": 1710298029.0155716,
+    "updated": 1710300282.4970193,
     "sales-plot-path": "website/plots/glacier f2.jpg"
   },
   "d68e56ad-668c-4c79-8643-1d6d8ba52fdf": {
@@ -3317,7 +3345,7 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/19683d5b_647e_3c1f_aea1_4249c1af4bf2.png",
     "data": {
       "sellers": 47,
-      "buyers": 211,
+      "buyers": 209,
       "lowest-seller": 14400,
       "highest-seller": 150000,
       "lowest-buyer": 120,
@@ -3564,7 +3592,7 @@
         1710294513.1416283
       ]
     ],
-    "updated": 1710298029.42819,
+    "updated": 1710300282.8327365,
     "sales-plot-path": "website/plots/glacier 417.jpg"
   },
   "4940d7c6-8244-4020-b418-ea29070b0a23": {
@@ -3573,15 +3601,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=4940d7c6-8244-4020-b418-ea29070b0a23",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/bfcd8129_9b1e_0fad_3eba_838b0442fe86.png",
     "data": {
-      "sellers": 50,
-      "buyers": 79,
-      "lowest-seller": 5400,
+      "sellers": 48,
+      "buyers": 81,
+      "lowest-seller": 5500,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 5200,
-      "last-sold": 5400,
-      "roi": 6000,
-      "avg-price": 6979
+      "highest-buyer": 5000,
+      "last-sold": 5500,
+      "roi": 6111,
+      "avg-price": 6954
     },
     "sales_history": [
       [
@@ -3811,9 +3839,13 @@
       [
         5400,
         1710294513.7183888
+      ],
+      [
+        5500,
+        1710298528.0395226
       ]
     ],
-    "updated": 1710298029.7633564,
+    "updated": 1710300283.140321,
     "sales-plot-path": "website/plots/glacier sg-cqb.jpg"
   },
   "06797959-3dd8-4c3a-95af-f6193318edf3": {
@@ -3822,14 +3854,14 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=06797959-3dd8-4c3a-95af-f6193318edf3",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/59022148_7cac_e401_5643_78fd911297f6.png",
     "data": {
-      "sellers": 19,
-      "buyers": 137,
-      "lowest-seller": 10000,
+      "sellers": 20,
+      "buyers": 141,
+      "lowest-seller": 9500,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 8550,
       "last-sold": 9500,
-      "roi": 11111,
+      "roi": 10555,
       "avg-price": 10969
     },
     "sales_history": [
@@ -4022,7 +4054,7 @@
         1710296384.9504836
       ]
     ],
-    "updated": 1710298030.2015078,
+    "updated": 1710300283.425567,
     "sales-plot-path": "website/plots/glacier p9.jpg"
   },
   "f44fda95-3f5c-4c6b-bf06-2cd3bc3e93af": {
@@ -4032,7 +4064,7 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/c4ac54b8_2a5f_bf34_f567_4748102aefec.png",
     "data": {
       "sellers": 36,
-      "buyers": 124,
+      "buyers": 123,
       "lowest-seller": 6999,
       "highest-seller": 50000,
       "lowest-buyer": 120,
@@ -4223,7 +4255,7 @@
         1710293160.6725466
       ]
     ],
-    "updated": 1710295497.2801373,
+    "updated": 1710300283.89505,
     "sales-plot-path": "website/plots/glacier lfp586.jpg"
   },
   "bfc657e7-5168-4da5-bebb-b0c8c1e2f889": {
@@ -4232,15 +4264,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=bfc657e7-5168-4da5-bebb-b0c8c1e2f889",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/3be52ad0_98ea_b59d_1c70_713f3b03e149.png",
     "data": {
-      "sellers": 39,
-      "buyers": 954,
-      "lowest-seller": 36000,
+      "sellers": 41,
+      "buyers": 970,
+      "lowest-seller": 35888,
       "highest-seller": 60000,
       "lowest-buyer": 120,
-      "highest-buyer": 25000,
-      "last-sold": 1232,
-      "roi": 40000,
-      "avg-price": 34214
+      "highest-buyer": 28348,
+      "last-sold": 30000,
+      "roi": 39875,
+      "avg-price": 34151
     },
     "sales_history": [
       [
@@ -4502,9 +4534,13 @@
       [
         1232,
         1710294515.2417147
+      ],
+      [
+        30000,
+        1710300284.2338657
       ]
     ],
-    "updated": 1710298030.876046,
+    "updated": 1710300284.4844115,
     "sales-plot-path": "website/plots/glacier mp5.jpg"
   },
   "d3b6fb36-a61f-44a0-b508-d54e08a91a2d": {
@@ -4513,14 +4549,14 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=d3b6fb36-a61f-44a0-b508-d54e08a91a2d",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/9a3e3b28_eb63_a615_6f0f_f3342558fa73.png",
     "data": {
-      "sellers": 39,
-      "buyers": 384,
-      "lowest-seller": 28000,
+      "sellers": 40,
+      "buyers": 381,
+      "lowest-seller": 25000,
       "highest-seller": 149997,
       "lowest-buyer": 120,
       "highest-buyer": 22500,
       "last-sold": 25000,
-      "roi": 31111,
+      "roi": 27777,
       "avg-price": 28314
     },
     "sales_history": [
@@ -4713,7 +4749,7 @@
         1710291626.3220322
       ]
     ],
-    "updated": 1710298031.177113,
+    "updated": 1710300284.8036194,
     "sales-plot-path": "website/plots/glacier p90.jpg"
   },
   "920e1e06-6094-4681-9323-e5b95875a966": {
@@ -4723,7 +4759,7 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/a29b4e87_51dc_d783_2494_8a815624394f.png",
     "data": {
       "sellers": 34,
-      "buyers": 236,
+      "buyers": 235,
       "lowest-seller": 5700,
       "highest-seller": 60000,
       "lowest-buyer": 120,
@@ -4918,7 +4954,7 @@
         1710294516.1931622
       ]
     ],
-    "updated": 1710298031.4845085,
+    "updated": 1710300285.0983245,
     "sales-plot-path": "website/plots/glacier pmm.jpg"
   },
   "7101568d-051b-4c82-a955-a4c0c72a39f1": {
@@ -5119,7 +5155,7 @@
         1710291627.6329787
       ]
     ],
-    "updated": 1710298031.8644013,
+    "updated": 1710300285.4098215,
     "sales-plot-path": "website/plots/glacier ots-03.jpg"
   },
   "6bb292f8-66c2-4f17-825d-d0c8d740ce84": {
@@ -5129,7 +5165,7 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/43df8247_de9f_d534_f28b_6f598212b687.png",
     "data": {
       "sellers": 46,
-      "buyers": 74,
+      "buyers": 72,
       "lowest-seller": 13500,
       "highest-seller": 150000,
       "lowest-buyer": 120,
@@ -5452,7 +5488,7 @@
         1710298032.1677234
       ]
     ],
-    "updated": 1710298032.5178027,
+    "updated": 1710300285.723325,
     "sales-plot-path": "website/plots/glacier 6p41.jpg"
   },
   "84925275-b76f-4da9-a361-b551d414fc27": {
@@ -5461,14 +5497,14 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=84925275-b76f-4da9-a361-b551d414fc27",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/7d92155d_dfef_8080_8731_4c8c3d164b5c.png",
     "data": {
-      "sellers": 42,
-      "buyers": 809,
-      "lowest-seller": 34999,
+      "sellers": 41,
+      "buyers": 807,
+      "lowest-seller": 34500,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 32000,
       "last-sold": 31100,
-      "roi": 38887,
+      "roi": 38333,
       "avg-price": 38856
     },
     "sales_history": [
@@ -5629,7 +5665,7 @@
         1710291628.9929912
       ]
     ],
-    "updated": 1710298032.8167992,
+    "updated": 1710300286.0181472,
     "sales-plot-path": "website/plots/glacier ak-12.jpg"
   },
   "7537e8ba-987b-45b1-80ce-890d1d2c0f56": {
@@ -5639,7 +5675,7 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/8a070a6b_11e0_c14b_11b9_e7b083f7c038.png",
     "data": {
       "sellers": 74,
-      "buyers": 339,
+      "buyers": 341,
       "lowest-seller": 4700,
       "highest-seller": 150000,
       "lowest-buyer": 120,
@@ -5954,7 +5990,7 @@
         1710298033.2181964
       ]
     ],
-    "updated": 1710298033.498706,
+    "updated": 1710300286.3158576,
     "sales-plot-path": "website/plots/glacier gsh-18.jpg"
   },
   "19d12c03-fe32-4167-a4cf-5e034cdf0258": {
@@ -5963,14 +5999,14 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=19d12c03-fe32-4167-a4cf-5e034cdf0258",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/65c125ed_307e_61f0_8212_5ac43c1d8e19.png",
     "data": {
-      "sellers": 31,
+      "sellers": 33,
       "buyers": 421,
-      "lowest-seller": 30000,
+      "lowest-seller": 27500,
       "highest-seller": 100000,
       "lowest-buyer": 120,
       "highest-buyer": 25000,
       "last-sold": 31000,
-      "roi": 33333,
+      "roi": 30555,
       "avg-price": 33508
     },
     "sales_history": [
@@ -6195,7 +6231,7 @@
         1710291630.4093852
       ]
     ],
-    "updated": 1710298034.2670896,
+    "updated": 1710300286.6049333,
     "sales-plot-path": "website/plots/glacier 9x19vsn.jpg"
   },
   "3adf36cb-742b-4e84-9d2f-9bde911abfb6": {
@@ -6204,15 +6240,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=3adf36cb-742b-4e84-9d2f-9bde911abfb6",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/2a10c50f_5608_85da_36fc_e8df0e446eb6.png",
     "data": {
-      "sellers": 66,
+      "sellers": 63,
       "buyers": 221,
-      "lowest-seller": 4500,
+      "lowest-seller": 5000,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 3600,
-      "last-sold": 4700,
-      "roi": 5000,
-      "avg-price": 5199
+      "last-sold": 4699,
+      "roi": 5555,
+      "avg-price": 5182
     },
     "sales_history": [
       [
@@ -6486,9 +6522,17 @@
       [
         4700,
         1710291631.1295307
+      ],
+      [
+        4500,
+        1710298532.3901625
+      ],
+      [
+        4699,
+        1710300286.9325473
       ]
     ],
-    "updated": 1710298034.585643,
+    "updated": 1710300287.1801975,
     "sales-plot-path": "website/plots/glacier sasg-12.jpg"
   },
   "9703e629-4907-481d-9a02-72088b1b3413": {
@@ -6497,14 +6541,14 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=9703e629-4907-481d-9a02-72088b1b3413",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/a9a68ec0_469b_4f35_cba7_79986bcdc371.png",
     "data": {
-      "sellers": 50,
-      "buyers": 171,
-      "lowest-seller": 11900,
+      "sellers": 51,
+      "buyers": 172,
+      "lowest-seller": 11000,
       "highest-seller": 60000,
       "lowest-buyer": 120,
       "highest-buyer": 10000,
       "last-sold": 11500,
-      "roi": 13222,
+      "roi": 12222,
       "avg-price": 12551
     },
     "sales_history": [
@@ -6789,7 +6833,7 @@
         1710292684.197269
       ]
     ],
-    "updated": 1710298035.0272288,
+    "updated": 1710300287.5009832,
     "sales-plot-path": "website/plots/glacier aug a2.jpg"
   },
   "adb8a620-3321-44ff-9f60-d63d6bff2d9f": {
@@ -6798,14 +6842,14 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=adb8a620-3321-44ff-9f60-d63d6bff2d9f",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/8308d523_bcee_76b6_8cf4_53df3ba4cf8d.png",
     "data": {
-      "sellers": 33,
-      "buyers": 709,
-      "lowest-seller": 27899,
+      "sellers": 34,
+      "buyers": 703,
+      "lowest-seller": 27500,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 25100,
       "last-sold": 26000,
-      "roi": 30998,
+      "roi": 30555,
       "avg-price": 30769
     },
     "sales_history": [
@@ -6970,7 +7014,7 @@
         1710291632.1483955
       ]
     ],
-    "updated": 1710298035.3323374,
+    "updated": 1710300287.8447988,
     "sales-plot-path": "website/plots/glacier 552 commando.jpg"
   },
   "c580471d-2d0e-4857-a0dd-35886ef21cb9": {
@@ -6980,14 +7024,14 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/016fa2e0_47b0_77d3_bd83_abd1e2ad6512.png",
     "data": {
       "sellers": 39,
-      "buyers": 207,
+      "buyers": 205,
       "lowest-seller": 15000,
       "highest-seller": 80000,
       "lowest-buyer": 120,
-      "highest-buyer": 14000,
-      "last-sold": 14999,
+      "highest-buyer": 11000,
+      "last-sold": 15000,
       "roi": 16666,
-      "avg-price": 15816
+      "avg-price": 15802
     },
     "sales_history": [
       [
@@ -7209,9 +7253,13 @@
       [
         14999,
         1710298035.6133115
+      ],
+      [
+        15000,
+        1710300288.1799755
       ]
     ],
-    "updated": 1710298035.8745966,
+    "updated": 1710300288.4225016,
     "sales-plot-path": "website/plots/glacier g8a1.jpg"
   },
   "26b6de59-e112-4198-a681-92a55962e653": {
@@ -7220,15 +7268,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=26b6de59-e112-4198-a681-92a55962e653",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/113fa5d0_17a1_94d6_666e_d732b966a918.png",
     "data": {
-      "sellers": 38,
-      "buyers": 137,
+      "sellers": 37,
+      "buyers": 136,
       "lowest-seller": 6800,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 5400,
-      "last-sold": 6800,
+      "highest-buyer": 5000,
+      "last-sold": 5000,
       "roi": 7555,
-      "avg-price": 7177
+      "avg-price": 7134
     },
     "sales_history": [
       [
@@ -7430,9 +7478,13 @@
       [
         6800,
         1710291633.5233135
+      ],
+      [
+        5000,
+        1710300288.723945
       ]
     ],
-    "updated": 1710298036.166661,
+    "updated": 1710300288.974931,
     "sales-plot-path": "website/plots/glacier m870.jpg"
   },
   "550af976-1315-434a-b2fa-5137a4dde7bd": {
@@ -7441,8 +7493,8 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=550af976-1315-434a-b2fa-5137a4dde7bd",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/bbc5d177_aa4e_c878_d8ee_9998db1def49.png",
     "data": {
-      "sellers": 57,
-      "buyers": 1869,
+      "sellers": 56,
+      "buyers": 1858,
       "lowest-seller": 43000,
       "highest-seller": 150000,
       "lowest-buyer": 120,
@@ -7665,7 +7717,7 @@
         1710291634.223114
       ]
     ],
-    "updated": 1710298036.5259748,
+    "updated": 1710300289.2875974,
     "sales-plot-path": "website/plots/glacier 416-c carbine.jpg"
   },
   "3fc7f216-bcef-4a6a-b5c1-e6deac714b17": {
@@ -7674,15 +7726,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=3fc7f216-bcef-4a6a-b5c1-e6deac714b17",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/6939b540_6844_69cd_be30_19e1f80200b4.png",
     "data": {
-      "sellers": 23,
-      "buyers": 314,
+      "sellers": 22,
+      "buyers": 319,
       "lowest-seller": 15000,
       "highest-seller": 55000,
       "lowest-buyer": 120,
-      "highest-buyer": 10000,
-      "last-sold": 1600,
+      "highest-buyer": 9279,
+      "last-sold": 15000,
       "roi": 16666,
-      "avg-price": 13271
+      "avg-price": 13308
     },
     "sales_history": [
       [
@@ -7868,9 +7920,13 @@
       [
         1600,
         1710291634.9158502
+      ],
+      [
+        15000,
+        1710300289.6509902
       ]
     ],
-    "updated": 1710298036.8207135,
+    "updated": 1710300289.9217975,
     "sales-plot-path": "website/plots/glacier p12.jpg"
   },
   "9c99e160-4396-4b3d-954d-12bd11e992dc": {
@@ -7880,7 +7936,7 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/adebd9ca_db74_5431_1c6b_191a01a80c62.png",
     "data": {
       "sellers": 25,
-      "buyers": 896,
+      "buyers": 886,
       "lowest-seller": 35000,
       "highest-seller": 120000,
       "lowest-buyer": 120,
@@ -8075,7 +8131,7 @@
         1710295503.9349556
       ]
     ],
-    "updated": 1710298037.1379807,
+    "updated": 1710300290.3029854,
     "sales-plot-path": "website/plots/glacier mp7.jpg"
   },
   "52456808-84f5-4ac7-80c8-0b07f4200b7d": {
@@ -8084,15 +8140,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=52456808-84f5-4ac7-80c8-0b07f4200b7d",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/9e6be92b_3815_a2d3_50e5_d90079137fd0.png",
     "data": {
-      "sellers": 45,
-      "buyers": 1461,
+      "sellers": 44,
+      "buyers": 1456,
       "lowest-seller": 44500,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 40287,
-      "last-sold": 44000,
+      "last-sold": 40000,
       "roi": 49444,
-      "avg-price": 50153
+      "avg-price": 49950
     },
     "sales_history": [
       [
@@ -8290,9 +8346,13 @@
       [
         44000,
         1710294521.6921756
+      ],
+      [
+        40000,
+        1710300290.6504416
       ]
     ],
-    "updated": 1710298037.427035,
+    "updated": 1710300290.9034245,
     "sales-plot-path": "website/plots/glacier c8-sfw.jpg"
   },
   "4bfb905e-b3f1-47fe-b7d1-0909bf94c5cb": {
@@ -8302,14 +8362,14 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/f8ba7aef_9c5b_63fc_0c5b_88bff4b95c8a.png",
     "data": {
       "sellers": 59,
-      "buyers": 98,
+      "buyers": 97,
       "lowest-seller": 8500,
       "highest-seller": 30000,
       "lowest-buyer": 120,
       "highest-buyer": 6191,
-      "last-sold": 8499,
+      "last-sold": 7000,
       "roi": 9444,
-      "avg-price": 9307
+      "avg-price": 9260
     },
     "sales_history": [
       [
@@ -8503,9 +8563,13 @@
       [
         8499,
         1710296393.974744
+      ],
+      [
+        7000,
+        1710300291.2766953
       ]
     ],
-    "updated": 1710298037.7983637,
+    "updated": 1710300291.4982336,
     "sales-plot-path": "website/plots/glacier camrs.jpg"
   },
   "2789482f-1345-48f2-8e2a-0b7ffba57c37": {
@@ -8515,7 +8579,7 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/38983160_39f7_7292_542b_782f7e1188b7.png",
     "data": {
       "sellers": 28,
-      "buyers": 122,
+      "buyers": 120,
       "lowest-seller": 6700,
       "highest-seller": 150000,
       "lowest-buyer": 120,
@@ -8682,7 +8746,7 @@
         1710298038.1122699
       ]
     ],
-    "updated": 1710298038.3661897,
+    "updated": 1710300291.7959144,
     "sales-plot-path": "website/plots/glacier mk1 9mm.jpg"
   },
   "2a812cf0-93fa-4c84-9e87-673d164b6fdf": {
@@ -8691,8 +8755,8 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=2a812cf0-93fa-4c84-9e87-673d164b6fdf",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/471f7e5a_24f9_01c6_db60_08d8abb9d551.png",
     "data": {
-      "sellers": 30,
-      "buyers": 208,
+      "sellers": 31,
+      "buyers": 209,
       "lowest-seller": 19000,
       "highest-seller": 150000,
       "lowest-buyer": 120,
@@ -8851,7 +8915,7 @@
         1710296396.036287
       ]
     ],
-    "updated": 1710298038.664888,
+    "updated": 1710300292.0969386,
     "sales-plot-path": "website/plots/glacier 9mm c1.jpg"
   },
   "1929af4a-ca8f-40ba-ba8f-455c0c3ba7a0": {
@@ -8860,15 +8924,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=1929af4a-ca8f-40ba-ba8f-455c0c3ba7a0",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/0b320ec5_3da2_fea7_21a0_d3bec7b40f4d.png",
     "data": {
-      "sellers": 64,
-      "buyers": 240,
-      "lowest-seller": 4000,
+      "sellers": 63,
+      "buyers": 241,
+      "lowest-seller": 4500,
       "highest-seller": 50000,
       "lowest-buyer": 120,
       "highest-buyer": 3000,
-      "last-sold": 3500,
-      "roi": 4444,
-      "avg-price": 4498
+      "last-sold": 4000,
+      "roi": 5000,
+      "avg-price": 4489
     },
     "sales_history": [
       [
@@ -9090,9 +9154,13 @@
       [
         3500,
         1710295506.379967
+      ],
+      [
+        4000,
+        1710300292.4144766
       ]
     ],
-    "updated": 1710298039.0517066,
+    "updated": 1710300292.6654842,
     "sales-plot-path": "website/plots/glacier super 90.jpg"
   },
   "1a6e1e70-2000-4075-9f99-1fe8dee5d549": {
@@ -9102,7 +9170,7 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/ef43819e_6cfc_79ae_04c8_ab49ae1fe50a.png",
     "data": {
       "sellers": 63,
-      "buyers": 134,
+      "buyers": 143,
       "lowest-seller": 10000,
       "highest-seller": 150000,
       "lowest-buyer": 120,
@@ -9389,7 +9457,7 @@
         1710298039.343997
       ]
     ],
-    "updated": 1710298039.6034856,
+    "updated": 1710300292.9640515,
     "sales-plot-path": "website/plots/gold dust 556xi.jpg"
   },
   "b6b245cb-d64a-4510-a6b9-947d545097be": {
@@ -9398,15 +9466,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=b6b245cb-d64a-4510-a6b9-947d545097be",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/e67d833e_1a5a_3f02_fe69_f55ee5706164.png",
     "data": {
-      "sellers": 68,
-      "buyers": 339,
-      "lowest-seller": 25500,
+      "sellers": 67,
+      "buyers": 338,
+      "lowest-seller": 27500,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 21497,
-      "last-sold": 20000,
-      "roi": 28333,
-      "avg-price": 25606
+      "highest-buyer": 21000,
+      "last-sold": 21000,
+      "roi": 30555,
+      "avg-price": 25538
     },
     "sales_history": [
       [
@@ -9676,9 +9744,13 @@
       [
         20000,
         1710291640.2900155
+      ],
+      [
+        21000,
+        1710298537.138952
       ]
     ],
-    "updated": 1710298039.920564,
+    "updated": 1710298537.3837898,
     "sales-plot-path": "website/plots/gold dust r4-c.jpg"
   },
   "e91b207c-283f-47ae-b213-17f7b8f2c6cf": {
@@ -9688,14 +9760,14 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/82dc16b8_0593_8f70_85b1_4abf05c125b7.png",
     "data": {
       "sellers": 77,
-      "buyers": 40,
+      "buyers": 44,
       "lowest-seller": 5500,
       "highest-seller": 33334,
       "lowest-buyer": 120,
       "highest-buyer": 5000,
-      "last-sold": 2800,
+      "last-sold": 5400,
       "roi": 6111,
-      "avg-price": 6488
+      "avg-price": 6471
     },
     "sales_history": [
       [
@@ -9957,9 +10029,13 @@
       [
         2800,
         1710295507.8369184
+      ],
+      [
+        5400,
+        1710300293.7015707
       ]
     ],
-    "updated": 1710298040.2710197,
+    "updated": 1710300293.9228058,
     "sales-plot-path": "website/plots/gold dust aug a2.jpg"
   },
   "12528299-d766-4678-8267-bd72c41bcc4f": {
@@ -9969,7 +10045,7 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/3e2ad0e0_ba95_6c72_086b_18160f7c2c98.png",
     "data": {
       "sellers": 64,
-      "buyers": 174,
+      "buyers": 175,
       "lowest-seller": 14000,
       "highest-seller": 150000,
       "lowest-buyer": 120,
@@ -10212,7 +10288,7 @@
         1710292691.1626718
       ]
     ],
-    "updated": 1710298040.571991,
+    "updated": 1710300294.272485,
     "sales-plot-path": "website/plots/gold dust mp7.jpg"
   },
   "a39b2b21-3872-40f8-9d2b-b5cb959fcac2": {
@@ -10222,7 +10298,7 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/34d3100a_c02a_cf7b_b81c_db7ef7bfd3a4.png",
     "data": {
       "sellers": 56,
-      "buyers": 97,
+      "buyers": 99,
       "lowest-seller": 12000,
       "highest-seller": 150000,
       "lowest-buyer": 120,
@@ -10541,7 +10617,7 @@
         1710298040.8829284
       ]
     ],
-    "updated": 1710298041.2094707,
+    "updated": 1710300294.5714257,
     "sales-plot-path": "website/plots/gold dust mp5k.jpg"
   },
   "05a5de08-b286-4756-b574-f85e7a1ba578": {
@@ -10550,15 +10626,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=05a5de08-b286-4756-b574-f85e7a1ba578",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/a1f1d221_f75d_99fd_162e_8ac84a4f893c.png",
     "data": {
-      "sellers": 62,
-      "buyers": 121,
-      "lowest-seller": 12000,
+      "sellers": 61,
+      "buyers": 118,
+      "lowest-seller": 13999,
       "highest-seller": 130000,
       "lowest-buyer": 120,
       "highest-buyer": 10700,
-      "last-sold": 11000,
-      "roi": 13333,
-      "avg-price": 14722
+      "last-sold": 12000,
+      "roi": 15554,
+      "avg-price": 14689
     },
     "sales_history": [
       [
@@ -10888,9 +10964,13 @@
       [
         11000,
         1710296399.0869102
+      ],
+      [
+        12000,
+        1710300294.8665986
       ]
     ],
-    "updated": 1710296399.3533993,
+    "updated": 1710300295.0905995,
     "sales-plot-path": "website/plots/gold dust ak-12.jpg"
   },
   "f5d7ed4e-d60d-485b-9d05-c960cd338b2e": {
@@ -10899,15 +10979,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=f5d7ed4e-d60d-485b-9d05-c960cd338b2e",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/d447044d_0035_44a2_4c94_3fab4cd1636c.png",
     "data": {
-      "sellers": 62,
-      "buyers": 27,
-      "lowest-seller": 3000,
+      "sellers": 61,
+      "buyers": 28,
+      "lowest-seller": 3099,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 2000,
-      "last-sold": 2000,
-      "roi": 3333,
-      "avg-price": 2898
+      "highest-buyer": 3000,
+      "last-sold": 3000,
+      "roi": 3443,
+      "avg-price": 2899
     },
     "sales_history": [
       [
@@ -11181,9 +11261,13 @@
       [
         2000,
         1710295509.4595273
+      ],
+      [
+        3000,
+        1710300295.4157472
       ]
     ],
-    "updated": 1710298041.7974663,
+    "updated": 1710300295.6659799,
     "sales-plot-path": "website/plots/gold dust sasg-12.jpg"
   },
   "5180a8fa-2463-45bd-b93b-84c0672f116e": {
@@ -11193,14 +11277,14 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/b023651c_fc06_a134_9a07_d170309b9fdd.png",
     "data": {
       "sellers": 63,
-      "buyers": 81,
+      "buyers": 87,
       "lowest-seller": 11500,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 10000,
-      "last-sold": 11000,
+      "last-sold": 413,
       "roi": 12777,
-      "avg-price": 14329
+      "avg-price": 14072
     },
     "sales_history": [
       [
@@ -11414,9 +11498,13 @@
       [
         11000,
         1710295510.0974023
+      ],
+      [
+        413,
+        1710300295.9786499
       ]
     ],
-    "updated": 1710298042.1228518,
+    "updated": 1710300296.2158859,
     "sales-plot-path": "website/plots/gold dust l85a2.jpg"
   },
   "bfdc6a10-5c86-4d65-a391-20cfe76b554b": {
@@ -11425,15 +11513,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=bfdc6a10-5c86-4d65-a391-20cfe76b554b",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/51e13369_472f_725e_860d_9d15c0a9316c.png",
     "data": {
-      "sellers": 97,
-      "buyers": 377,
-      "lowest-seller": 18500,
+      "sellers": 96,
+      "buyers": 380,
+      "lowest-seller": 19500,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 16500,
-      "last-sold": 18000,
-      "roi": 20555,
-      "avg-price": 21899
+      "last-sold": 412,
+      "roi": 21666,
+      "avg-price": 21637
     },
     "sales_history": [
       [
@@ -11807,9 +11895,17 @@
       [
         18000,
         1710296400.5536108
+      ],
+      [
+        18500,
+        1710298539.823933
+      ],
+      [
+        412,
+        1710300296.5376217
       ]
     ],
-    "updated": 1710298042.4603212,
+    "updated": 1710300296.760007,
     "sales-plot-path": "website/plots/gold dust 416-c carbine.jpg"
   },
   "9a385a86-b523-4f61-bc54-b90d144aa2b8": {
@@ -11819,7 +11915,7 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/b12e069b_9099_957a_e621_7afdb4047e6a.png",
     "data": {
       "sellers": 41,
-      "buyers": 157,
+      "buyers": 156,
       "lowest-seller": 21800,
       "highest-seller": 150000,
       "lowest-buyer": 120,
@@ -12078,7 +12174,7 @@
         1710298042.767441
       ]
     ],
-    "updated": 1710298043.0427418,
+    "updated": 1710298540.3659961,
     "sales-plot-path": "website/plots/gold dust mp5.jpg"
   },
   "b51c76a7-c659-4b0a-a038-7e185e8991e2": {
@@ -12088,14 +12184,14 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/1afa74f7_f336_afae_7e37_11f1164a7c16.png",
     "data": {
       "sellers": 75,
-      "buyers": 150,
-      "lowest-seller": 13000,
-      "highest-seller": 100000,
+      "buyers": 153,
+      "lowest-seller": 13300,
+      "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 10500,
-      "last-sold": 11500,
-      "roi": 14444,
-      "avg-price": 14618
+      "last-sold": 12000,
+      "roi": 14777,
+      "avg-price": 14590
     },
     "sales_history": [
       [
@@ -12457,9 +12553,13 @@
       [
         11500,
         1710298043.377446
+      ],
+      [
+        12000,
+        1710298540.9242048
       ]
     ],
-    "updated": 1710298043.6264222,
+    "updated": 1710300297.3732073,
     "sales-plot-path": "website/plots/gold dust f2.jpg"
   },
   "5cda2392-6d7f-4926-b28b-7b7012678be4": {
@@ -12469,7 +12569,7 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/ae5339f5_2d65_3f8c_54b2_b4ce1182cdd0.png",
     "data": {
       "sellers": 81,
-      "buyers": 108,
+      "buyers": 107,
       "lowest-seller": 7000,
       "highest-seller": 100000,
       "lowest-buyer": 120,
@@ -12840,7 +12940,7 @@
         1710296402.342981
       ]
     ],
-    "updated": 1710296402.93097,
+    "updated": 1710300297.6876688,
     "sales-plot-path": "website/plots/gold dust ar33.jpg"
   },
   "063bfd88-253a-cbac-2fd7-cb1191c2d5a5": {
@@ -13103,7 +13203,7 @@
         1710270639.1944716
       ]
     ],
-    "updated": 1710294529.7508388,
+    "updated": 1710300298.6197665,
     "sales-plot-path": "website/plots/faceless one headgear.jpg"
   },
   "1263f2ae-f3a3-e013-f3a8-86a6cac537d0": {
@@ -13113,7 +13213,7 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/c4ce316d_0893_508c_cc3b_e0cc3e2d6461.png",
     "data": {
       "sellers": 18,
-      "buyers": 28,
+      "buyers": 29,
       "lowest-seller": 5500,
       "highest-seller": 40000,
       "lowest-buyer": 120,
@@ -13180,7 +13280,7 @@
         1710291649.1700327
       ]
     ],
-    "updated": 1710296405.1169674,
+    "updated": 1710298542.7827983,
     "sales-plot-path": "website/plots/faceless one uniform.jpg"
   },
   "254c073b-3e11-ed6d-9db0-eb4931036de7": {
@@ -13194,7 +13294,7 @@
       "lowest-seller": 30000,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 26000,
+      "highest-buyer": 28000,
       "last-sold": 25000,
       "roi": 33333,
       "avg-price": 30950
@@ -13257,7 +13357,7 @@
         1710270641.6668787
       ]
     ],
-    "updated": 1710298045.770247,
+    "updated": 1710300299.270247,
     "sales-plot-path": "website/plots/jiangshi headgear.jpg"
   },
   "575621ca-bf61-d9d5-8800-8772329e2776": {
@@ -13368,7 +13468,7 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/07a61a3f_2348_dd4e_1fd8_b8d1cf01f03f.png",
     "data": {
       "sellers": 10,
-      "buyers": 88,
+      "buyers": 89,
       "lowest-seller": 20000,
       "highest-seller": 150000,
       "lowest-buyer": 120,
@@ -13431,7 +13531,7 @@
         1710291650.8935373
       ]
     ],
-    "updated": 1710296407.2974944,
+    "updated": 1710300299.8856812,
     "sales-plot-path": "website/plots/frozen soldier headgear.jpg"
   },
   "98d7b22c-9e10-1f7a-f182-cb05fcc87bb5": {
@@ -13440,14 +13540,14 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=98d7b22c-9e10-1f7a-f182-cb05fcc87bb5",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/9fd5a109_02dc_91e7_fd44_13e2da466e05.png",
     "data": {
-      "sellers": 13,
+      "sellers": 14,
       "buyers": 14,
-      "lowest-seller": 4999,
+      "lowest-seller": 4998,
       "highest-seller": 80000,
       "lowest-buyer": 120,
       "highest-buyer": 1500,
       "last-sold": 3000,
-      "roi": 5554,
+      "roi": 5553,
       "avg-price": 4242
     },
     "sales_history": [
@@ -13536,7 +13636,7 @@
         1710291651.5403562
       ]
     ],
-    "updated": 1710298046.7599678,
+    "updated": 1710300300.2161083,
     "sales-plot-path": "website/plots/frozen soldier uniform.jpg"
   },
   "937355f7-d522-1431-4c90-afa0282a0980": {
@@ -13547,12 +13647,12 @@
     "data": {
       "sellers": 17,
       "buyers": 33,
-      "lowest-seller": 8200,
+      "lowest-seller": 8000,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 5900,
       "last-sold": 9000,
-      "roi": 9111,
+      "roi": 8888,
       "avg-price": 8386
     },
     "sales_history": [
@@ -13617,7 +13717,7 @@
         1710250823.7807145
       ]
     ],
-    "updated": 1710296408.0363934,
+    "updated": 1710300300.5174506,
     "sales-plot-path": "website/plots/dead sheriff headgear.jpg"
   },
   "44932fee-5159-4fae-27fc-7fe2efb1fb46": {
@@ -13626,7 +13726,7 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=44932fee-5159-4fae-27fc-7fe2efb1fb46",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/2594253f_1aa9_4d1c_0b8a_05e459bd7c3c.png",
     "data": {
-      "sellers": 14,
+      "sellers": 13,
       "buyers": 6,
       "lowest-seller": 2000,
       "highest-seller": 150000,
@@ -13714,7 +13814,7 @@
         1710256232.9896688
       ]
     ],
-    "updated": 1710295516.3898022,
+    "updated": 1710300300.8847904,
     "sales-plot-path": "website/plots/dead sheriff uniform.jpg"
   },
   "e8bedcc2-bb95-40d7-8b1f-e2ecf9f2995e": {
@@ -13723,15 +13823,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=e8bedcc2-bb95-40d7-8b1f-e2ecf9f2995e",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/5f3209ba_5ad0_2a13_9e7e_d5f00fa894c6.png",
     "data": {
-      "sellers": 927,
-      "buyers": 1711,
+      "sellers": 930,
+      "buyers": 1701,
       "lowest-seller": 7000,
       "highest-seller": 35000,
       "lowest-buyer": 120,
-      "highest-buyer": 6700,
-      "last-sold": 6700,
+      "highest-buyer": 6619,
+      "last-sold": 6995,
       "roi": 7777,
-      "avg-price": 7600
+      "avg-price": 7598
     },
     "sales_history": [
       [
@@ -15009,9 +15109,13 @@
       [
         6700,
         1710298065.6533492
+      ],
+      [
+        6995,
+        1710300319.5296643
       ]
     ],
-    "updated": 1710298065.8911095,
+    "updated": 1710300319.7554348,
     "sales-plot-path": "website/plots/crossfader.jpg"
   },
   "31de6f82-217e-4898-aa3d-2545f5c93e66": {
@@ -15020,15 +15124,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=31de6f82-217e-4898-aa3d-2545f5c93e66",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/13fb0261_6b72_2546_1c24_7ddf1bcfc9f0.png",
     "data": {
-      "sellers": 268,
-      "buyers": 550,
-      "lowest-seller": 7499,
+      "sellers": 267,
+      "buyers": 551,
+      "lowest-seller": 7500,
       "highest-seller": 35000,
       "lowest-buyer": 120,
-      "highest-buyer": 6000,
-      "last-sold": 6500,
-      "roi": 8332,
-      "avg-price": 7997
+      "highest-buyer": 7000,
+      "last-sold": 7450,
+      "roi": 8333,
+      "avg-price": 7985
     },
     "sales_history": [
       [
@@ -15886,9 +15990,17 @@
       [
         6500,
         1710298066.2099614
+      ],
+      [
+        6000,
+        1710298561.86547
+      ],
+      [
+        7450,
+        1710300320.0441976
       ]
     ],
-    "updated": 1710298066.4158642,
+    "updated": 1710300320.2468798,
     "sales-plot-path": "website/plots/leon furioso.jpg"
   },
   "9f0ffbab-ab76-4c4f-bcfa-c3d302397213": {
@@ -15897,15 +16009,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=9f0ffbab-ab76-4c4f-bcfa-c3d302397213",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/044f74cb_f5ce_4166_c88c_d72e7dbafb33.png",
     "data": {
-      "sellers": 870,
-      "buyers": 436,
-      "lowest-seller": 2000,
+      "sellers": 873,
+      "buyers": 435,
+      "lowest-seller": 1900,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 1600,
-      "last-sold": 1950,
-      "roi": 2222,
-      "avg-price": 2173
+      "last-sold": 1900,
+      "roi": 2111,
+      "avg-price": 2172
     },
     "sales_history": [
       [
@@ -17159,9 +17271,17 @@
       [
         1950,
         1710298066.732634
+      ],
+      [
+        2000,
+        1710298562.474249
+      ],
+      [
+        1900,
+        1710300320.5674522
       ]
     ],
-    "updated": 1710298066.9786975,
+    "updated": 1710300320.8034472,
     "sales-plot-path": "website/plots/signature six 2019.jpg"
   },
   "30fb55a3-1eb3-433e-9b4c-3ecc14e87b7e": {
@@ -17170,15 +17290,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=30fb55a3-1eb3-433e-9b4c-3ecc14e87b7e",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/bd0dc7a7_d1df_0248_0525_a57a47d33f48.png",
     "data": {
-      "sellers": 134,
-      "buyers": 190,
-      "lowest-seller": 12000,
+      "sellers": 133,
+      "buyers": 193,
+      "lowest-seller": 12199,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 10000,
-      "last-sold": 11000,
-      "roi": 13333,
-      "avg-price": 12787
+      "last-sold": 12000,
+      "roi": 13554,
+      "avg-price": 12777
     },
     "sales_history": [
       [
@@ -17520,9 +17640,13 @@
       [
         11000,
         1710298092.7437806
+      ],
+      [
+        12000,
+        1710300344.1420443
       ]
     ],
-    "updated": 1710298092.9778674,
+    "updated": 1710300344.3779063,
     "sales-plot-path": "website/plots/siege pro league charm.jpg"
   },
   "055f2414-aa16-4bce-a5b7-2e19caad9511": {
@@ -17532,7 +17656,7 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/0facd279_da83_1a65_9dc0_5977d55fd275.png",
     "data": {
       "sellers": 36,
-      "buyers": 13,
+      "buyers": 14,
       "lowest-seller": 1100,
       "highest-seller": 150000,
       "lowest-buyer": 120,
@@ -17771,7 +17895,7 @@
         1710294580.475428
       ]
     ],
-    "updated": 1710295569.1648147,
+    "updated": 1710300346.3474786,
     "sales-plot-path": "website/plots/six major usa diamond 2019.jpg"
   },
   "a6459859-a6b6-465a-b2f6-35d50b3b2462": {
@@ -17780,15 +17904,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=a6459859-a6b6-465a-b2f6-35d50b3b2462",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/79e6adfe_8260_f77a_5bf7_d5eef1e50ef3.png",
     "data": {
-      "sellers": 124,
+      "sellers": 120,
       "buyers": 24,
       "lowest-seller": 650,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 300,
-      "last-sold": 620,
+      "last-sold": 650,
       "roi": 722,
-      "avg-price": 972
+      "avg-price": 969
     },
     "sales_history": [
       [
@@ -18334,9 +18458,13 @@
       [
         620,
         1710298095.232515
+      ],
+      [
+        650,
+        1710298584.6141863
       ]
     ],
-    "updated": 1710298095.4787009,
+    "updated": 1710300346.7332256,
     "sales-plot-path": "website/plots/six major japan diamond 2019.jpg"
   },
   "1e792642-d1a4-4908-9a27-da6ccc6d1758": {
@@ -18345,15 +18473,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=1e792642-d1a4-4908-9a27-da6ccc6d1758",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/4ee6b765_0e18_0674_1c72_9909004c8fde.png",
     "data": {
-      "sellers": 226,
-      "buyers": 46,
-      "lowest-seller": 600,
+      "sellers": 227,
+      "buyers": 44,
+      "lowest-seller": 650,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 550,
-      "last-sold": 600,
-      "roi": 666,
-      "avg-price": 921
+      "last-sold": 670,
+      "roi": 722,
+      "avg-price": 919
     },
     "sales_history": [
       [
@@ -18955,9 +19083,13 @@
       [
         600,
         1710298095.7851465
+      ],
+      [
+        670,
+        1710300347.0478792
       ]
     ],
-    "updated": 1710298096.0166469,
+    "updated": 1710300347.2822843,
     "sales-plot-path": "website/plots/six invitational diamond 2018.jpg"
   },
   "1f2208cf-c5ee-4bd2-a1fc-ea4668dee3c5": {
@@ -18966,7 +19098,7 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=1f2208cf-c5ee-4bd2-a1fc-ea4668dee3c5",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/f8bd970f_5741_0e68_3619_04161bf55905.png",
     "data": {
-      "sellers": 59,
+      "sellers": 58,
       "buyers": 14,
       "lowest-seller": 900,
       "highest-seller": 150000,
@@ -19178,7 +19310,7 @@
         1710294581.6905706
       ]
     ],
-    "updated": 1710296462.10736,
+    "updated": 1710300347.6026094,
     "sales-plot-path": "website/plots/six invitational diamond 2019.jpg"
   },
   "457fcd38-71e9-4605-8786-06098463a01c": {
@@ -19187,7 +19319,7 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=457fcd38-71e9-4605-8786-06098463a01c",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/22e23d3c_bb34_ce64_89c7_5d122d9d3b05.png",
     "data": {
-      "sellers": 33,
+      "sellers": 32,
       "buyers": 11,
       "lowest-seller": 3000,
       "highest-seller": 100000,
@@ -19367,7 +19499,7 @@
         1710296450.399999
       ]
     ],
-    "updated": 1710298084.8632307,
+    "updated": 1710298576.7793772,
     "sales-plot-path": "website/plots/excellence gaming charm.jpg"
   },
   "8dd10c58-b2dc-40e0-aaaf-14d700882fd5": {
@@ -19376,7 +19508,7 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=8dd10c58-b2dc-40e0-aaaf-14d700882fd5",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/88fb695e_5805_ff2b_8529_013da65d0622.png",
     "data": {
-      "sellers": 43,
+      "sellers": 44,
       "buyers": 23,
       "lowest-seller": 3000,
       "highest-seller": 150000,
@@ -19568,7 +19700,7 @@
         1710298085.2348998
       ]
     ],
-    "updated": 1710298085.454404,
+    "updated": 1710300338.487983,
     "sales-plot-path": "website/plots/flipsid3 tactics charm.jpg"
   },
   "be4cf400-0808-4e04-9662-ff5bc04c60dd": {
@@ -19577,14 +19709,14 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=be4cf400-0808-4e04-9662-ff5bc04c60dd",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/92807839_317d_ed04_d17a_46bcd0c559d3.png",
     "data": {
-      "sellers": 24,
-      "buyers": 11,
-      "lowest-seller": 2050,
+      "sellers": 25,
+      "buyers": 10,
+      "lowest-seller": 2000,
       "highest-seller": 50000,
       "lowest-buyer": 120,
       "highest-buyer": 1300,
       "last-sold": 1800,
-      "roi": 2277,
+      "roi": 2222,
       "avg-price": 2200
     },
     "sales_history": [
@@ -19725,7 +19857,7 @@
         1710298085.7954419
       ]
     ],
-    "updated": 1710298086.0551345,
+    "updated": 1710298577.3961072,
     "sales-plot-path": "website/plots/brk esports charm.jpg"
   },
   "aa4deb58-929f-4865-9c27-464b6185b098": {
@@ -19963,15 +20095,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=ae5f041d-93da-40f6-8308-905f9da7fcf2",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/788e48e9_1b88_f218_1513_bb6d804ebf28.png",
     "data": {
-      "sellers": 36,
-      "buyers": 11,
-      "lowest-seller": 4990,
+      "sellers": 35,
+      "buyers": 10,
+      "lowest-seller": 4998,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 4000,
-      "last-sold": 4999,
-      "roi": 5544,
-      "avg-price": 5443
+      "highest-buyer": 2000,
+      "last-sold": 4990,
+      "roi": 5553,
+      "avg-price": 5416
     },
     "sales_history": [
       [
@@ -20037,9 +20169,13 @@
       [
         4999,
         1710275367.30639
+      ],
+      [
+        4990,
+        1710298578.030524
       ]
     ],
-    "updated": 1710294572.6408002,
+    "updated": 1710298578.2816076,
     "sales-plot-path": "website/plots/onslaught charm.jpg"
   },
   "dfb7fca4-c15e-4de0-ac6d-124564252640": {
@@ -20129,14 +20265,14 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=7fb6f739-4e8b-9b32-b167-bfb0d8197513",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/775a951a_e761_957a_399c_82a627a75593.png",
     "data": {
-      "sellers": 23,
+      "sellers": 24,
       "buyers": 160,
-      "lowest-seller": 7200,
+      "lowest-seller": 7199,
       "highest-seller": 35000,
       "lowest-buyer": 120,
       "highest-buyer": 4785,
       "last-sold": 7000,
-      "roi": 8000,
+      "roi": 7998,
       "avg-price": 8409
     },
     "sales_history": [
@@ -20297,7 +20433,7 @@
         1710296463.745811
       ]
     ],
-    "updated": 1710298097.7751327,
+    "updated": 1710300349.0739353,
     "sales-plot-path": "website/plots/crepuscular.jpg"
   },
   "aee4bdf2-0b54-4c6d-af93-9fe4848e1f76": {
@@ -20306,15 +20442,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=aee4bdf2-0b54-4c6d-af93-9fe4848e1f76",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/bb74359e_3a55_3d28_b3ad_8291964f65f3.png",
     "data": {
-      "sellers": 2454,
-      "buyers": 3259,
+      "sellers": 2462,
+      "buyers": 3247,
       "lowest-seller": 2250,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 2241,
+      "highest-buyer": 2150,
       "last-sold": 2000,
       "roi": 2500,
-      "avg-price": 2604
+      "avg-price": 2602
     },
     "sales_history": [
       [
@@ -22160,9 +22296,17 @@
       [
         2000,
         1710298101.2580943
+      ],
+      [
+        2223,
+        1710298590.1159854
+      ],
+      [
+        2000,
+        1710300352.3442986
       ]
     ],
-    "updated": 1710298101.4942324,
+    "updated": 1710300352.568097,
     "sales-plot-path": "website/plots/black ice r4-c.jpg"
   },
   "f52192fa-4a90-4158-bf14-2b04f8702412": {
@@ -22171,15 +22315,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=f52192fa-4a90-4158-bf14-2b04f8702412",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/dbf67519_736b_f3ba_9986_7b673c9eed16.png",
     "data": {
-      "sellers": 1650,
-      "buyers": 1620,
-      "lowest-seller": 1300,
+      "sellers": 1647,
+      "buyers": 1624,
+      "lowest-seller": 1340,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 1450,
-      "last-sold": 1200,
-      "roi": 1444,
-      "avg-price": 1563
+      "last-sold": 1300,
+      "roi": 1488,
+      "avg-price": 1562
     },
     "sales_history": [
       [
@@ -23881,9 +24025,17 @@
       [
         1200,
         1710298101.7950044
+      ],
+      [
+        1400,
+        1710298590.6353726
+      ],
+      [
+        1300,
+        1710300352.9131422
       ]
     ],
-    "updated": 1710298102.0285914,
+    "updated": 1710300353.1419966,
     "sales-plot-path": "website/plots/black ice mp5.jpg"
   },
   "ea43dc95-8762-4f5f-a0d0-9dbd9777ae08": {
@@ -23892,15 +24044,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=ea43dc95-8762-4f5f-a0d0-9dbd9777ae08",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/af8db713_22d9_51f4_9342_5cdc2a7c9ca6.png",
     "data": {
-      "sellers": 1934,
-      "buyers": 1554,
-      "lowest-seller": 950,
+      "sellers": 1923,
+      "buyers": 1547,
+      "lowest-seller": 1000,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 850,
-      "last-sold": 900,
-      "roi": 1055,
-      "avg-price": 1289
+      "highest-buyer": 950,
+      "last-sold": 950,
+      "roi": 1111,
+      "avg-price": 1287
     },
     "sales_history": [
       [
@@ -25634,9 +25786,17 @@
       [
         900,
         1710298102.3531172
+      ],
+      [
+        960,
+        1710298591.1638644
+      ],
+      [
+        950,
+        1710300353.4679947
       ]
     ],
-    "updated": 1710298102.581957,
+    "updated": 1710300353.7041662,
     "sales-plot-path": "website/plots/black ice mp7.jpg"
   },
   "f856e290-68ff-46b7-a2e0-2618e082bb13": {
@@ -25645,15 +25805,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=f856e290-68ff-46b7-a2e0-2618e082bb13",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/9f659b4a_5fb2_6df0_e238_daf4b4823f2f.png",
     "data": {
-      "sellers": 48,
-      "buyers": 11,
-      "lowest-seller": 1200,
+      "sellers": 47,
+      "buyers": 10,
+      "lowest-seller": 1288,
       "highest-seller": 100000,
       "lowest-buyer": 150,
-      "highest-buyer": 1000,
-      "last-sold": 900,
-      "roi": 1333,
-      "avg-price": 1469
+      "highest-buyer": 900,
+      "last-sold": 1200,
+      "roi": 1431,
+      "avg-price": 1466
     },
     "sales_history": [
       [
@@ -25967,9 +26127,13 @@
       [
         900,
         1710295516.740329
+      ],
+      [
+        1200,
+        1710300301.1881392
       ]
     ],
-    "updated": 1710298047.9956212,
+    "updated": 1710300301.446582,
     "sales-plot-path": "website/plots/evil geniuses 2018 uniform.jpg"
   },
   "6bec3c7e-ef90-453c-ae03-19a04218e645": {
@@ -25978,15 +26142,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=6bec3c7e-ef90-453c-ae03-19a04218e645",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/b121c47d_209c_877d_eb20_c9e2493af161.png",
     "data": {
-      "sellers": 401,
-      "buyers": 148,
-      "lowest-seller": 1300,
+      "sellers": 406,
+      "buyers": 151,
+      "lowest-seller": 1200,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 1000,
-      "last-sold": 1300,
-      "roi": 1444,
-      "avg-price": 1411
+      "last-sold": 1200,
+      "roi": 1333,
+      "avg-price": 1410
     },
     "sales_history": [
       [
@@ -27168,9 +27332,13 @@
       [
         1300,
         1710298048.2867615
+      ],
+      [
+        1200,
+        1710300301.7773843
       ]
     ],
-    "updated": 1710298048.5536225,
+    "updated": 1710300302.0411878,
     "sales-plot-path": "website/plots/field prep uniform.jpg"
   },
   "9c722f04-d20d-4d67-bb28-f2b3c6a42bea": {
@@ -27181,13 +27349,13 @@
     "data": {
       "sellers": 79,
       "buyers": 29,
-      "lowest-seller": 1140,
+      "lowest-seller": 1150,
       "highest-seller": 50000,
       "lowest-buyer": 120,
-      "highest-buyer": 1000,
-      "last-sold": 1100,
-      "roi": 1266,
-      "avg-price": 1495
+      "highest-buyer": 800,
+      "last-sold": 1140,
+      "roi": 1277,
+      "avg-price": 1492
     },
     "sales_history": [
       [
@@ -27585,9 +27753,13 @@
       [
         1100,
         1710296409.5447674
+      ],
+      [
+        1140,
+        1710298545.797442
       ]
     ],
-    "updated": 1710298048.847734,
+    "updated": 1710300302.3969855,
     "sales-plot-path": "website/plots/rogue 2018 uniform.jpg"
   },
   "684e0821-0578-4e8e-ab92-b9a6b70a468f": {
@@ -27598,12 +27770,12 @@
     "data": {
       "sellers": 33,
       "buyers": 5,
-      "lowest-seller": 1200,
+      "lowest-seller": 1100,
       "highest-seller": 4500,
       "lowest-buyer": 150,
       "highest-buyer": 800,
       "last-sold": 1200,
-      "roi": 1333,
+      "roi": 1222,
       "avg-price": 1382
     },
     "sales_history": [
@@ -27888,7 +28060,7 @@
         1710291654.5608115
       ]
     ],
-    "updated": 1710298049.1532266,
+    "updated": 1710300302.7369902,
     "sales-plot-path": "website/plots/penta 2019 uniform.jpg"
   },
   "e59deadb-5e5e-42b5-8081-3ba106f8cd20": {
@@ -27898,14 +28070,14 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/e824c8d5_59c2_d491_49e2_7847a590677a.png",
     "data": {
       "sellers": 50,
-      "buyers": 13,
+      "buyers": 12,
       "lowest-seller": 1000,
       "highest-seller": 100000,
       "lowest-buyer": 120,
       "highest-buyer": 750,
-      "last-sold": 900,
+      "last-sold": 950,
       "roi": 1111,
-      "avg-price": 1250
+      "avg-price": 1246
     },
     "sales_history": [
       [
@@ -28291,9 +28463,13 @@
       [
         900,
         1710298049.4514124
+      ],
+      [
+        950,
+        1710300303.0445833
       ]
     ],
-    "updated": 1710298049.6917062,
+    "updated": 1710300303.283272,
     "sales-plot-path": "website/plots/evil geniuses 2019 uniform.jpg"
   },
   "b6563c45-8128-0ed8-2ffc-5e4cf69f5772": {
@@ -28303,13 +28479,13 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/e28f5832_fa9c_a41d_e877_fd68b912dbd8.png",
     "data": {
       "sellers": 55,
-      "buyers": 49,
-      "lowest-seller": 1750,
+      "buyers": 47,
+      "lowest-seller": 1700,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 1500,
       "last-sold": 1200,
-      "roi": 1944,
+      "roi": 1888,
       "avg-price": 2212
     },
     "sales_history": [
@@ -28566,7 +28742,7 @@
         1710298050.0045686
       ]
     ],
-    "updated": 1710298050.2353768,
+    "updated": 1710300303.6119246,
     "sales-plot-path": "website/plots/drkn si 2022 flagship uniform.jpg"
   },
   "3b278aa7-e7a0-4d2f-a94c-4a7f920c8421": {
@@ -28576,14 +28752,14 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/1b39f69a_ac8a_f3a2_34ac_6044ec11e861.png",
     "data": {
       "sellers": 48,
-      "buyers": 8,
-      "lowest-seller": 1000,
+      "buyers": 9,
+      "lowest-seller": 850,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 500,
-      "last-sold": 850,
-      "roi": 1111,
-      "avg-price": 1146
+      "highest-buyer": 650,
+      "last-sold": 1000,
+      "roi": 944,
+      "avg-price": 1143
     },
     "sales_history": [
       [
@@ -28841,9 +29017,13 @@
       [
         850,
         1710298050.548427
+      ],
+      [
+        1000,
+        1710300303.9307735
       ]
     ],
-    "updated": 1710298050.783175,
+    "updated": 1710300304.158907,
     "sales-plot-path": "website/plots/immortals 2018 uniform.jpg"
   },
   "474cc2e1-1b2e-4aba-9f32-9f7a7370864a": {
@@ -28852,15 +29032,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=474cc2e1-1b2e-4aba-9f32-9f7a7370864a",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/5384ee0d_0374_cb96_64a2_f0e960f19f34.png",
     "data": {
-      "sellers": 75,
+      "sellers": 76,
       "buyers": 11,
-      "lowest-seller": 700,
+      "lowest-seller": 600,
       "highest-seller": 99998,
       "lowest-buyer": 120,
       "highest-buyer": 400,
-      "last-sold": 700,
-      "roi": 777,
-      "avg-price": 919
+      "last-sold": 680,
+      "roi": 666,
+      "avg-price": 917
     },
     "sales_history": [
       [
@@ -29418,9 +29598,13 @@
       [
         700,
         1710298051.0997188
+      ],
+      [
+        680,
+        1710300304.4418974
       ]
     ],
-    "updated": 1710298051.325152,
+    "updated": 1710300304.6696875,
     "sales-plot-path": "website/plots/rogue 2019 uniform.jpg"
   },
   "80d43004-ee61-45cf-aa7f-e7a66a2b4f71": {
@@ -29431,12 +29615,12 @@
     "data": {
       "sellers": 40,
       "buyers": 7,
-      "lowest-seller": 750,
+      "lowest-seller": 749,
       "highest-seller": 100000,
       "lowest-buyer": 120,
       "highest-buyer": 500,
       "last-sold": 750,
-      "roi": 833,
+      "roi": 832,
       "avg-price": 982
     },
     "sales_history": [
@@ -29733,7 +29917,7 @@
         1710291658.010972
       ]
     ],
-    "updated": 1710298051.6306272,
+    "updated": 1710300304.9706314,
     "sales-plot-path": "website/plots/mousesports 2018 uniform.jpg"
   },
   "dcd1a3ea-e889-4abd-9704-4753c43c38be": {
@@ -29742,14 +29926,14 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=dcd1a3ea-e889-4abd-9704-4753c43c38be",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/2138ad44_9a48_fed1_318e_b00b9af42e91.png",
     "data": {
-      "sellers": 56,
-      "buyers": 19,
-      "lowest-seller": 710,
+      "sellers": 57,
+      "buyers": 18,
+      "lowest-seller": 650,
       "highest-seller": 20000,
       "lowest-buyer": 120,
-      "highest-buyer": 600,
+      "highest-buyer": 503,
       "last-sold": 650,
-      "roi": 788,
+      "roi": 722,
       "avg-price": 893
     },
     "sales_history": [
@@ -30250,7 +30434,7 @@
         1710298051.9308696
       ]
     ],
-    "updated": 1710298052.1778004,
+    "updated": 1710300305.260622,
     "sales-plot-path": "website/plots/cloud9 2019 uniform.jpg"
   },
   "dc2bac30-4988-4fbf-98d1-c52cb3a444d6": {
@@ -30259,14 +30443,14 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=dc2bac30-4988-4fbf-98d1-c52cb3a444d6",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/36fba93a_7f31_d1de_1f5e_bfe44bb133d0.png",
     "data": {
-      "sellers": 50,
+      "sellers": 51,
       "buyers": 17,
-      "lowest-seller": 800,
+      "lowest-seller": 750,
       "highest-seller": 15000,
       "lowest-buyer": 120,
       "highest-buyer": 700,
       "last-sold": 800,
-      "roi": 888,
+      "roi": 833,
       "avg-price": 1034
     },
     "sales_history": [
@@ -30631,7 +30815,7 @@
         1710296414.7600331
       ]
     ],
-    "updated": 1710298052.4992135,
+    "updated": 1710300305.622388,
     "sales-plot-path": "website/plots/mibr 2019 uniform.jpg"
   },
   "8d99c769-d4ea-4d2f-a189-2bd879bb7b82": {
@@ -30640,7 +30824,7 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=8d99c769-d4ea-4d2f-a189-2bd879bb7b82",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/8b90fbc7_7af2_6447_d20f_777832f0bfcc.png",
     "data": {
-      "sellers": 46,
+      "sellers": 48,
       "buyers": 12,
       "lowest-seller": 1000,
       "highest-seller": 8500,
@@ -30964,7 +31148,7 @@
         1710296415.386017
       ]
     ],
-    "updated": 1710298052.8039088,
+    "updated": 1710300305.9234922,
     "sales-plot-path": "website/plots/penta 2018 uniform.jpg"
   },
   "0017e84f-c29e-48f1-9abc-0c1533af96f6": {
@@ -30978,7 +31162,7 @@
       "lowest-seller": 700,
       "highest-seller": 80000,
       "lowest-buyer": 151,
-      "highest-buyer": 650,
+      "highest-buyer": 654,
       "last-sold": 650,
       "roi": 777,
       "avg-price": 977
@@ -31249,7 +31433,7 @@
         1710298053.1692905
       ]
     ],
-    "updated": 1710298053.413801,
+    "updated": 1710300306.276421,
     "sales-plot-path": "website/plots/evil geniuses 2018 headgear.jpg"
   },
   "27151603-3588-4258-bab1-8a8d5f678d3a": {
@@ -31258,14 +31442,14 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=27151603-3588-4258-bab1-8a8d5f678d3a",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/7f3d8faf_fec9_8daf_4594_695beadd0174.png",
     "data": {
-      "sellers": 34,
+      "sellers": 35,
       "buyers": 9,
-      "lowest-seller": 800,
+      "lowest-seller": 785,
       "highest-seller": 20000,
       "lowest-buyer": 140,
       "highest-buyer": 500,
       "last-sold": 850,
-      "roi": 888,
+      "roi": 872,
       "avg-price": 870
     },
     "sales_history": [
@@ -31542,7 +31726,7 @@
         1710293182.0452824
       ]
     ],
-    "updated": 1710298053.742939,
+    "updated": 1710300306.6377878,
     "sales-plot-path": "website/plots/evil geniuses 2019 headgear.jpg"
   },
   "8ed14ce7-56f9-4a66-9168-8c14584119f2": {
@@ -31557,9 +31741,9 @@
       "highest-seller": 1500,
       "lowest-buyer": "No data",
       "highest-buyer": "No data",
-      "last-sold": 699,
+      "last-sold": 640,
       "roi": 722,
-      "avg-price": 852
+      "avg-price": 846
     },
     "sales_history": [
       [
@@ -31713,9 +31897,13 @@
       [
         699,
         1710298054.0311644
+      ],
+      [
+        640,
+        1710300306.994506
       ]
     ],
-    "updated": 1710298054.275019,
+    "updated": 1710300307.243258,
     "sales-plot-path": "website/plots/immortals 2018 headgear.jpg"
   },
   "697ef369-2811-488e-8aaf-2d0a729e7631": {
@@ -31857,15 +32045,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=82d7e836-402d-4d10-849d-29e2da637ab1",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/27a15afa_f98b_6add_72e2_a2c2195da90d.png",
     "data": {
-      "sellers": 32,
-      "buyers": 8,
-      "lowest-seller": 899,
+      "sellers": 33,
+      "buyers": 7,
+      "lowest-seller": 849,
       "highest-seller": 3000,
       "lowest-buyer": 120,
-      "highest-buyer": 750,
-      "last-sold": 930,
-      "roi": 998,
-      "avg-price": 927
+      "highest-buyer": 600,
+      "last-sold": 750,
+      "roi": 943,
+      "avg-price": 924
     },
     "sales_history": [
       [
@@ -32063,9 +32251,13 @@
       [
         930,
         1710291663.5876355
+      ],
+      [
+        750,
+        1710300307.8899293
       ]
     ],
-    "updated": 1710298054.9147909,
+    "updated": 1710300308.1118388,
     "sales-plot-path": "website/plots/mousesports 2018 headgear.jpg"
   },
   "03ce1200-c410-46a1-a373-24226a27f286": {
@@ -32074,15 +32266,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=03ce1200-c410-46a1-a373-24226a27f286",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/9aa3fc9c_672d_56bb_b6a9_dd64982ad25c.png",
     "data": {
-      "sellers": 40,
+      "sellers": 41,
       "buyers": 7,
-      "lowest-seller": 700,
+      "lowest-seller": 550,
       "highest-seller": 5000,
       "lowest-buyer": 120,
       "highest-buyer": 200,
-      "last-sold": 640,
-      "roi": 777,
-      "avg-price": 783
+      "last-sold": 500,
+      "roi": 611,
+      "avg-price": 780
     },
     "sales_history": [
       [
@@ -32536,9 +32728,13 @@
       [
         640,
         1710298055.2556326
+      ],
+      [
+        500,
+        1710300308.4399037
       ]
     ],
-    "updated": 1710298055.4738274,
+    "updated": 1710300308.6476803,
     "sales-plot-path": "website/plots/rogue 2019 headgear.jpg"
   },
   "33eafa2f-51c5-48b6-a56f-f182d76d212b": {
@@ -32688,7 +32884,7 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=fec5f127-6058-45a3-8f41-50d80f40d150",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/0797010a_abee_8154_bdf6_ce7f39081034.png",
     "data": {
-      "sellers": 55,
+      "sellers": 56,
       "buyers": 12,
       "lowest-seller": 700,
       "highest-seller": 17000,
@@ -33052,7 +33248,7 @@
         1710295526.8715742
       ]
     ],
-    "updated": 1710298056.1643233,
+    "updated": 1710300309.4057739,
     "sales-plot-path": "website/plots/faze clan 2018 uniform.jpg"
   },
   "809185fa-0e5e-471d-8447-d0043a16164a": {
@@ -33061,15 +33257,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=809185fa-0e5e-471d-8447-d0043a16164a",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/f74be0f7_39c3_2c57_eebd_fb219759121f.png",
     "data": {
-      "sellers": 47,
-      "buyers": 36,
+      "sellers": 46,
+      "buyers": 34,
       "lowest-seller": 1750,
       "highest-seller": 100000,
       "lowest-buyer": 120,
-      "highest-buyer": 1400,
-      "last-sold": 1300,
+      "highest-buyer": 1200,
+      "last-sold": 1400,
       "roi": 1944,
-      "avg-price": 2080
+      "avg-price": 2069
     },
     "sales_history": [
       [
@@ -33335,9 +33531,13 @@
       [
         1300,
         1710298067.2702072
+      ],
+      [
+        1400,
+        1710300321.1228929
       ]
     ],
-    "updated": 1710298067.4974961,
+    "updated": 1710300321.3573856,
     "sales-plot-path": "website/plots/penta 2019 mpx.jpg"
   },
   "5d2f6ab4-8c96-4472-be92-1b4be277487a": {
@@ -33603,15 +33803,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=9b699a3b-af83-4f88-a137-a0d3984eab17",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/6cc2c100_1fc6_b1ed_3f5f_f257162cd060.png",
     "data": {
-      "sellers": 144,
-      "buyers": 56,
-      "lowest-seller": 950,
+      "sellers": 145,
+      "buyers": 57,
+      "lowest-seller": 980,
       "highest-seller": 125000,
       "lowest-buyer": 120,
-      "highest-buyer": 800,
-      "last-sold": 1000,
-      "roi": 1055,
-      "avg-price": 1012
+      "highest-buyer": 975,
+      "last-sold": 975,
+      "roi": 1088,
+      "avg-price": 1011
     },
     "sales_history": [
       [
@@ -34333,9 +34533,17 @@
       [
         1000,
         1710298068.3506994
+      ],
+      [
+        950,
+        1710298563.8130212
+      ],
+      [
+        975,
+        1710300321.9838848
       ]
     ],
-    "updated": 1710298068.6190946,
+    "updated": 1710300322.2635884,
     "sales-plot-path": "website/plots/evil geniuses 2019 r4-c.jpg"
   },
   "ced2005b-2430-4a38-b291-64dad7e34794": {
@@ -34344,15 +34552,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=ced2005b-2430-4a38-b291-64dad7e34794",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/722e0f63_f277_7d27_0d64_d3ec26dc2bfd.png",
     "data": {
-      "sellers": 30,
+      "sellers": 31,
       "buyers": 29,
-      "lowest-seller": 1300,
+      "lowest-seller": 1150,
       "highest-seller": 40000,
       "lowest-buyer": 120,
       "highest-buyer": 800,
-      "last-sold": 1210,
-      "roi": 1444,
-      "avg-price": 1073
+      "last-sold": 1200,
+      "roi": 1277,
+      "avg-price": 1075
     },
     "sales_history": [
       [
@@ -34686,9 +34894,13 @@
       [
         1210,
         1710298068.9150913
+      ],
+      [
+        1200,
+        1710300322.5961628
       ]
     ],
-    "updated": 1710298069.1417587,
+    "updated": 1710300322.8156881,
     "sales-plot-path": "website/plots/evil geniuses 2019 mp5.jpg"
   },
   "9e8a4ac0-2afa-4fe8-a73a-10a0bcc89fe0": {
@@ -34697,14 +34909,14 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=9e8a4ac0-2afa-4fe8-a73a-10a0bcc89fe0",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/5afc5259_b5df_82de_d72f_060b3b059ec8.png",
     "data": {
-      "sellers": 56,
-      "buyers": 33,
-      "lowest-seller": 860,
+      "sellers": 55,
+      "buyers": 31,
+      "lowest-seller": 850,
       "highest-seller": 14000,
       "lowest-buyer": 120,
       "highest-buyer": 550,
       "last-sold": 870,
-      "roi": 955,
+      "roi": 944,
       "avg-price": 915
     },
     "sales_history": [
@@ -35025,7 +35237,7 @@
         1710294556.3087177
       ]
     ],
-    "updated": 1710298069.5189617,
+    "updated": 1710300323.1192627,
     "sales-plot-path": "website/plots/cloud9 2019 m590a1.jpg"
   },
   "e22b3f8e-d351-5c3c-ab7c-7821ae3ce6b9": {
@@ -35034,14 +35246,14 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=e22b3f8e-d351-5c3c-ab7c-7821ae3ce6b9",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/961673a1_e261_d2dd_1084_2521314a9c50.png",
     "data": {
-      "sellers": 60,
+      "sellers": 62,
       "buyers": 15,
-      "lowest-seller": 650,
+      "lowest-seller": 630,
       "highest-seller": 100000,
       "lowest-buyer": 120,
       "highest-buyer": 500,
       "last-sold": 667,
-      "roi": 722,
+      "roi": 700,
       "avg-price": 809
     },
     "sales_history": [
@@ -35250,7 +35462,7 @@
         1710291687.0986512
       ]
     ],
-    "updated": 1710298069.8377283,
+    "updated": 1710300323.4065247,
     "sales-plot-path": "website/plots/drkn si 2022 flagship type-89.jpg"
   },
   "a0ff226b-da66-4fde-8d82-4106ef24bf92": {
@@ -35259,12 +35471,12 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=a0ff226b-da66-4fde-8d82-4106ef24bf92",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/ac78d72f_a26c_c7ff_25fd_f73aad7bbc44.png",
     "data": {
-      "sellers": 55,
-      "buyers": 25,
+      "sellers": 56,
+      "buyers": 26,
       "lowest-seller": 650,
       "highest-seller": 50000,
       "lowest-buyer": 120,
-      "highest-buyer": 550,
+      "highest-buyer": 590,
       "last-sold": 590,
       "roi": 722,
       "avg-price": 927
@@ -35587,7 +35799,7 @@
         1710298070.145769
       ]
     ],
-    "updated": 1710298070.4331212,
+    "updated": 1710300323.7026262,
     "sales-plot-path": "website/plots/nora rengo 2019 mpx.jpg"
   },
   "27e67988-af83-4d24-8467-afa2521e11cd": {
@@ -35596,14 +35808,14 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=27e67988-af83-4d24-8467-afa2521e11cd",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/49b70c84_9fc1_399b_5c26_16e9205a036d.png",
     "data": {
-      "sellers": 118,
+      "sellers": 117,
       "buyers": 60,
-      "lowest-seller": 723,
+      "lowest-seller": 730,
       "highest-seller": 100000,
       "lowest-buyer": 120,
-      "highest-buyer": 700,
-      "last-sold": 700,
-      "roi": 803,
+      "highest-buyer": 550,
+      "last-sold": 720,
+      "roi": 811,
       "avg-price": 764
     },
     "sales_history": [
@@ -36366,9 +36578,17 @@
       [
         700,
         1710296436.4046478
+      ],
+      [
+        723,
+        1710298565.7496624
+      ],
+      [
+        720,
+        1710300323.9922867
       ]
     ],
-    "updated": 1710298070.7401068,
+    "updated": 1710300324.233433,
     "sales-plot-path": "website/plots/fazeclan 2019 r4-c.jpg"
   },
   "615257b7-9aea-479f-8521-a0054af3a442": {
@@ -36378,14 +36598,14 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/b4ba3547_77a7_adcc_7cf7_564039670b34.png",
     "data": {
       "sellers": 1510,
-      "buyers": 653,
-      "lowest-seller": 795,
+      "buyers": 656,
+      "lowest-seller": 850,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 700,
-      "last-sold": 700,
-      "roi": 883,
-      "avg-price": 973
+      "highest-buyer": 838,
+      "last-sold": 800,
+      "roi": 944,
+      "avg-price": 972
     },
     "sales_history": [
       [
@@ -38003,9 +38223,17 @@
       [
         700,
         1710298071.0589776
+      ],
+      [
+        778,
+        1710298566.2837732
+      ],
+      [
+        800,
+        1710300324.5550232
       ]
     ],
-    "updated": 1710298071.330808,
+    "updated": 1710300324.8169403,
     "sales-plot-path": "website/plots/pina colada r4-c.jpg"
   },
   "2c025c6c-cb6c-4b39-a5d0-c780e38b0fdc": {
@@ -38014,15 +38242,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=2c025c6c-cb6c-4b39-a5d0-c780e38b0fdc",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/c4958fd2_f774_d755_78fe_758cc00d77df.png",
     "data": {
-      "sellers": 34,
-      "buyers": 11,
-      "lowest-seller": 800,
+      "sellers": 35,
+      "buyers": 12,
+      "lowest-seller": 799,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 450,
-      "last-sold": 698,
-      "roi": 888,
-      "avg-price": 802
+      "highest-buyer": 500,
+      "last-sold": 690,
+      "roi": 887,
+      "avg-price": 800
     },
     "sales_history": [
       [
@@ -38264,9 +38492,13 @@
       [
         698,
         1710294558.7531843
+      ],
+      [
+        690,
+        1710300325.142603
       ]
     ],
-    "updated": 1710294559.091314,
+    "updated": 1710300325.380907,
     "sales-plot-path": "website/plots/team vitality 2018 l85a2.jpg"
   },
   "86732732-a1d3-40ed-9334-0886dd2ba4bf": {
@@ -38275,15 +38507,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=86732732-a1d3-40ed-9334-0886dd2ba4bf",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/2704a82d_8b07_dcba_7510_d5735771fd5c.png",
     "data": {
-      "sellers": 180,
-      "buyers": 60,
-      "lowest-seller": 599,
+      "sellers": 181,
+      "buyers": 58,
+      "lowest-seller": 550,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 500,
-      "last-sold": 600,
-      "roi": 665,
-      "avg-price": 720
+      "highest-buyer": 460,
+      "last-sold": 450,
+      "roi": 611,
+      "avg-price": 718
     },
     "sales_history": [
       [
@@ -39069,9 +39301,17 @@
       [
         600,
         1710296438.2674408
+      ],
+      [
+        599,
+        1710298567.2468956
+      ],
+      [
+        450,
+        1710300325.7221463
       ]
     ],
-    "updated": 1710298072.020978,
+    "updated": 1710300326.0429323,
     "sales-plot-path": "website/plots/rogue 2018 c8-sfw.jpg"
   },
   "1b2cabb5-5040-45a6-83af-07e783f838f4": {
@@ -39081,14 +39321,14 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/0bfab20d_d577_4564_1506_a3e457cd6875.png",
     "data": {
       "sellers": 192,
-      "buyers": 79,
-      "lowest-seller": 475,
+      "buyers": 80,
+      "lowest-seller": 480,
       "highest-seller": 35000,
       "lowest-buyer": 120,
-      "highest-buyer": 353,
-      "last-sold": 400,
-      "roi": 527,
-      "avg-price": 625
+      "highest-buyer": 475,
+      "last-sold": 475,
+      "roi": 533,
+      "avg-price": 624
     },
     "sales_history": [
       [
@@ -39830,9 +40070,13 @@
       [
         400,
         1710298072.3810022
+      ],
+      [
+        475,
+        1710298567.7833397
       ]
     ],
-    "updated": 1710298072.6336634,
+    "updated": 1710300326.357515,
     "sales-plot-path": "website/plots/rusty trigger.jpg"
   },
   "af7fceaa-d330-4473-b020-17d4a235820b": {
@@ -39841,15 +40085,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=af7fceaa-d330-4473-b020-17d4a235820b",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/e588f2a7_5124_63a9_0131_0c1fe0740b0f.png",
     "data": {
-      "sellers": 134,
-      "buyers": 27,
-      "lowest-seller": 399,
+      "sellers": 137,
+      "buyers": 29,
+      "lowest-seller": 380,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 350,
-      "last-sold": 400,
-      "roi": 443,
-      "avg-price": 584
+      "highest-buyer": 345,
+      "last-sold": 350,
+      "roi": 422,
+      "avg-price": 582
     },
     "sales_history": [
       [
@@ -40651,9 +40895,13 @@
       [
         400,
         1710298072.984053
+      ],
+      [
+        350,
+        1710300326.6773517
       ]
     ],
-    "updated": 1710298073.2508898,
+    "updated": 1710300326.946048,
     "sales-plot-path": "website/plots/cloud9 2019 mpx.jpg"
   },
   "409e1e54-2619-4249-a666-1bde191fc357": {
@@ -40662,15 +40910,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=409e1e54-2619-4249-a666-1bde191fc357",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/5bca1584_be14_0f9d_3a87_b9b69231f200.png",
     "data": {
-      "sellers": 78,
-      "buyers": 10,
-      "lowest-seller": 540,
+      "sellers": 77,
+      "buyers": 11,
+      "lowest-seller": 549,
       "highest-seller": 90000,
       "lowest-buyer": 120,
-      "highest-buyer": 350,
-      "last-sold": 500,
-      "roi": 600,
-      "avg-price": 631
+      "highest-buyer": 500,
+      "last-sold": 540,
+      "roi": 610,
+      "avg-price": 630
     },
     "sales_history": [
       [
@@ -41196,9 +41444,13 @@
       [
         500,
         1710293784.0830843
+      ],
+      [
+        540,
+        1710300327.3159826
       ]
     ],
-    "updated": 1710298073.567965,
+    "updated": 1710300327.5543466,
     "sales-plot-path": "website/plots/penta 2019 f2.jpg"
   },
   "54ec1b9f-4803-4b5a-8066-7637a63c2d55": {
@@ -41207,14 +41459,14 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=54ec1b9f-4803-4b5a-8066-7637a63c2d55",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/f3fd026d_224d_c5fe_5b90_1f1f26330b97.png",
     "data": {
-      "sellers": 75,
-      "buyers": 22,
-      "lowest-seller": 599,
+      "sellers": 76,
+      "buyers": 21,
+      "lowest-seller": 560,
       "highest-seller": 100000,
       "lowest-buyer": 120,
       "highest-buyer": 650,
-      "last-sold": 556,
-      "roi": 665,
+      "last-sold": 587,
+      "roi": 622,
       "avg-price": 627
     },
     "sales_history": [
@@ -41629,9 +41881,17 @@
       [
         556,
         1710298073.9366019
+      ],
+      [
+        599,
+        1710298569.082556
+      ],
+      [
+        587,
+        1710300327.8712568
       ]
     ],
-    "updated": 1710298074.1664457,
+    "updated": 1710300328.1004646,
     "sales-plot-path": "website/plots/sk gaming 2018 f2.jpg"
   },
   "0bee3c0b-9983-4c06-bab1-d015db5bf911": {
@@ -42042,15 +42302,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=52908579-6503-ed1c-5fe0-b6723c72f1e1",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/29c73335_24b2_44cd_4a59_d3aedd97c876.png",
     "data": {
-      "sellers": 605,
-      "buyers": 433,
-      "lowest-seller": 690,
+      "sellers": 595,
+      "buyers": 439,
+      "lowest-seller": 700,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 620,
-      "last-sold": 680,
-      "roi": 766,
-      "avg-price": 946
+      "highest-buyer": 660,
+      "last-sold": 700,
+      "roi": 777,
+      "avg-price": 945
     },
     "sales_history": [
       [
@@ -43456,9 +43716,13 @@
       [
         680,
         1710298098.168274
+      ],
+      [
+        700,
+        1710298587.0397809
       ]
     ],
-    "updated": 1710298098.4256394,
+    "updated": 1710300349.397715,
     "sales-plot-path": "website/plots/search and rescue.jpg"
   },
   "cc19c2be-e7c0-cd41-23a9-8b5e5a794ed5": {
@@ -43467,15 +43731,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=cc19c2be-e7c0-cd41-23a9-8b5e5a794ed5",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/80e69597_2b9b_adf4_bca5_f334001bd6d5.png",
     "data": {
-      "sellers": 133,
-      "buyers": 112,
-      "lowest-seller": 330,
+      "sellers": 135,
+      "buyers": 115,
+      "lowest-seller": 310,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 250,
-      "last-sold": 300,
-      "roi": 366,
-      "avg-price": 542
+      "highest-buyer": 290,
+      "last-sold": 320,
+      "roi": 344,
+      "avg-price": 541
     },
     "sales_history": [
       [
@@ -44357,9 +44621,13 @@
       [
         300,
         1710296465.0985396
+      ],
+      [
+        320,
+        1710300349.7257178
       ]
     ],
-    "updated": 1710298098.7276423,
+    "updated": 1710300349.9554412,
     "sales-plot-path": "website/plots/symbol shambles.jpg"
   },
   "e6dfa52c-91f1-4599-b90e-6ece97c4c108": {
@@ -44369,7 +44637,7 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/9d2fb93f_d1f3_4ec3_8a2a_49691ad4ba79.png",
     "data": {
       "sellers": 0,
-      "buyers": 82,
+      "buyers": 81,
       "lowest-seller": "No data",
       "highest-seller": "No data",
       "lowest-buyer": 120,
@@ -44388,7 +44656,7 @@
         1710033110.2527745
       ]
     ],
-    "updated": 1710298093.2905939,
+    "updated": 1710300344.6911042,
     "sales-plot-path": "website/plots/six invitational player 2018.jpg"
   },
   "b3ffe45f-9311-40d5-8bcd-99d41fa59baf": {
@@ -44423,7 +44691,7 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/2287fd08_86b7_4df2_93e3_3e283243bbed.png",
     "data": {
       "sellers": 0,
-      "buyers": 258,
+      "buyers": 257,
       "lowest-seller": "No data",
       "highest-seller": "No data",
       "lowest-buyer": 120,
@@ -44442,7 +44710,7 @@
         1710294579.1524034
       ]
     ],
-    "updated": 1710295568.0367393,
+    "updated": 1710300345.3546126,
     "sales-plot-path": "website/plots/six invitational vip 2018.jpg"
   },
   "01f4eede-f200-4845-a307-5c6d15ecae43": {
@@ -44467,7 +44735,7 @@
         1709579785.1416264
       ]
     ],
-    "updated": 1710296459.532724,
+    "updated": 1710300345.7143447,
     "sales-plot-path": "website/plots/six invitational vip 2019.jpg"
   },
   "56c63c8b-4a91-4ed7-9e9a-1df0e7565434": {
@@ -44694,15 +44962,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=1a76912d-f313-43a6-b884-8d43c5b1d22f",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/40e7a6da_7004_0318_901a_1ef2d5b86d72.png",
     "data": {
-      "sellers": 21,
-      "buyers": 7,
-      "lowest-seller": 1100,
+      "sellers": 22,
+      "buyers": 6,
+      "lowest-seller": 1000,
       "highest-seller": 50000,
       "lowest-buyer": 120,
-      "highest-buyer": 800,
-      "last-sold": 900,
-      "roi": 1222,
-      "avg-price": 1709
+      "highest-buyer": 600,
+      "last-sold": 800,
+      "roi": 1111,
+      "avg-price": 1681
     },
     "sales_history": [
       [
@@ -44832,9 +45100,13 @@
       [
         900,
         1710298056.7511635
+      ],
+      [
+        800,
+        1710300310.1505852
       ]
     ],
-    "updated": 1710298056.9648213,
+    "updated": 1710300310.4125047,
     "sales-plot-path": "website/plots/service stripe headgear.jpg"
   },
   "fc213d4c-1755-436f-aeb5-a143cfc51bb4": {
@@ -44843,14 +45115,14 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=fc213d4c-1755-436f-aeb5-a143cfc51bb4",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/e2b8fb9e_36e9_445f_09f0_ed4fb191294f.png",
     "data": {
-      "sellers": 24,
+      "sellers": 25,
       "buyers": 11,
-      "lowest-seller": 1850,
+      "lowest-seller": 1500,
       "highest-seller": 10000,
       "lowest-buyer": 170,
       "highest-buyer": 1200,
       "last-sold": 1300,
-      "roi": 2055,
+      "roi": 1666,
       "avg-price": 1770
     },
     "sales_history": [
@@ -45039,7 +45311,7 @@
         1710296420.7229295
       ]
     ],
-    "updated": 1710296421.0309153,
+    "updated": 1710300310.7569034,
     "sales-plot-path": "website/plots/hive headgear.jpg"
   },
   "7c426b33-6291-4579-b0e7-bfc7cb1157c2": {
@@ -45426,15 +45698,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=8ce711bc-1237-48db-9d58-715cd7294d12",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/5a4bd5cf_eb44_ed8d_8e3d_3fc0a924cba3.png",
     "data": {
-      "sellers": 29,
+      "sellers": 30,
       "buyers": 8,
-      "lowest-seller": 1000,
+      "lowest-seller": 800,
       "highest-seller": 17000,
       "lowest-buyer": 120,
       "highest-buyer": 500,
-      "last-sold": 600,
-      "roi": 1111,
-      "avg-price": 1083
+      "last-sold": 300,
+      "roi": 888,
+      "avg-price": 1062
     },
     "sales_history": [
       [
@@ -45580,9 +45852,13 @@
       [
         600,
         1710298058.378353
+      ],
+      [
+        300,
+        1710298553.5444336
       ]
     ],
-    "updated": 1710298058.6214898,
+    "updated": 1710300311.7842858,
     "sales-plot-path": "website/plots/hornet headgear.jpg"
   },
   "8021ab5c-1391-4f64-bd86-204e6fcd9f8c": {
@@ -45591,15 +45867,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=8021ab5c-1391-4f64-bd86-204e6fcd9f8c",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/6260f136_f55c_75c8_bff0_bee07de95822.png",
     "data": {
-      "sellers": 20,
+      "sellers": 21,
       "buyers": 3,
-      "lowest-seller": 1000,
+      "lowest-seller": 800,
       "highest-seller": 20000,
       "lowest-buyer": 500,
       "highest-buyer": 500,
-      "last-sold": 1000,
-      "roi": 1111,
-      "avg-price": 1148
+      "last-sold": 900,
+      "roi": 888,
+      "avg-price": 1138
     },
     "sales_history": [
       [
@@ -45697,9 +45973,13 @@
       [
         1000,
         1710291670.4044063
+      ],
+      [
+        900,
+        1710300312.1411946
       ]
     ],
-    "updated": 1710298058.9212947,
+    "updated": 1710300312.370688,
     "sales-plot-path": "website/plots/zitadel headgear.jpg"
   },
   "0f099caf-61c4-4228-934e-e803af1e918b": {
@@ -45708,15 +45988,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=0f099caf-61c4-4228-934e-e803af1e918b",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/157ff79b_9d19_d48a_a936_9bf0f214df39.png",
     "data": {
-      "sellers": 60,
-      "buyers": 57,
-      "lowest-seller": 750,
-      "highest-seller": 4000,
+      "sellers": 57,
+      "buyers": 56,
+      "lowest-seller": 800,
+      "highest-seller": 9000,
       "lowest-buyer": 120,
       "highest-buyer": 574,
-      "last-sold": 750,
-      "roi": 833,
-      "avg-price": 943
+      "last-sold": 800,
+      "roi": 888,
+      "avg-price": 942
     },
     "sales_history": [
       [
@@ -46210,9 +46490,13 @@
       [
         750,
         1710298059.2299142
+      ],
+      [
+        800,
+        1710300312.7333837
       ]
     ],
-    "updated": 1710298059.4652987,
+    "updated": 1710300312.9596965,
     "sales-plot-path": "website/plots/galactic membrane uniform.jpg"
   },
   "97cd7812-9e29-412f-ae5d-ce071a190afb": {
@@ -46304,13 +46588,13 @@
     "data": {
       "sellers": 61,
       "buyers": 34,
-      "lowest-seller": 460,
+      "lowest-seller": 400,
       "highest-seller": 4000,
       "lowest-buyer": 120,
       "highest-buyer": 390,
-      "last-sold": 450,
-      "roi": 511,
-      "avg-price": 705
+      "last-sold": 460,
+      "roi": 444,
+      "avg-price": 702
     },
     "sales_history": [
       [
@@ -46660,9 +46944,13 @@
       [
         450,
         1710296423.604508
+      ],
+      [
+        460,
+        1710300313.6519027
       ]
     ],
-    "updated": 1710298060.098598,
+    "updated": 1710300313.8548248,
     "sales-plot-path": "website/plots/lightspeed uniform jackal.jpg"
   },
   "7ea0bf59-36b4-48c7-871e-09c158f886eb": {
@@ -46676,7 +46964,7 @@
       "lowest-seller": 600,
       "highest-seller": 42050,
       "lowest-buyer": 120,
-      "highest-buyer": 350,
+      "highest-buyer": 366,
       "last-sold": 625,
       "roi": 666,
       "avg-price": 693
@@ -46979,7 +47267,7 @@
         1710296424.1480143
       ]
     ],
-    "updated": 1710298060.4067955,
+    "updated": 1710300314.1757054,
     "sales-plot-path": "website/plots/space age uniform.jpg"
   },
   "ac380f05-31cd-477f-9898-72c62cfa1b31": {
@@ -46989,14 +47277,14 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/20171379_712c_ebea_5977_c76b62a8d77c.png",
     "data": {
       "sellers": 31,
-      "buyers": 7,
-      "lowest-seller": 600,
+      "buyers": 6,
+      "lowest-seller": 749,
       "highest-seller": 8000,
       "lowest-buyer": 120,
-      "highest-buyer": 400,
-      "last-sold": 700,
-      "roi": 666,
-      "avg-price": 673
+      "highest-buyer": 218,
+      "last-sold": 650,
+      "roi": 832,
+      "avg-price": 671
     },
     "sales_history": [
       [
@@ -47258,9 +47546,17 @@
       [
         700,
         1710293770.5781994
+      ],
+      [
+        600,
+        1710298555.810158
+      ],
+      [
+        650,
+        1710300314.5743506
       ]
     ],
-    "updated": 1710298060.7077353,
+    "updated": 1710300314.8278499,
     "sales-plot-path": "website/plots/nora rengo 2019 uniform.jpg"
   },
   "549c8565-a0dd-41dc-bc81-d2c3348abfe0": {
@@ -47269,15 +47565,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=549c8565-a0dd-41dc-bc81-d2c3348abfe0",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/2fc78c94_6f8e_e26c_24e0_5ce4b6a76c50.png",
     "data": {
-      "sellers": 280,
-      "buyers": 75,
-      "lowest-seller": 430,
+      "sellers": 282,
+      "buyers": 73,
+      "lowest-seller": 399,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 300,
-      "last-sold": 400,
-      "roi": 477,
-      "avg-price": 602
+      "last-sold": 450,
+      "roi": 443,
+      "avg-price": 601
     },
     "sales_history": [
       [
@@ -48139,9 +48435,13 @@
       [
         400,
         1710296425.2441752
+      ],
+      [
+        450,
+        1710298556.377833
       ]
     ],
-    "updated": 1710298061.0850105,
+    "updated": 1710300315.129419,
     "sales-plot-path": "website/plots/operative status uniform.jpg"
   },
   "2012a167-c9b1-404e-b41b-65fefea37ee4": {
@@ -48150,15 +48450,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=2012a167-c9b1-404e-b41b-65fefea37ee4",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/d538ccf2_7d40_1a3f_48fc_bc05ec307e08.png",
     "data": {
-      "sellers": 54,
-      "buyers": 16,
-      "lowest-seller": 480,
+      "sellers": 53,
+      "buyers": 15,
+      "lowest-seller": 500,
       "highest-seller": 2200,
       "lowest-buyer": 120,
-      "highest-buyer": 400,
-      "last-sold": 400,
-      "roi": 533,
-      "avg-price": 616
+      "highest-buyer": 361,
+      "last-sold": 480,
+      "roi": 555,
+      "avg-price": 614
     },
     "sales_history": [
       [
@@ -48552,9 +48852,13 @@
       [
         400,
         1710298061.380682
+      ],
+      [
+        480,
+        1710298556.954723
       ]
     ],
-    "updated": 1710298061.6460335,
+    "updated": 1710298557.186676,
     "sales-plot-path": "website/plots/lightspeed uniform ela.jpg"
   },
   "47094175-6284-4a8e-af3d-5de72d5c2d32": {
@@ -48563,15 +48867,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=47094175-6284-4a8e-af3d-5de72d5c2d32",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/e7e722e5_618f_f2a5_309a_220b51f36fb6.png",
     "data": {
-      "sellers": 20,
+      "sellers": 18,
       "buyers": 3,
       "lowest-seller": 400,
       "highest-seller": 4000,
-      "lowest-buyer": 120,
+      "lowest-buyer": 200,
       "highest-buyer": 200,
-      "last-sold": 375,
+      "last-sold": 400,
       "roi": 444,
-      "avg-price": 474
+      "avg-price": 472
     },
     "sales_history": [
       [
@@ -48761,9 +49065,13 @@
       [
         375,
         1710293771.969407
+      ],
+      [
+        400,
+        1710300315.739833
       ]
     ],
-    "updated": 1710293772.240582,
+    "updated": 1710300315.973185,
     "sales-plot-path": "website/plots/nora rengo 2019 headgear.jpg"
   },
   "30a0d04d-5a84-42df-a566-7403b46cb782": {
@@ -48772,15 +49080,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=30a0d04d-5a84-42df-a566-7403b46cb782",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/39fe13b9_385d_3a49_28ba_df1ede10d433.png",
     "data": {
-      "sellers": 262,
-      "buyers": 141,
-      "lowest-seller": 390,
+      "sellers": 260,
+      "buyers": 142,
+      "lowest-seller": 300,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 350,
-      "last-sold": 390,
-      "roi": 433,
-      "avg-price": 552
+      "highest-buyer": 290,
+      "last-sold": 290,
+      "roi": 333,
+      "avg-price": 550
     },
     "sales_history": [
       [
@@ -49682,9 +49990,17 @@
       [
         390,
         1710298062.302955
+      ],
+      [
+        380,
+        1710298557.8497434
+      ],
+      [
+        290,
+        1710300316.2683766
       ]
     ],
-    "updated": 1710298062.5304227,
+    "updated": 1710300316.4722023,
     "sales-plot-path": "website/plots/simulation course uniform.jpg"
   },
   "9a2e8eaa-3979-4861-9660-988530abc8d7": {
@@ -49693,14 +50009,14 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=9a2e8eaa-3979-4861-9660-988530abc8d7",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/009e9aa5_0911_2e52_b573_d10dc5a4ac11.png",
     "data": {
-      "sellers": 862,
-      "buyers": 231,
-      "lowest-seller": 400,
+      "sellers": 860,
+      "buyers": 229,
+      "lowest-seller": 390,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 300,
       "last-sold": 350,
-      "roi": 444,
+      "roi": 433,
       "avg-price": 558
     },
     "sales_history": [
@@ -50909,7 +51225,7 @@
         1710296426.8649504
       ]
     ],
-    "updated": 1710298062.8261685,
+    "updated": 1710300316.8251927,
     "sales-plot-path": "website/plots/the cheesen one headgear.jpg"
   },
   "a61e4a31-e292-487b-8b97-9ffd81d1f6a0": {
@@ -50918,15 +51234,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=a61e4a31-e292-487b-8b97-9ffd81d1f6a0",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/d4fcc4a5_9106_d68e_d59f_87356f097375.png",
     "data": {
-      "sellers": 61,
-      "buyers": 34,
-      "lowest-seller": 710,
+      "sellers": 60,
+      "buyers": 35,
+      "lowest-seller": 750,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 1099,
-      "last-sold": 600,
-      "roi": 788,
-      "avg-price": 887
+      "last-sold": 710,
+      "roi": 833,
+      "avg-price": 886
     },
     "sales_history": [
       [
@@ -51340,9 +51656,13 @@
       [
         600,
         1710298074.4643528
+      ],
+      [
+        710,
+        1710300328.4017675
       ]
     ],
-    "updated": 1710298074.675782,
+    "updated": 1710300328.6184375,
     "sales-plot-path": "website/plots/celerity 9x19vsn.jpg"
   },
   "a1a0f8e3-39c1-4a03-baf8-aa91476e02db": {
@@ -51351,15 +51671,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=a1a0f8e3-39c1-4a03-baf8-aa91476e02db",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/df2b5e6b_e019_b0db_2377_36eb2fb719cb.png",
     "data": {
-      "sellers": 510,
-      "buyers": 163,
-      "lowest-seller": 880,
+      "sellers": 512,
+      "buyers": 162,
+      "lowest-seller": 750,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 800,
-      "last-sold": 880,
-      "roi": 977,
-      "avg-price": 990
+      "highest-buyer": 650,
+      "last-sold": 750,
+      "roi": 833,
+      "avg-price": 988
     },
     "sales_history": [
       [
@@ -52209,9 +52529,13 @@
       [
         880,
         1710296441.0701976
+      ],
+      [
+        750,
+        1710300328.9168432
       ]
     ],
-    "updated": 1710298075.0563035,
+    "updated": 1710300329.1650724,
     "sales-plot-path": "website/plots/el dorado.jpg"
   },
   "f6055e33-b05d-4728-ae3e-a58af0620877": {
@@ -52220,14 +52544,14 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=f6055e33-b05d-4728-ae3e-a58af0620877",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/ded2c430_d721_a27e_076b_de32a83828e8.png",
     "data": {
-      "sellers": 64,
+      "sellers": 65,
       "buyers": 18,
-      "lowest-seller": 590,
+      "lowest-seller": 500,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 494,
       "last-sold": 500,
-      "roi": 655,
+      "roi": 555,
       "avg-price": 813
     },
     "sales_history": [
@@ -52608,7 +52932,7 @@
         1710298075.372058
       ]
     ],
-    "updated": 1710298075.5972521,
+    "updated": 1710300329.4815035,
     "sales-plot-path": "website/plots/celerity t-5 smg.jpg"
   },
   "5009d9a8-1684-4f3e-850c-85aa1de7ea28": {
@@ -52618,14 +52942,14 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/0dcadec8_6170_8c1d_8620_b606b1fc9d41.png",
     "data": {
       "sellers": 108,
-      "buyers": 27,
+      "buyers": 30,
       "lowest-seller": 520,
       "highest-seller": 100000,
       "lowest-buyer": 120,
-      "highest-buyer": 300,
-      "last-sold": 440,
+      "highest-buyer": 450,
+      "last-sold": 500,
       "roi": 577,
-      "avg-price": 627
+      "avg-price": 626
     },
     "sales_history": [
       [
@@ -53091,9 +53415,13 @@
       [
         440,
         1710298075.8971906
+      ],
+      [
+        500,
+        1710300329.8464813
       ]
     ],
-    "updated": 1710298076.1270745,
+    "updated": 1710300330.077693,
     "sales-plot-path": "website/plots/immortals 2018 vector .45 acp.jpg"
   },
   "93e6fd6f-6eb1-4ce5-9d41-b6675d4004b0": {
@@ -53102,15 +53430,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=93e6fd6f-6eb1-4ce5-9d41-b6675d4004b0",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/cb990a82_cb5a_9a8c_3e2c_c28991de2ddb.png",
     "data": {
-      "sellers": 34,
+      "sellers": 32,
       "buyers": 16,
-      "lowest-seller": 480,
+      "lowest-seller": 750,
       "highest-seller": 8500,
       "lowest-buyer": 120,
       "highest-buyer": 350,
-      "last-sold": 450,
-      "roi": 533,
-      "avg-price": 661
+      "last-sold": 712,
+      "roi": 833,
+      "avg-price": 662
     },
     "sales_history": [
       [
@@ -53380,9 +53708,13 @@
       [
         450,
         1710298076.4111438
+      ],
+      [
+        712,
+        1710300330.368857
       ]
     ],
-    "updated": 1710298076.6775854,
+    "updated": 1710300330.639114,
     "sales-plot-path": "website/plots/team empire 2019 mp5.jpg"
   },
   "5bc8a444-5c9c-4e12-920f-4aa026095649": {
@@ -53391,15 +53723,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=5bc8a444-5c9c-4e12-920f-4aa026095649",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/4c8edf2a_5292_8b85_ed4c_440353b4ccc1.png",
     "data": {
-      "sellers": 95,
-      "buyers": 26,
-      "lowest-seller": 400,
+      "sellers": 94,
+      "buyers": 27,
+      "lowest-seller": 500,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 350,
-      "last-sold": 350,
-      "roi": 444,
-      "avg-price": 626
+      "last-sold": 500,
+      "roi": 555,
+      "avg-price": 625
     },
     "sales_history": [
       [
@@ -53893,9 +54225,13 @@
       [
         350,
         1710298077.0212274
+      ],
+      [
+        500,
+        1710300331.0048382
       ]
     ],
-    "updated": 1710298077.3003638,
+    "updated": 1710300331.2257717,
     "sales-plot-path": "website/plots/mousesports 2018 k1a.jpg"
   },
   "4c15fbb0-d4a6-42d0-8aa0-bd2d78e3cba3": {
@@ -53904,15 +54240,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=4c15fbb0-d4a6-42d0-8aa0-bd2d78e3cba3",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/3cce3988_e384_6926_3dc3_ff634e165121.png",
     "data": {
-      "sellers": 106,
-      "buyers": 43,
+      "sellers": 107,
+      "buyers": 42,
       "lowest-seller": 450,
       "highest-seller": 130000,
       "lowest-buyer": 120,
       "highest-buyer": 324,
-      "last-sold": 350,
+      "last-sold": 300,
       "roi": 500,
-      "avg-price": 555
+      "avg-price": 553
     },
     "sales_history": [
       [
@@ -54482,9 +54818,13 @@
       [
         350,
         1710298077.6234655
+      ],
+      [
+        300,
+        1710298571.6022317
       ]
     ],
-    "updated": 1710298077.8618739,
+    "updated": 1710300331.5425687,
     "sales-plot-path": "website/plots/penta 2018 t-5 smg.jpg"
   },
   "674d9dd3-ea44-4a20-b136-afc7bfb014bb": {
@@ -54760,7 +55100,7 @@
       "lowest-seller": 470,
       "highest-seller": 25000,
       "lowest-buyer": 120,
-      "highest-buyer": 450,
+      "highest-buyer": 400,
       "last-sold": 400,
       "roi": 522,
       "avg-price": 593
@@ -55003,7 +55343,7 @@
         1710292748.711331
       ]
     ],
-    "updated": 1710298089.3122473,
+    "updated": 1710300341.2784789,
     "sales-plot-path": "website/plots/evil geniuses 2019 charm.jpg"
   },
   "919200c7-bd88-4ec7-8df6-806342a468e7": {
@@ -55012,15 +55352,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=919200c7-bd88-4ec7-8df6-806342a468e7",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/6574aa40_0d87_62be_4e92_9333ed72e4be.png",
     "data": {
-      "sellers": 104,
+      "sellers": 102,
       "buyers": 25,
-      "lowest-seller": 592,
+      "lowest-seller": 600,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 482,
-      "last-sold": 600,
-      "roi": 657,
-      "avg-price": 901
+      "last-sold": 592,
+      "roi": 666,
+      "avg-price": 898
     },
     "sales_history": [
       [
@@ -55470,9 +55810,13 @@
       [
         600,
         1710292756.6026464
+      ],
+      [
+        592,
+        1710300347.9819164
       ]
     ],
-    "updated": 1710298096.759393,
+    "updated": 1710300348.1958878,
     "sales-plot-path": "website/plots/six major paris diamond 2018.jpg"
   },
   "d3529ba1-34bd-45c0-bc1e-a780b9b82f11": {
@@ -55481,15 +55825,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=d3529ba1-34bd-45c0-bc1e-a780b9b82f11",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/b5de7df6_d70d_fccc_4c5c_9c11ffa468fb.png",
     "data": {
-      "sellers": 198,
-      "buyers": 9,
+      "sellers": 202,
+      "buyers": 10,
       "lowest-seller": 400,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 150,
-      "last-sold": 390,
+      "highest-buyer": 300,
+      "last-sold": 250,
       "roi": 444,
-      "avg-price": 469
+      "avg-price": 467
     },
     "sales_history": [
       [
@@ -56207,9 +56551,13 @@
       [
         390,
         1710298097.0894961
+      ],
+      [
+        250,
+        1710300348.5140905
       ]
     ],
-    "updated": 1710298097.3805013,
+    "updated": 1710300348.7693427,
     "sales-plot-path": "website/plots/usa pro league diamond charm.jpg"
   },
   "d9bbcc2e-0a75-1484-82dc-b51f2156b2a7": {
@@ -56218,15 +56566,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=d9bbcc2e-0a75-1484-82dc-b51f2156b2a7",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/ae9f3198_3538_3450_a9f2_454240f9e49f.png",
     "data": {
-      "sellers": 471,
-      "buyers": 352,
-      "lowest-seller": 420,
+      "sellers": 470,
+      "buyers": 345,
+      "lowest-seller": 400,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 400,
+      "highest-buyer": 350,
       "last-sold": 400,
-      "roi": 466,
-      "avg-price": 677
+      "roi": 444,
+      "avg-price": 675
     },
     "sales_history": [
       [
@@ -57532,9 +57880,17 @@
       [
         400,
         1710298099.0439951
+      ],
+      [
+        325,
+        1710298587.8657856
+      ],
+      [
+        400,
+        1710300350.2930038
       ]
     ],
-    "updated": 1710298099.2922974,
+    "updated": 1710300350.5554485,
     "sales-plot-path": "website/plots/magical shenanigans.jpg"
   },
   "5b044cba-cfa3-1116-7902-11df8c227c3a": {
@@ -57543,13 +57899,13 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=5b044cba-cfa3-1116-7902-11df8c227c3a",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/59ef9e6e_a473_3a57_b473_cd74fb19cb1e.png",
     "data": {
-      "sellers": 864,
+      "sellers": 861,
       "buyers": 554,
       "lowest-seller": 700,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 600,
-      "last-sold": 700,
+      "highest-buyer": 651,
+      "last-sold": 750,
       "roi": 777,
       "avg-price": 828
     },
@@ -58857,9 +59213,13 @@
       [
         700,
         1710296470.9067383
+      ],
+      [
+        750,
+        1710298591.6995187
       ]
     ],
-    "updated": 1710298102.8972108,
+    "updated": 1710300353.9908137,
     "sales-plot-path": "website/plots/black ice d-50.jpg"
   },
   "8e228819-e92d-7040-7639-95f8a3a5326d": {
@@ -58868,15 +59228,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=8e228819-e92d-7040-7639-95f8a3a5326d",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/2df9f3ba_e0f5_1e64_8c1e_071df6da3014.png",
     "data": {
-      "sellers": 841,
-      "buyers": 356,
-      "lowest-seller": 395,
+      "sellers": 842,
+      "buyers": 348,
+      "lowest-seller": 400,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 350,
-      "last-sold": 390,
-      "roi": 438,
-      "avg-price": 657
+      "highest-buyer": 365,
+      "last-sold": 400,
+      "roi": 444,
+      "avg-price": 656
     },
     "sales_history": [
       [
@@ -60190,9 +60550,13 @@
       [
         390,
         1710298103.2065833
+      ],
+      [
+        400,
+        1710298592.2673538
       ]
     ],
-    "updated": 1710298103.4589717,
+    "updated": 1710300354.281083,
     "sales-plot-path": "website/plots/black ice mp5sd.jpg"
   },
   "2277092f-38a6-e908-8856-eb827ee97b91": {
@@ -60202,14 +60566,14 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/247dcd98_005c_f0ce_8d26_78b962ba3772.png",
     "data": {
       "sellers": 691,
-      "buyers": 377,
-      "lowest-seller": 480,
+      "buyers": 380,
+      "lowest-seller": 475,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 500,
-      "last-sold": 500,
-      "roi": 533,
-      "avg-price": 611
+      "last-sold": 400,
+      "roi": 527,
+      "avg-price": 610
     },
     "sales_history": [
       [
@@ -61511,9 +61875,13 @@
       [
         500,
         1710296471.8291502
+      ],
+      [
+        400,
+        1710300354.5820136
       ]
     ],
-    "updated": 1710298103.8150165,
+    "updated": 1710300354.8264265,
     "sales-plot-path": "website/plots/black ice para-308.jpg"
   },
   "2efcd20b-01d7-8a87-1e5b-f180ccca7cdc": {
@@ -61522,15 +61890,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=2efcd20b-01d7-8a87-1e5b-f180ccca7cdc",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/ef347d88_ad78_da06_6248_d40fd1b6b6cf.png",
     "data": {
-      "sellers": 563,
-      "buyers": 478,
+      "sellers": 561,
+      "buyers": 476,
       "lowest-seller": 480,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 800,
-      "last-sold": 500,
+      "last-sold": 450,
       "roi": 533,
-      "avg-price": 654
+      "avg-price": 653
     },
     "sales_history": [
       [
@@ -62812,9 +63180,17 @@
       [
         500,
         1710298104.1236053
+      ],
+      [
+        499,
+        1710298593.1805544
+      ],
+      [
+        450,
+        1710300355.1378975
       ]
     ],
-    "updated": 1710298104.4295366,
+    "updated": 1710300355.4438314,
     "sales-plot-path": "website/plots/black ice bailiff 410.jpg"
   },
   "bad3a152-574a-7a8c-d22c-9a6d9bd68dd5": {
@@ -62823,15 +63199,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=bad3a152-574a-7a8c-d22c-9a6d9bd68dd5",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/321b3ee5_1453_bc7d_cf44_b4dc80216f54.png",
     "data": {
-      "sellers": 1709,
-      "buyers": 538,
-      "lowest-seller": 399,
+      "sellers": 1701,
+      "buyers": 540,
+      "lowest-seller": 400,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 500,
-      "last-sold": 350,
-      "roi": 443,
-      "avg-price": 545
+      "last-sold": 355,
+      "roi": 444,
+      "avg-price": 544
     },
     "sales_history": [
       [
@@ -64425,9 +64801,17 @@
       [
         350,
         1710298104.7503526
+      ],
+      [
+        400,
+        1710298593.8148031
+      ],
+      [
+        355,
+        1710300355.9080145
       ]
     ],
-    "updated": 1710298105.0021882,
+    "updated": 1710300356.1551971,
     "sales-plot-path": "website/plots/black ice mk 14 ebr.jpg"
   },
   "be19856c-9918-44dc-8c2a-167af3b7e563": {
@@ -64436,15 +64820,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=be19856c-9918-44dc-8c2a-167af3b7e563",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/94dcb63b_b340_4aa7_bb4c_89d3dfd148aa.png",
     "data": {
-      "sellers": 36,
+      "sellers": 35,
       "buyers": 5,
-      "lowest-seller": 448,
+      "lowest-seller": 450,
       "highest-seller": 3334,
       "lowest-buyer": 120,
       "highest-buyer": 386,
-      "last-sold": 400,
-      "roi": 497,
-      "avg-price": 633
+      "last-sold": 448,
+      "roi": 500,
+      "avg-price": 630
     },
     "sales_history": [
       [
@@ -64686,9 +65070,13 @@
       [
         400,
         1710296427.9908626
+      ],
+      [
+        448,
+        1710298558.7570813
       ]
     ],
-    "updated": 1710298063.1727426,
+    "updated": 1710298559.040635,
     "sales-plot-path": "website/plots/rogue 2018 headgear.jpg"
   },
   "28b6d2b9-a89b-4d3c-9862-42dcbb1e0096": {
@@ -64698,14 +65086,14 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/2ebfd549_dbe7_fda9_d79f_48e91aef21b4.png",
     "data": {
       "sellers": 55,
-      "buyers": 24,
-      "lowest-seller": 499,
+      "buyers": 23,
+      "lowest-seller": 399,
       "highest-seller": 2500,
       "lowest-buyer": 120,
-      "highest-buyer": 400,
-      "last-sold": 500,
-      "roi": 554,
-      "avg-price": 572
+      "highest-buyer": 339,
+      "last-sold": 400,
+      "roi": 443,
+      "avg-price": 570
     },
     "sales_history": [
       [
@@ -65059,9 +65447,13 @@
       [
         500,
         1710293774.161078
+      ],
+      [
+        400,
+        1710298559.4768784
       ]
     ],
-    "updated": 1710298063.4810083,
+    "updated": 1710300317.4256973,
     "sales-plot-path": "website/plots/samurai 2.0 headgear.jpg"
   },
   "4102fe09-aba9-47ef-ba05-89119f9d3e6c": {
@@ -65070,15 +65462,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=4102fe09-aba9-47ef-ba05-89119f9d3e6c",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/6fbb77aa_c80c_5d75_0f47_4d017fba55d6.png",
     "data": {
-      "sellers": 48,
+      "sellers": 46,
       "buyers": 11,
-      "lowest-seller": 550,
+      "lowest-seller": 600,
       "highest-seller": 6000,
       "lowest-buyer": 120,
       "highest-buyer": 400,
-      "last-sold": 500,
-      "roi": 611,
-      "avg-price": 670
+      "last-sold": 600,
+      "roi": 666,
+      "avg-price": 669
     },
     "sales_history": [
       [
@@ -65464,9 +65856,13 @@
       [
         500,
         1710298063.8183627
+      ],
+      [
+        600,
+        1710300317.7381291
       ]
     ],
-    "updated": 1710298064.109409,
+    "updated": 1710300317.9821537,
     "sales-plot-path": "website/plots/natus vincere 2019 uniform.jpg"
   },
   "21025524-bc75-48fa-b745-40b54a464184": {
@@ -65475,15 +65871,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=21025524-bc75-48fa-b745-40b54a464184",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/41e784d3_699d_9f4c_4f1d_d6f65a39b726.png",
     "data": {
-      "sellers": 18,
-      "buyers": 5,
-      "lowest-seller": 600,
+      "sellers": 16,
+      "buyers": 4,
+      "lowest-seller": 700,
       "highest-seller": 1750,
       "lowest-buyer": 120,
-      "highest-buyer": 400,
-      "last-sold": 650,
-      "roi": 666,
-      "avg-price": 704
+      "highest-buyer": 320,
+      "last-sold": 700,
+      "roi": 777,
+      "avg-price": 703
     },
     "sales_history": [
       [
@@ -65793,9 +66189,17 @@
       [
         650,
         1710298064.4159532
+      ],
+      [
+        599,
+        1710298560.392264
+      ],
+      [
+        700,
+        1710300318.3391647
       ]
     ],
-    "updated": 1710298064.6575532,
+    "updated": 1710300318.5812275,
     "sales-plot-path": "website/plots/natus vincere 2019 headgear.jpg"
   },
   "351f58d2-5138-4fa9-80fc-907c4feb6c08": {
@@ -65804,14 +66208,14 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=351f58d2-5138-4fa9-80fc-907c4feb6c08",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/7f772300_a2d2_70f9_d7c1_b2bb02408232.png",
     "data": {
-      "sellers": 57,
+      "sellers": 56,
       "buyers": 5,
-      "lowest-seller": 399,
+      "lowest-seller": 380,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 299,
       "last-sold": 360,
-      "roi": 443,
+      "roi": 422,
       "avg-price": 467
     },
     "sales_history": [
@@ -66096,7 +66500,7 @@
         1710295538.3023896
       ]
     ],
-    "updated": 1710298065.0043206,
+    "updated": 1710300318.913349,
     "sales-plot-path": "website/plots/six invitational 2020 headgear.jpg"
   },
   "5a514d68-4d46-4ca8-95a9-b643f0fdafd7": {
@@ -66106,11 +66510,11 @@
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/075054f6_a7aa_274f_33f0_299f29049f9e.png",
     "data": {
       "sellers": 66,
-      "buyers": 10,
+      "buyers": 12,
       "lowest-seller": 375,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 175,
+      "highest-buyer": 350,
       "last-sold": 375,
       "roi": 416,
       "avg-price": 437
@@ -66417,7 +66821,7 @@
         1710295538.913601
       ]
     ],
-    "updated": 1710298065.3339524,
+    "updated": 1710300319.2029629,
     "sales-plot-path": "website/plots/six invitational 2020 uniform.jpg"
   },
   "fbf7c947-0b8f-4fbb-8e42-9c9b83a3d411": {
@@ -66426,15 +66830,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=fbf7c947-0b8f-4fbb-8e42-9c9b83a3d411",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/2dbaa869_0f45_8a9c_0005_ae9446146264.png",
     "data": {
-      "sellers": 87,
-      "buyers": 12,
+      "sellers": 90,
+      "buyers": 14,
       "lowest-seller": 440,
       "highest-seller": 50000,
       "lowest-buyer": 120,
-      "highest-buyer": 260,
-      "last-sold": 300,
+      "highest-buyer": 424,
+      "last-sold": 350,
       "roi": 488,
-      "avg-price": 520
+      "avg-price": 519
     },
     "sales_history": [
       [
@@ -66972,9 +67376,13 @@
       [
         300,
         1710298078.2271156
+      ],
+      [
+        350,
+        1710300331.8746223
       ]
     ],
-    "updated": 1710298078.4732769,
+    "updated": 1710300332.1137757,
     "sales-plot-path": "website/plots/cloud9 2019 416-c carbine.jpg"
   },
   "90f65576-65d9-454b-b44d-632c292faaa3": {
@@ -66983,15 +67391,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=90f65576-65d9-454b-b44d-632c292faaa3",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/c1400536_c1e9_0c8e_0843_e2dadf16e1d7.png",
     "data": {
-      "sellers": 58,
+      "sellers": 59,
       "buyers": 22,
-      "lowest-seller": 420,
+      "lowest-seller": 490,
       "highest-seller": 30000,
       "lowest-buyer": 120,
       "highest-buyer": 400,
-      "last-sold": 410,
-      "roi": 466,
-      "avg-price": 605
+      "last-sold": 520,
+      "roi": 544,
+      "avg-price": 603
     },
     "sales_history": [
       [
@@ -67465,9 +67873,17 @@
       [
         410,
         1710298078.8202121
+      ],
+      [
+        420,
+        1710298572.4609287
+      ],
+      [
+        520,
+        1710300332.409698
       ]
     ],
-    "updated": 1710298079.0701003,
+    "updated": 1710300332.6531177,
     "sales-plot-path": "website/plots/evil geniuses 2018 ump45.jpg"
   },
   "3057e49c-8f4f-40ee-a552-bace6b0b36ba": {
@@ -67476,15 +67892,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=3057e49c-8f4f-40ee-a552-bace6b0b36ba",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/7bcc5480_9f87_7cdb_163c_9b045fe5dc37.png",
     "data": {
-      "sellers": 17,
+      "sellers": 16,
       "buyers": 8,
-      "lowest-seller": 600,
+      "lowest-seller": 650,
       "highest-seller": 5100,
       "lowest-buyer": 147,
       "highest-buyer": 350,
-      "last-sold": 400,
-      "roi": 666,
-      "avg-price": 499
+      "last-sold": 600,
+      "roi": 722,
+      "avg-price": 502
     },
     "sales_history": [
       [
@@ -67646,9 +68062,13 @@
       [
         400,
         1710298079.378239
+      ],
+      [
+        600,
+        1710300332.97557
       ]
     ],
-    "updated": 1710298079.6496017,
+    "updated": 1710300333.2633722,
     "sales-plot-path": "website/plots/natus vincere 2019 556xi.jpg"
   },
   "4cf8bb88-6b03-4c64-b882-13045fa03949": {
@@ -67657,15 +68077,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=4cf8bb88-6b03-4c64-b882-13045fa03949",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/cf665f87_0c2b_4288_3b69_cd4a4b354dfb.png",
     "data": {
-      "sellers": 245,
-      "buyers": 123,
-      "lowest-seller": 500,
+      "sellers": 248,
+      "buyers": 124,
+      "lowest-seller": 420,
       "highest-seller": 35000,
       "lowest-buyer": 120,
       "highest-buyer": 341,
-      "last-sold": 500,
-      "roi": 555,
-      "avg-price": 561
+      "last-sold": 410,
+      "roi": 466,
+      "avg-price": 560
     },
     "sales_history": [
       [
@@ -68855,9 +69275,13 @@
       [
         500,
         1710298080.1827874
+      ],
+      [
+        410,
+        1710300333.5559611
       ]
     ],
-    "updated": 1710298080.4196324,
+    "updated": 1710300333.7936308,
     "sales-plot-path": "website/plots/ocean's teeth.jpg"
   },
   "be4b9eff-5348-4564-8dc6-53010af1c16c": {
@@ -68866,15 +69290,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=be4b9eff-5348-4564-8dc6-53010af1c16c",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/960466ee_3f42_e329_9297_6aee13c38176.png",
     "data": {
-      "sellers": 177,
-      "buyers": 67,
-      "lowest-seller": 420,
+      "sellers": 179,
+      "buyers": 66,
+      "lowest-seller": 390,
       "highest-seller": 35000,
       "lowest-buyer": 120,
       "highest-buyer": 275,
-      "last-sold": 420,
-      "roi": 466,
-      "avg-price": 480
+      "last-sold": 200,
+      "roi": 433,
+      "avg-price": 479
     },
     "sales_history": [
       [
@@ -69512,9 +69936,13 @@
       [
         420,
         1710298080.8107996
+      ],
+      [
+        200,
+        1710300334.0854168
       ]
     ],
-    "updated": 1710298081.0567613,
+    "updated": 1710300334.3339972,
     "sales-plot-path": "website/plots/carnevale.jpg"
   },
   "5ad80564-31f0-4a33-9577-b515e699b911": {
@@ -69523,15 +69951,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=5ad80564-31f0-4a33-9577-b515e699b911",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/428f0f0c_7b4c_a749_1853_dad21ced56f6.png",
     "data": {
-      "sellers": 31,
+      "sellers": 30,
       "buyers": 10,
       "lowest-seller": 400,
       "highest-seller": 3300,
       "lowest-buyer": 120,
       "highest-buyer": 200,
-      "last-sold": 300,
+      "last-sold": 399,
       "roi": 444,
-      "avg-price": 445
+      "avg-price": 443
     },
     "sales_history": [
       [
@@ -69757,9 +70185,17 @@
       [
         300,
         1710295556.0198505
+      ],
+      [
+        400,
+        1710298574.1183214
+      ],
+      [
+        399,
+        1710300334.6864994
       ]
     ],
-    "updated": 1710298081.4125695,
+    "updated": 1710300334.9308722,
     "sales-plot-path": "website/plots/nora rengo 2019 c7e.jpg"
   },
   "fb00cd0c-0983-4683-b93d-4f5d6e5ab295": {
@@ -69768,15 +70204,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=fb00cd0c-0983-4683-b93d-4f5d6e5ab295",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/054d52b6_f7f3_b835_d75c_a0b89f72c747.png",
     "data": {
-      "sellers": 153,
-      "buyers": 12,
+      "sellers": 155,
+      "buyers": 13,
       "lowest-seller": 390,
       "highest-seller": 50000,
       "lowest-buyer": 120,
       "highest-buyer": 250,
-      "last-sold": 380,
+      "last-sold": 300,
       "roi": 433,
-      "avg-price": 467
+      "avg-price": 466
     },
     "sales_history": [
       [
@@ -70590,9 +71026,13 @@
       [
         380,
         1710298081.7521148
+      ],
+      [
+        300,
+        1710300335.236732
       ]
     ],
-    "updated": 1710298082.0008159,
+    "updated": 1710300335.482733,
     "sales-plot-path": "website/plots/rogue 2019 416-c carbine.jpg"
   },
   "eeaeb5af-5f51-4ef2-bd7b-ee7eb30343ef": {
@@ -70601,8 +71041,8 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=eeaeb5af-5f51-4ef2-bd7b-ee7eb30343ef",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/0774f107_6224_0f0a_a97e_7f3790822693.png",
     "data": {
-      "sellers": 199,
-      "buyers": 94,
+      "sellers": 201,
+      "buyers": 93,
       "lowest-seller": 330,
       "highest-seller": 129000,
       "lowest-buyer": 120,
@@ -71177,7 +71617,7 @@
         1710298082.3197122
       ]
     ],
-    "updated": 1710298082.5691872,
+    "updated": 1710300335.7893596,
     "sales-plot-path": "website/plots/hot chopper 556xi.jpg"
   },
   "39d0a2d0-90c7-41ae-9e66-5ce53cb99137": {
@@ -71186,15 +71626,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=39d0a2d0-90c7-41ae-9e66-5ce53cb99137",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/c58d4134_9f3e_45d3_d31a_976261f05ad8.png",
     "data": {
-      "sellers": 63,
+      "sellers": 64,
       "buyers": 23,
-      "lowest-seller": 300,
+      "lowest-seller": 260,
       "highest-seller": 15000,
       "lowest-buyer": 120,
-      "highest-buyer": 220,
-      "last-sold": 280,
-      "roi": 333,
-      "avg-price": 395
+      "highest-buyer": 200,
+      "last-sold": 200,
+      "roi": 288,
+      "avg-price": 393
     },
     "sales_history": [
       [
@@ -71556,9 +71996,13 @@
       [
         280,
         1710298082.875068
+      ],
+      [
+        200,
+        1710300336.1204937
       ]
     ],
-    "updated": 1710298083.1096218,
+    "updated": 1710300336.3513439,
     "sales-plot-path": "website/plots/ancient marble.jpg"
   },
   "88f50e66-3110-4d04-adb2-8b4b9c3e434a": {
@@ -71567,15 +72011,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=88f50e66-3110-4d04-adb2-8b4b9c3e434a",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/9cc5eb6a_6bab_b49f_2c9b_7a1550b63c19.png",
     "data": {
-      "sellers": 81,
+      "sellers": 80,
       "buyers": 44,
-      "lowest-seller": 400,
+      "lowest-seller": 420,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 350,
-      "last-sold": 350,
-      "roi": 444,
-      "avg-price": 502
+      "last-sold": 420,
+      "roi": 466,
+      "avg-price": 501
     },
     "sales_history": [
       [
@@ -72069,9 +72513,13 @@
       [
         350,
         1710298089.6633701
+      ],
+      [
+        420,
+        1710300341.613069
       ]
     ],
-    "updated": 1710298089.9103184,
+    "updated": 1710300341.8501134,
     "sales-plot-path": "website/plots/fazeclan 2019 charm.jpg"
   },
   "9cdc1d04-ff70-4da0-9a01-8897c2e786d2": {
@@ -72455,15 +72903,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=2fe1d3df-6d87-491b-88c4-c46386d6ec6a",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/52b6c227_ee79_497f_6efa_f21fb30741ae.png",
     "data": {
-      "sellers": 318,
-      "buyers": 172,
-      "lowest-seller": 700,
+      "sellers": 336,
+      "buyers": 166,
+      "lowest-seller": 600,
       "highest-seller": 10000,
       "lowest-buyer": 120,
-      "highest-buyer": 530,
-      "last-sold": 650,
-      "roi": 777,
-      "avg-price": 667
+      "highest-buyer": 510,
+      "last-sold": 640,
+      "roi": 666,
+      "avg-price": 662
     },
     "sales_history": [
       [
@@ -72481,10 +72929,14 @@
       [
         650,
         1710298083.763104
+      ],
+      [
+        640,
+        1710300337.0368285
       ]
     ],
     "sales-plot-path": "website/plots/enamored.jpg",
-    "updated": 1710298084.0089226
+    "updated": 1710300337.3459003
   },
   "daf09e36-d8f6-4d06-b52b-a9523ea256d6": {
     "id-name": "apex chibi charm",
@@ -72492,15 +72944,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=daf09e36-d8f6-4d06-b52b-a9523ea256d6",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/a4beb3ea_fe49_bde8_5bc6_0b9514599724.png",
     "data": {
-      "sellers": 49,
-      "buyers": 97,
-      "lowest-seller": 1050,
+      "sellers": 45,
+      "buyers": 100,
+      "lowest-seller": 1300,
       "highest-seller": 100000,
       "lowest-buyer": 120,
-      "highest-buyer": 1000,
-      "last-sold": 1050,
-      "roi": 1166,
-      "avg-price": 1038
+      "highest-buyer": 1111,
+      "last-sold": 1250,
+      "roi": 1444,
+      "avg-price": 1073
     },
     "sales_history": [
       [
@@ -72522,10 +72974,14 @@
       [
         1050,
         1710298090.2512093
+      ],
+      [
+        1250,
+        1710300342.1675167
       ]
     ],
     "sales-plot-path": "website/plots/apex chibi charm.jpg",
-    "updated": 1710298090.577852
+    "updated": 1710300342.390614
   },
   "ce496afb-e40b-4701-949c-008f3c514914": {
     "id-name": "smasher chibi charm",
@@ -72533,15 +72989,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=ce496afb-e40b-4701-949c-008f3c514914",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/086340e1_ed01_9fec_627e_6ee4ab2d646b.png",
     "data": {
-      "sellers": 44,
-      "buyers": 123,
+      "sellers": 42,
+      "buyers": 132,
       "lowest-seller": 1000,
       "highest-seller": 69420,
       "lowest-buyer": 120,
-      "highest-buyer": 1050,
-      "last-sold": 1000,
+      "highest-buyer": 1100,
+      "last-sold": 1200,
       "roi": 1111,
-      "avg-price": 1050
+      "avg-price": 1075
     },
     "sales_history": [
       [
@@ -72563,10 +73019,14 @@
       [
         1000,
         1710298090.9862044
+      ],
+      [
+        1200,
+        1710300342.693272
       ]
     ],
     "sales-plot-path": "website/plots/smasher chibi charm.jpg",
-    "updated": 1710298091.2287078
+    "updated": 1710300342.9287832
   },
   "61fdd097-296a-40c0-9208-d227a6357826": {
     "id-name": "rooter chibi charm",
@@ -72574,14 +73034,14 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=61fdd097-296a-40c0-9208-d227a6357826",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/059a7d0d_d38f_c6c0_3b9b_8183904a07c2.png",
     "data": {
-      "sellers": 48,
+      "sellers": 45,
       "buyers": 68,
-      "lowest-seller": 700,
+      "lowest-seller": 777,
       "highest-seller": 9000,
       "lowest-buyer": 120,
-      "highest-buyer": 560,
+      "highest-buyer": 600,
       "last-sold": 700,
-      "roi": 777,
+      "roi": 863,
       "avg-price": 648
     },
     "sales_history": [
@@ -72615,7 +73075,7 @@
       ]
     ],
     "sales-plot-path": "website/plots/rooter chibi charm.jpg",
-    "updated": 1710298091.7862678
+    "updated": 1710300343.2278287
   },
   "7636a2cf-b53e-45d5-90e5-441c42442d90": {
     "id-name": "chroma streaks",
@@ -72623,15 +73083,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=7636a2cf-b53e-45d5-90e5-441c42442d90",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/60c9169b_e5ba_4c31_92c4_75507ee4ccc8.png",
     "data": {
-      "sellers": 729,
-      "buyers": 1230,
-      "lowest-seller": 2750,
+      "sellers": 739,
+      "buyers": 1240,
+      "lowest-seller": 2799,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 2600,
-      "last-sold": 2710,
-      "roi": 3055,
-      "avg-price": 2718
+      "last-sold": 2799,
+      "roi": 3110,
+      "avg-price": 2741
     },
     "sales_history": [
       [
@@ -72661,10 +73121,18 @@
       [
         2710,
         1710298099.6279411
+      ],
+      [
+        2850,
+        1710298588.5064025
+      ],
+      [
+        2799,
+        1710300350.8811772
       ]
     ],
     "sales-plot-path": "website/plots/chroma streaks.jpg",
-    "updated": 1710298099.8428512
+    "updated": 1710300351.109416
   },
   "41f9cef4-dcbf-7bca-395d-6e3439a55269": {
     "id-name": "plasma pink",
@@ -72672,15 +73140,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=41f9cef4-dcbf-7bca-395d-6e3439a55269",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/48d4a6df_0c44_c9ef_a6c0_9fe4db0a3664.png",
     "data": {
-      "sellers": 420,
-      "buyers": 624,
+      "sellers": 418,
+      "buyers": 655,
       "lowest-seller": 660,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 680,
-      "last-sold": 650,
+      "highest-buyer": 750,
+      "last-sold": 750,
       "roi": 733,
-      "avg-price": 698
+      "avg-price": 697
     },
     "sales_history": [
       [
@@ -72710,10 +73178,18 @@
       [
         650,
         1710298100.1653087
+      ],
+      [
+        640,
+        1710298589.024676
+      ],
+      [
+        750,
+        1710300351.4680073
       ]
     ],
     "sales-plot-path": "website/plots/plasma pink.jpg",
-    "updated": 1710298100.4203823
+    "updated": 1710300351.7282095
   },
   "8b9b75a2-4ed6-49aa-a403-a1f4122c75c6": {
     "id-name": "- black ice 426-c carbine",
@@ -72721,15 +73197,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=8b9b75a2-4ed6-49aa-a403-a1f4122c75c6",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/42fcb009_21d9_4458_02c6_b8e54e9fd453.png",
     "data": {
-      "sellers": 2695,
+      "sellers": 2709,
       "buyers": 670,
       "lowest-seller": 900,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 800,
-      "last-sold": 900,
+      "highest-buyer": 850,
+      "last-sold": 899,
       "roi": 1000,
-      "avg-price": 859
+      "avg-price": 868
     },
     "sales_history": [
       [
@@ -72751,10 +73227,18 @@
       [
         900,
         1710298105.325664
+      ],
+      [
+        880,
+        1710298594.3864784
+      ],
+      [
+        899,
+        1710300356.5127292
       ]
     ],
     "sales-plot-path": "website/plots/black ice 426-c carbine.jpg",
-    "updated": 1710298105.5891404
+    "updated": 1710300356.7562408
   },
   "b1cdb343-8ca2-4f7e-b489-af66bfe914cd": {
     "id-name": "black ice smg-11",
@@ -72762,15 +73246,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=b1cdb343-8ca2-4f7e-b489-af66bfe914cd",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/dd1d42bd_53ce_0c52_e256_4808fb7667ac.png",
     "data": {
-      "sellers": 795,
-      "buyers": 503,
+      "sellers": 786,
+      "buyers": 512,
       "lowest-seller": 750,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 760,
+      "highest-buyer": 751,
       "last-sold": 800,
       "roi": 833,
-      "avg-price": 764
+      "avg-price": 766
     },
     "sales_history": [
       [
@@ -72796,10 +73280,18 @@
       [
         800,
         1710298105.8917003
+      ],
+      [
+        750,
+        1710298594.918597
+      ],
+      [
+        800,
+        1710300357.0583975
       ]
     ],
     "sales-plot-path": "website/plots/black ice smg-11.jpg",
-    "updated": 1710298106.1325505
+    "updated": 1710300357.3082566
   },
   "452d6796-8176-4af1-858b-7d87dabad8a5": {
     "id-name": "black ice c8-sfw",
@@ -72807,15 +73299,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=452d6796-8176-4af1-858b-7d87dabad8a5",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/02143738_7e78_0d62_f5e3_41458fa33730.png",
     "data": {
-      "sellers": 977,
-      "buyers": 507,
-      "lowest-seller": 790,
+      "sellers": 973,
+      "buyers": 509,
+      "lowest-seller": 800,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 770,
-      "last-sold": 780,
-      "roi": 877,
-      "avg-price": 762
+      "highest-buyer": 780,
+      "last-sold": 800,
+      "roi": 888,
+      "avg-price": 759
     },
     "sales_history": [
       [
@@ -72845,10 +73337,18 @@
       [
         780,
         1710298106.4175427
+      ],
+      [
+        700,
+        1710298595.4855154
+      ],
+      [
+        800,
+        1710300357.5919466
       ]
     ],
     "sales-plot-path": "website/plots/black ice c8-sfw.jpg",
-    "updated": 1710298106.650783
+    "updated": 1710300357.8352091
   },
   "5ed412ad-6ba5-47f2-ad0a-5e4099bcd7a6": {
     "id-name": "black ice ak-12",
@@ -72856,15 +73356,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=5ed412ad-6ba5-47f2-ad0a-5e4099bcd7a6",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/63ea18f5_b79c_f1cc_6a6a_8be8acd486b8.png",
     "data": {
-      "sellers": 648,
-      "buyers": 423,
-      "lowest-seller": 720,
+      "sellers": 662,
+      "buyers": 413,
+      "lowest-seller": 700,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 710,
-      "last-sold": 713,
-      "roi": 800,
-      "avg-price": 690
+      "highest-buyer": 650,
+      "last-sold": 700,
+      "roi": 777,
+      "avg-price": 692
     },
     "sales_history": [
       [
@@ -72882,10 +73382,14 @@
       [
         713,
         1710298106.9430623
+      ],
+      [
+        700,
+        1710298596.0857742
       ]
     ],
     "sales-plot-path": "website/plots/black ice ak-12.jpg",
-    "updated": 1710298107.1755652
+    "updated": 1710300358.143117
   },
   "4927c501-dd9e-47f7-8717-e42bb497b4f7": {
     "id-name": "black ice g36c",
@@ -72893,15 +73397,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=4927c501-dd9e-47f7-8717-e42bb497b4f7",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/da4a1d2a_680b_7c06_9176_6907465501c0.png",
     "data": {
-      "sellers": 878,
-      "buyers": 354,
-      "lowest-seller": 700,
+      "sellers": 877,
+      "buyers": 356,
+      "lowest-seller": 680,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 660,
       "last-sold": 700,
-      "roi": 777,
-      "avg-price": 675
+      "roi": 755,
+      "avg-price": 666
     },
     "sales_history": [
       [
@@ -72919,10 +73423,18 @@
       [
         700,
         1710296476.1590817
+      ],
+      [
+        600,
+        1710298596.7866893
+      ],
+      [
+        700,
+        1710300358.4741917
       ]
     ],
     "sales-plot-path": "website/plots/black ice g36c.jpg",
-    "updated": 1710298107.532047
+    "updated": 1710300358.6928623
   },
   "b59e4679-4b07-430a-aa69-7665060f9787": {
     "id-name": "signature six 2021",
@@ -72930,13 +73442,13 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=b59e4679-4b07-430a-aa69-7665060f9787",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/7cd298e1_ce12_5dab_47f4_205c47ab652c.png",
     "data": {
-      "sellers": 111,
-      "buyers": 109,
+      "sellers": 112,
+      "buyers": 121,
       "lowest-seller": 300,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 280,
-      "last-sold": 300,
+      "highest-buyer": 270,
+      "last-sold": 280,
       "roi": 333,
       "avg-price": 281
     },
@@ -72960,10 +73472,14 @@
       [
         300,
         1710298084.3074272
+      ],
+      [
+        280,
+        1710300337.6499176
       ]
     ],
     "sales-plot-path": "website/plots/signature six 2021.jpg",
-    "updated": 1710298084.5489519
+    "updated": 1710300337.8829663
   },
   "c2d44176-8c4e-c78e-7ee5-6cefdec1e0a6": {
     "id-name": "watercolor splash",
@@ -72971,15 +73487,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=c2d44176-8c4e-c78e-7ee5-6cefdec1e0a6",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/f72660cd_6d2d_c073_834a_077901d3be59.png",
     "data": {
-      "sellers": 108,
-      "buyers": 175,
-      "lowest-seller": 600,
+      "sellers": 104,
+      "buyers": 176,
+      "lowest-seller": 700,
       "highest-seller": 150000,
       "lowest-buyer": 120,
       "highest-buyer": 500,
-      "last-sold": 550,
-      "roi": 666,
-      "avg-price": 605
+      "last-sold": 700,
+      "roi": 777,
+      "avg-price": 619
     },
     "sales_history": [
       [
@@ -73005,10 +73521,14 @@
       [
         550,
         1710298100.7265346
+      ],
+      [
+        700,
+        1710298589.588795
       ]
     ],
     "sales-plot-path": "website/plots/watercolor splash.jpg",
-    "updated": 1710298100.9422405
+    "updated": 1710300352.0132086
   },
   "8bf68f0a-1487-4fd4-a5c4-f65b66af6805": {
     "id-name": "black ice blitz shield",
@@ -73016,15 +73536,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=8bf68f0a-1487-4fd4-a5c4-f65b66af6805",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/1091befc_1edf_cbd8_48dc_fa4686bd231d.png",
     "data": {
-      "sellers": 321,
-      "buyers": 373,
-      "lowest-seller": 580,
+      "sellers": 306,
+      "buyers": 377,
+      "lowest-seller": 590,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 500,
-      "last-sold": 500,
-      "roi": 644,
-      "avg-price": 475
+      "highest-buyer": 550,
+      "last-sold": 550,
+      "roi": 655,
+      "avg-price": 490
     },
     "sales_history": [
       [
@@ -73042,10 +73562,14 @@
       [
         500,
         1710296476.7377837
+      ],
+      [
+        550,
+        1710298597.3832245
       ]
     ],
     "sales-plot-path": "website/plots/black ice blitz shield.jpg",
-    "updated": 1710298107.8604846
+    "updated": 1710300358.9982402
   },
   "aa7361cd-c920-de5c-b7e6-61684795e4f9": {
     "id-name": "black ice mpx",
@@ -73053,15 +73577,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=aa7361cd-c920-de5c-b7e6-61684795e4f9",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/49c1856e_e75b_8b7d_d690_07ff1ad9b798.png",
     "data": {
-      "sellers": 503,
-      "buyers": 294,
-      "lowest-seller": 500,
+      "sellers": 514,
+      "buyers": 304,
+      "lowest-seller": 490,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 469,
-      "last-sold": 500,
-      "roi": 555,
-      "avg-price": 496
+      "highest-buyer": 435,
+      "last-sold": 450,
+      "roi": 544,
+      "avg-price": 486
     },
     "sales_history": [
       [
@@ -73075,10 +73599,18 @@
       [
         500,
         1710294596.1259167
+      ],
+      [
+        490,
+        1710298598.0015385
+      ],
+      [
+        450,
+        1710300359.3159864
       ]
     ],
     "sales-plot-path": "website/plots/black ice mpx.jpg",
-    "updated": 1710298108.1876543
+    "updated": 1710300359.5525668
   },
   "57ac9011-f93d-4b95-b392-0e58f25076e2": {
     "id-name": "black ice montagne shield",
@@ -73086,15 +73618,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=57ac9011-f93d-4b95-b392-0e58f25076e2",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/1854f47b_ab90_a13e_81cc_73a440281db8.png",
     "data": {
-      "sellers": 292,
-      "buyers": 399,
+      "sellers": 274,
+      "buyers": 414,
       "lowest-seller": 360,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 450,
-      "last-sold": 400,
+      "highest-buyer": 428,
+      "last-sold": 450,
       "roi": 400,
-      "avg-price": 412
+      "avg-price": 430
     },
     "sales_history": [
       [
@@ -73116,10 +73648,18 @@
       [
         400,
         1710298108.4801288
+      ],
+      [
+        500,
+        1710298598.6540124
+      ],
+      [
+        450,
+        1710300359.886921
       ]
     ],
     "sales-plot-path": "website/plots/black ice montagne shield.jpg",
-    "updated": 1710298108.7390485
+    "updated": 1710300360.139891
   },
   "297d1681-69c9-166b-41ab-63e0d1034043": {
     "id-name": "black ice t-5 smg",
@@ -73127,15 +73667,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=297d1681-69c9-166b-41ab-63e0d1034043",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/32088de7_a029_5884_ed6c_8ad2e09a36e9.png",
     "data": {
-      "sellers": 430,
+      "sellers": 427,
       "buyers": 241,
       "lowest-seller": 290,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 329,
-      "last-sold": 349,
+      "highest-buyer": 280,
+      "last-sold": 300,
       "roi": 322,
-      "avg-price": 315
+      "avg-price": 310
     },
     "sales_history": [
       [
@@ -73161,10 +73701,18 @@
       [
         349,
         1710298109.0832255
+      ],
+      [
+        289,
+        1710298599.1864996
+      ],
+      [
+        300,
+        1710300360.4874127
       ]
     ],
     "sales-plot-path": "website/plots/black ice t-5 smg.jpg",
-    "updated": 1710298109.338217
+    "updated": 1710300360.7458122
   },
   "3f3e4a00-6242-4cbb-ae8a-e62ce0562cd6": {
     "id-name": "breacher chibi charm",
@@ -73172,15 +73720,15 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=3f3e4a00-6242-4cbb-ae8a-e62ce0562cd6",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/52e579a7_1ecf_101a_6896_d1c53ecb7602.png",
     "data": {
-      "sellers": 25,
-      "buyers": 5,
-      "lowest-seller": 240,
+      "sellers": 27,
+      "buyers": 8,
+      "lowest-seller": 220,
       "highest-seller": 150000,
       "lowest-buyer": 120,
-      "highest-buyer": 121,
-      "last-sold": 120,
-      "roi": 266,
-      "avg-price": 211
+      "highest-buyer": 150,
+      "last-sold": 199,
+      "roi": 244,
+      "avg-price": 208
     },
     "sales_history": [
       [
@@ -73198,9 +73746,13 @@
       [
         120,
         1710298092.1671102
+      ],
+      [
+        199,
+        1710300343.5686269
       ]
     ],
     "sales-plot-path": "website/plots/breacher chibi charm.jpg",
-    "updated": 1710298092.4253912
+    "updated": 1710300343.8132083
   }
 }

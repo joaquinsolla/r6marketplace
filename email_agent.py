@@ -61,11 +61,12 @@ def send_email():
     valid, not_valid_message = discounts_valid()
     if valid:
         save_to_json(discounts_data, "assets/old_discounts.json")
-        message = ''
+        message = '<b>ALL DATA:</b> https://r6marketplace.github.io\n\n'
         total_discounts = 0
 
         msg = MIMEMultipart()
 
+        # TODO: DELETE WHEN WEBSITE IS AUTOMATED
         with open('website/index.html', 'rb') as file:
             html_attachment = MIMEApplication(file.read(), _subtype='html')
             html_attachment.add_header('Content-Disposition', 'attachment', filename='index.html')

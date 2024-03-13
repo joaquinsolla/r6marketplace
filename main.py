@@ -172,9 +172,8 @@ def check_for_discounts():
 
             if not name.startswith("-"):
                 if not isinstance(avg_price, str):
-                    if ((price <= (avg_price*0.55) and avg_price < 1200) or (
-                            price <= (avg_price*0.7) and 1200 <= avg_price < 3000) or (
-                            price <= (avg_price * 0.75) and 3000 <= avg_price < 5000) or (
+                    if ((price <= (avg_price*0.55) and avg_price < 2500) or (
+                            price <= (avg_price * 0.7) and 2500 <= avg_price < 5000) or (
                             price <= (avg_price * 0.8) and 5000 <= avg_price)):
                         if url is not None and name is not None:
                             discounts[name] = {
@@ -222,7 +221,8 @@ if __name__ == "__main__":
     asyncio.get_event_loop().run_until_complete(scan_market())
     save_to_json(data, "assets/data.json")
     data_to_html()
-    upload_website()
+    # TODO: ENABLE
+    # upload_website()
     check_for_discounts()
     save_to_json(discounts, "assets/discounts.json")
     email_sent = send_email()
