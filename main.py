@@ -1,15 +1,17 @@
 from __future__ import annotations
+import asyncio
 import contextlib
 import json
-import subprocess
 import time
 import warnings
 from os.path import exists
-from auth import Auth
 from datetime import datetime
 
-from website.git_agent import upload_website
+from auth import Auth
+from email_agent import send_email
 from graphic_agent import item_sales_to_plot
+from html_agent import data_to_html
+from git_agent import upload_website
 
 
 def check_files():
@@ -217,11 +219,11 @@ email_sent = False
 
 # Execution
 if __name__ == "__main__":
-    #asyncio.get_event_loop().run_until_complete(scan_market())
-    #save_to_json(data, "assets/data.json")
-    #data_to_html()
-    #check_for_discounts()
-    #save_to_json(discounts, "assets/discounts.json")
-    #email_sent = send_email()
-    #write_to_log()
-    subprocess.run(["python", "website/git_agent.py"])
+    asyncio.get_event_loop().run_until_complete(scan_market())
+    save_to_json(data, "assets/data.json")
+    data_to_html()
+    upload_website()
+    check_for_discounts()
+    save_to_json(discounts, "assets/discounts.json")
+    email_sent = send_email()
+    write_to_log()

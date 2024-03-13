@@ -5,69 +5,55 @@
     "discounted-percentage": 20,
     "roi": 5444,
     "sellers": 31,
-    "buyers": 134,
+    "buyers": 133,
     "highest-buyer": 4000,
     "last_sales_string": "Last sales: 5500, 5850, 3000, 5500, 5000",
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=1146bd66-822e-498f-aa22-d7796ddf3e48",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/3dcd8950_619d_d78d_3326_8659822a72d5.png",
     "sales-plot-path": "website/plots/glacier p226 mk 25.jpg",
-    "updated": 1710296483.0202885
+    "updated": 1710298112.7542682
   },
   "glacier fmg9": {
     "price": 12000,
-    "avg-price": 15510,
+    "avg-price": 15446,
     "discounted-percentage": 22,
     "roi": 13333,
-    "sellers": 46,
+    "sellers": 45,
     "buyers": 210,
     "highest-buyer": 10000,
-    "last_sales_string": "Last sales: 13000, 12000, 14000, 11000, 9000",
+    "last_sales_string": "Last sales: 12000, 14000, 11000, 9000, 12000",
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=820cda34-3e45-4983-b7c7-e0d4cf7a3f2f",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/aab033b6_c7db_ccce_32df_3b3648fc2cf4.png",
     "sales-plot-path": "website/plots/glacier fmg9.jpg",
-    "updated": 1710296483.0202885
+    "updated": 1710298112.7542682
   },
   "glacier ump45": {
-    "price": 20000,
+    "price": 18888,
     "avg-price": 25033,
-    "discounted-percentage": 20,
-    "roi": 22222,
-    "sellers": 37,
-    "buyers": 275,
+    "discounted-percentage": 24,
+    "roi": 20986,
+    "sellers": 38,
+    "buyers": 278,
     "highest-buyer": 17000,
     "last_sales_string": "Last sales: 23000, 22500, 18000, 19000, 18000",
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=aa3781de-2bc5-45b7-8a59-1bebe4ef6d4b",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/aed7a965_890f_03b8_37c5_8842ce8af345.png",
     "sales-plot-path": "website/plots/glacier ump45.jpg",
-    "updated": 1710296483.0202885
+    "updated": 1710298112.7542682
   },
   "glacier sg-cqb": {
-    "price": 5500,
+    "price": 5400,
     "avg-price": 6979,
-    "discounted-percentage": 21,
-    "roi": 6111,
-    "sellers": 49,
+    "discounted-percentage": 22,
+    "roi": 6000,
+    "sellers": 50,
     "buyers": 79,
-    "highest-buyer": 5000,
+    "highest-buyer": 5200,
     "last_sales_string": "Last sales: 6000, 6299, 6300, 5000, 5400",
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=4940d7c6-8244-4020-b418-ea29070b0a23",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/bfcd8129_9b1e_0fad_3eba_838b0442fe86.png",
     "sales-plot-path": "website/plots/glacier sg-cqb.jpg",
-    "updated": 1710296483.0202885
-  },
-  "gold dust f2": {
-    "price": 11500,
-    "avg-price": 14653,
-    "discounted-percentage": 21,
-    "roi": 12777,
-    "sellers": 75,
-    "buyers": 152,
-    "highest-buyer": 10500,
-    "last_sales_string": "Last sales: 12000, 13000, 14000, 13400, 11999",
-    "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=b51c76a7-c659-4b0a-a038-7e185e8991e2",
-    "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/1afa74f7_f336_afae_7e37_11f1164a7c16.png",
-    "sales-plot-path": "website/plots/gold dust f2.jpg",
-    "updated": 1710296483.0202885
+    "updated": 1710298112.7542682
   },
   "faceless one uniform": {
     "price": 5500,
@@ -81,7 +67,7 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=1263f2ae-f3a3-e013-f3a8-86a6cac537d0",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/c4ce316d_0893_508c_cc3b_e0cc3e2d6461.png",
     "sales-plot-path": "website/plots/faceless one uniform.jpg",
-    "updated": 1710296483.0202885
+    "updated": 1710298112.7542682
   },
   "six invitational diamond 2019": {
     "price": 900,
@@ -95,34 +81,20 @@
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=1f2208cf-c5ee-4bd2-a1fc-ea4668dee3c5",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/f8bd970f_5741_0e68_3619_04161bf55905.png",
     "sales-plot-path": "website/plots/six invitational diamond 2019.jpg",
-    "updated": 1710296483.0212865
-  },
-  "evil geniuses 2018 uniform": {
-    "price": 1000,
-    "avg-price": 1469,
-    "discounted-percentage": 31,
-    "roi": 1111,
-    "sellers": 49,
-    "buyers": 10,
-    "highest-buyer": 700,
-    "last_sales_string": "Last sales: 1100, 800, 700, 775, 900",
-    "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=f856e290-68ff-46b7-a2e0-2618e082bb13",
-    "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/9f659b4a_5fb2_6df0_e238_daf4b4823f2f.png",
-    "sales-plot-path": "website/plots/evil geniuses 2018 uniform.jpg",
-    "updated": 1710296483.0212865
+    "updated": 1710298112.75527
   },
   "service stripe headgear": {
     "price": 1100,
-    "avg-price": 1735,
-    "discounted-percentage": 36,
+    "avg-price": 1709,
+    "discounted-percentage": 35,
     "roi": 1222,
     "sellers": 21,
-    "buyers": 8,
-    "highest-buyer": 900,
-    "last_sales_string": "Last sales: 650, 800, 1000, 1100, 1150",
+    "buyers": 7,
+    "highest-buyer": 800,
+    "last_sales_string": "Last sales: 800, 1000, 1100, 1150, 900",
     "url": "https://www.ubisoft.com/es-es/game/rainbow-six/siege/marketplace?route=buy%2Fitem-details&itemId=1a76912d-f313-43a6-b884-8d43c5b1d22f",
     "asset-url": "https://ubiservices.cdn.ubi.com/0d2ae42d-4c27-4cb7-af6c-2099062302bb/DeployerAssetsJune2023/40e7a6da_7004_0318_901a_1ef2d5b86d72.png",
     "sales-plot-path": "website/plots/service stripe headgear.jpg",
-    "updated": 1710296483.0212865
+    "updated": 1710298112.75527
   }
 }
