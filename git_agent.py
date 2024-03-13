@@ -6,6 +6,7 @@ def upload_website():
     now_formatted = now.strftime('%d/%m/%Y %H:%M')
 
     commands = [
+        "cd ./website",
         "git add .",
         f'git commit -m "Automatic commit - {now_formatted}"',
         "git push"
