@@ -1,17 +1,14 @@
 from __future__ import annotations
-import asyncio
 import contextlib
 import json
 import time
 import warnings
 from os.path import exists
 from auth import Auth
-from email_agent import send_email
 from datetime import datetime
 
-from git_agent import upload_website
+from website.git_agent import upload_website
 from graphic_agent import item_sales_to_plot
-from html_agent import data_to_html
 
 
 def check_files():
