@@ -11,9 +11,9 @@ First, clone the repo and add the 'data.json', 'discounts.json' and 'old_discoun
 
 Next, add an 'ids.json' file to '/assets', and place any items and their item IDs in the contents. There is a starting example with the most relevant items.
 
-Also create empty 'assets/index.html' and 'assets/log.txt' files.
+Also create an empty 'assets/log.txt' file.
 
-Create folder 'assets/plots' if it doesn't exist.
+It is needed to create a 'website' folder, and 'website/plots' also. Inside 'website' you have to create an empty file called 'index.html'.
 
 Then, create the folder '/assets/credentials', then you will create 3 files inside:
 - 'bot_credentials.txt'
@@ -27,7 +27,10 @@ Then, create the folder '/assets/credentials', then you will create 3 files insi
 
 ### Recommended scan intervals: Every 10 minutes
 If you check an excessive amount of items or scan the marketplace in very small periods of time, you can get rate limited.
-My settings: 202 items to check every 10 minutes.
+My settings: 204 items to check every 10 minutes.
+
+### Automatic website commits
+By default, you have to comment the line 'upload_website()' in 'main.py'. If you want to enable the auto-commit feature you have to configure your own website repository (I recommend GitHub Pages) and link it with the 'website' folder.
 
 ## Main Execution
 Install dependencies
@@ -39,7 +42,23 @@ Run the main file
 python ./main.py
 ```
 
-## Secondary functions
+### Workflow
+The main execution of the program follows these operations in order:
+1. Files checking
+2. Market scan
+   1. Log in Ubisoft Services
+   2. Retrieve the Marketplace data
+   3. Build sales plots
+   4. Log out
+3. Save retrieved data to a JSON file
+4. Build an HTML file to display the data
+5. [Disabled] Upload the HTML file to its Git repository
+6. Check for discounts
+7. Save discounts data to a JSON file
+8. Send an email with the discounts data (if needed)
+9. Write log
+
+## Additional features
 
 ### Quarantine items
 If you want to scan some items but don't want them in the discounts email, add "- " at the beginning of their names at 'assets/ids.json'. Example:
@@ -70,6 +89,11 @@ python ./graphic_agent.py aee4bdf2-0b54-4c6d-af93-9fe4848e1f76
 ### Send an email manually with last scanned data
 ```sh
 python ./email_agent.py
+```
+
+### Commit website changes manually
+```sh
+python ./git_agent.py
 ```
 
 ## Credit
