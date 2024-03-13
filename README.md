@@ -11,7 +11,7 @@ First, clone the repo and add the 'data.json', 'discounts.json' and 'old_discoun
 
 Next, add an 'ids.json' file to '/assets', and place any items and their item IDs in the contents. There is a starting example with the most relevant items.
 
-Also create empty 'assets/data.html' and 'assets/log.txt' files.
+Also create empty 'assets/index.html' and 'assets/log.txt' files.
 
 Create folder 'assets/plots' if it doesn't exist.
 
@@ -27,7 +27,7 @@ Then, create the folder '/assets/credentials', then you will create 3 files insi
 
 ### Recommended scan intervals: Every 10 minutes
 If you check an excessive amount of items or scan the marketplace in very small periods of time, you can get rate limited.
-My settings: 185 items to check every 10 minutes.
+My settings: 202 items to check every 10 minutes.
 
 ## Main Execution
 Install dependencies
@@ -59,7 +59,7 @@ python ./manual_agent.py f619eb19-de6e-4dcd-96eb-08b45f80fe64
 ```sh
 python ./html_agent.py
 ```
-Once generated, open the file 'assets/data.html' with your Internet browser.
+Once generated, open the file 'assets/index.html' with your Internet browser.
 
 ### Get plot of an item's sales as a picture
 Execute the file 'graphic_agent.py' by passing the item's id as an argument (do not use brackets ""). Note that it only works with items that have sales registered in 'assets/data.json'. Example:

@@ -9,7 +9,7 @@ def data_to_html():
     now = datetime.now()
     now_formatted = now.strftime('%d/%m/%Y %H:%M')
 
-    with open('assets/data.html', 'w') as data_html:
+    with open('website/index.html', 'w') as data_html:
         data_html.write('<!DOCTYPE html>\n')
         data_html.write('<html>\n')
         data_html.write('<head>\n')
@@ -115,7 +115,7 @@ def data_to_html():
             if item_data["sales-plot-path"] == "No data":
                 data_html.write(f'<td>{item_data["sales-plot-path"]}</td>\n')
             else:
-                sales_plot_path = item_data["sales-plot-path"].replace("assets/", "")
+                sales_plot_path = item_data["sales-plot-path"].replace("website/", "")
                 data_html.write(f'<td><img src="{sales_plot_path}" alt="Sales" height="100px" onclick="window.open(\'{sales_plot_path}\', \'_blank\');"></td>\n')
             data_html.write('</tr>\n')
 
@@ -124,7 +124,7 @@ def data_to_html():
         data_html.write('</html>\n')
 
     data_html.close()
-    print("[ HTML built: assets/data.html ]")
+    print("[ HTML built: website/index.html ]")
 
 if __name__ == "__main__":
     data_to_html()

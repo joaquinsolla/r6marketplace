@@ -37,10 +37,10 @@ def item_sales_to_plot_by_id(my_item_id):
 
             plot_name = item.lstrip("- ")
 
-            plt.savefig(os.path.join('assets', 'plots', f"{plot_name}.jpg"))
+            plt.savefig(os.path.join('website', 'plots', f"{plot_name}.jpg"))
             plt.close()
             print(" + Plot saved:\t" + f"{plot_name}.jpg")
-            return f"assets/plots/{plot_name}.jpg"
+            return f"website/plots/{plot_name}.jpg"
         else:
             print("[!] Cannot build plot: Item " + item + " has no sales")
             return "No data"
@@ -49,10 +49,10 @@ def item_sales_to_plot_by_id(my_item_id):
         plt.title("No data")
         plt.ylabel('Price')
         plt.xlabel('This plot will be generated when the item is sold again')
-        plt.savefig(os.path.join('assets', 'plots', f"no-data.jpg"))
+        plt.savefig(os.path.join('website', 'plots', f"no-data.jpg"))
         plt.close()
         print("[!] This plot will be generated when the item is sold again: " + str(item_id))
-        return f"assets/plots/no-data.jpg"
+        return f"website/plots/no-data.jpg"
 
 def item_sales_to_plot(item_data):
 
@@ -85,10 +85,10 @@ def item_sales_to_plot(item_data):
 
         plot_name = item.lstrip("- ")
 
-        plt.savefig(os.path.join('assets', 'plots', f"{plot_name}.jpg"))
+        plt.savefig(os.path.join('website', 'plots', f"{plot_name}.jpg"))
         plt.close()
         print(" + Plot saved:\t" + f"{plot_name}.jpg")
-        return f"assets/plots/{plot_name}.jpg"
+        return f"website/plots/{plot_name}.jpg"
     else:
         print("[!] Cannot build plot: Item " + item + " has no sales")
         return "No data"

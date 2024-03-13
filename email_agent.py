@@ -66,9 +66,9 @@ def send_email():
 
         msg = MIMEMultipart()
 
-        with open('assets/data.html', 'rb') as file:
+        with open('website/index.html', 'rb') as file:
             html_attachment = MIMEApplication(file.read(), _subtype='html')
-            html_attachment.add_header('Content-Disposition', 'attachment', filename='data.html')
+            html_attachment.add_header('Content-Disposition', 'attachment', filename='index.html')
             msg.attach(html_attachment)
 
         for key, value in discounts_data.items():
@@ -158,9 +158,9 @@ def send_manual_email():
 
     msg = MIMEMultipart()
 
-    with open('assets/data.html', 'rb') as file:
+    with open('website/index.html', 'rb') as file:
         html_attachment = MIMEApplication(file.read(), _subtype='html')
-        html_attachment.add_header('Content-Disposition', 'attachment', filename='data.html')
+        html_attachment.add_header('Content-Disposition', 'attachment', filename='index.html')
         msg.attach(html_attachment)
 
     for key, value in discounts_data.items():
