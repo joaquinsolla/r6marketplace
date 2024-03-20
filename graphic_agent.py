@@ -43,7 +43,7 @@ def item_sales_to_plot_by_id(my_item_id):
             plt.close()
             print(" + Plot saved:\t" + f"{plot_name}.jpg")
 
-            plot_path = os.path.join(current_directory, 'website', 'plots', plot_name)
+            plot_path = os.path.join(current_directory, 'website', 'plots', plot_name + '.jpg')
             return plot_path
         else:
             print("[!] Cannot build plot: Item " + item + " has no sales")
@@ -94,7 +94,7 @@ def item_sales_to_plot(item_data):
         plt.close()
         print(" + Plot saved:\t" + f"{plot_name}.jpg")
 
-        plot_path = os.path.join(current_directory, 'website', 'plots', plot_name)
+        plot_path = os.path.join(current_directory, 'website', 'plots', plot_name + '.jpg')
         return plot_path
     else:
         print("[!] Cannot build plot: Item " + item + " has no sales")

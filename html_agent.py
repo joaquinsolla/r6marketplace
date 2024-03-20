@@ -127,7 +127,8 @@ def data_to_html():
                 data_html.write(f'<td>{item_data["sales-plot-path"]}</td>\n')
             else:                   
                 plot_path = item_data["sales-plot-path"].split("/")[-1]
-                sales_plot_path = "./plots/" + plot_path + ".jpg"
+                plot_path = plot_path.split("\\")[-1]
+                sales_plot_path = "./plots/" + plot_path
                 data_html.write(f'<td><img src="{sales_plot_path}" alt="Sales" height="100px" onclick="window.open(\'{sales_plot_path}\', \'_blank\');"></td>\n')
             data_html.write('</tr>\n')
 
