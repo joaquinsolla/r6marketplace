@@ -2,6 +2,7 @@ from __future__ import annotations
 import asyncio
 import contextlib
 import json
+import os
 import time
 import warnings
 from os.path import exists
@@ -11,23 +12,26 @@ from auth import Auth
 from email_agent import send_email
 from graphic_agent import item_sales_to_plot
 from html_agent import data_to_html
-from git_agent import upload_website
 
 
 def check_files():
-    if not exists("assets/data.json"):
-        with open('assets/data.json', 'w') as f:
+    current_directory = os.path.dirname(os.path.abspath(__file__))
+
+    data_path = os.path.join(current_directory, 'assets', 'data.json')
+    if not exists(data_path):
+        with open(data_path, 'w') as f:
             f.write("{}")
 
-    if not exists("assets/ids.json"):
-        with open('assets/ids.json', 'w') as f:
+    ids_path = os.path.join(current_directory, 'assets', 'ids.json')
+    if not exists(ids_path):
+        with open(ids_path, 'w') as f:
             f.write('{"black ice r4-c": "aee4bdf2-0b54-4c6d-af93-9fe4848e1f76"}')
 
-    data_file = open("assets/data.json", "r")
+    data_file = open(data_path, "r")
     old_data = json.loads(data_file.read())
     data_file.close()
 
-    item_id_file = open("assets/ids.json", "r")
+    item_id_file = open(ids_path, "r")
     old_item_ids = json.loads(item_id_file.read())
     item_id_file.close()
 
@@ -51,7 +55,10 @@ def write_to_log():
         if email_sent:
             now_formatted += " - Discounts: " + str(len(discounts))
 
-        data_file = open('assets/log.txt', "a")
+        current_directory = os.path.dirname(os.path.abspath(__file__))
+        log_path = os.path.join(current_directory, 'assets', 'log.txt')
+
+        data_file = open(log_path, "a")
         data_file.write("\n" + now_formatted)
         data_file.close()
 
@@ -61,7 +68,11 @@ async def scan_market():
     with (contextlib.suppress(Exception)):
 
         creds = []
-        with open('assets/credentials/ubi_credentials.txt', 'r') as credentials:
+
+        current_directory = os.path.dirname(os.path.abspath(__file__))
+        ubi_creds_path = os.path.join(current_directory, 'assets', 'credentials', 'ubi_credentials.txt')
+
+        with open(ubi_creds_path, 'r') as credentials:
             for line in credentials:
                 creds.append(line.strip())
 
@@ -147,7 +158,10 @@ def check_for_discounts():
 
     print("[ Checking For Discounts ]")
 
-    with open('assets/data.json', 'r') as file:
+    current_directory = os.path.dirname(os.path.abspath(__file__))
+    data_path = os.path.join(current_directory, 'assets', 'data.json')
+
+    with open(data_path, 'r') as file:
         updated_data = json.load(file)
 
     for key, value in updated_data.items():
@@ -173,8 +187,8 @@ def check_for_discounts():
             if not name.startswith("-"):
                 if not isinstance(avg_price, str):
                     if ((price <= (avg_price*0.55) and avg_price < 2500) or (
-                            price <= (avg_price * 0.7) and 2500 <= avg_price < 5000) or (
-                            price <= (avg_price * 0.8) and 5000 <= avg_price)):
+                            price <= (avg_price * 0.6) and 2500 <= avg_price < 5000) or (
+                            price <= (avg_price * 0.7) and 5000 <= avg_price)):
                         if url is not None and name is not None:
                             discounts[name] = {
                                 "price": price,
@@ -219,11 +233,16 @@ email_sent = False
 # Execution
 if __name__ == "__main__":
     asyncio.get_event_loop().run_until_complete(scan_market())
-    save_to_json(data, "assets/data.json")
+
+    current_directory = os.path.dirname(os.path.abspath(__file__))
+    data_path = os.path.join(current_directory, 'assets', 'data.json')
+    save_to_json(data, data_path)
+
     data_to_html()
-    # TODO: ENABLE
-    # upload_website()
     check_for_discounts()
-    save_to_json(discounts, "assets/discounts.json")
-    #email_sent = send_email()
+
+    discounts_path = os.path.join(current_directory, 'assets', 'discounts.json')
+    save_to_json(discounts, discounts_path)
+
+    email_sent = send_email()
     write_to_log()

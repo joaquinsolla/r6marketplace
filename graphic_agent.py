@@ -4,7 +4,9 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 
 def item_sales_to_plot_by_id(my_item_id):
-    with open('assets/data.json', 'r') as f:
+    current_directory = os.path.dirname(os.path.abspath(__file__))
+    data_path = os.path.join(current_directory, 'assets', 'data.json')
+    with open(data_path, 'r') as f:
         json_data = json.load(f)
 
     if my_item_id in json_data:
@@ -37,10 +39,12 @@ def item_sales_to_plot_by_id(my_item_id):
 
             plot_name = item.lstrip("- ")
 
-            plt.savefig(os.path.join('website', 'plots', f"{plot_name}.jpg"))
+            plt.savefig(os.path.join(current_directory, 'website', 'plots', f"{plot_name}.jpg"))
             plt.close()
             print(" + Plot saved:\t" + f"{plot_name}.jpg")
-            return f"website/plots/{plot_name}.jpg"
+
+            plot_path = os.path.join(current_directory, 'website', 'plots', plot_name)
+            return plot_path
         else:
             print("[!] Cannot build plot: Item " + item + " has no sales")
             return "No data"
@@ -85,10 +89,13 @@ def item_sales_to_plot(item_data):
 
         plot_name = item.lstrip("- ")
 
-        plt.savefig(os.path.join('website', 'plots', f"{plot_name}.jpg"))
+        current_directory = os.path.dirname(os.path.abspath(__file__))
+        plt.savefig(os.path.join(current_directory, 'website', 'plots', f"{plot_name}.jpg"))
         plt.close()
         print(" + Plot saved:\t" + f"{plot_name}.jpg")
-        return f"website/plots/{plot_name}.jpg"
+
+        plot_path = os.path.join(current_directory, 'website', 'plots', plot_name)
+        return plot_path
     else:
         print("[!] Cannot build plot: Item " + item + " has no sales")
         return "No data"

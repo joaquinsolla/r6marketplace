@@ -1,5 +1,6 @@
 import contextlib
 import json
+import os
 import smtplib
 from email.mime.application import MIMEApplication
 from email.mime.image import MIMEImage
@@ -20,14 +21,17 @@ def save_to_json(source, target_url):
 
 def discounts_valid():
 
-    with open('assets/discounts.json', 'r') as file:
+    current_directory = os.path.dirname(os.path.abspath(__file__))
+    discounts_path = os.path.join(current_directory, 'assets', 'discounts.json')
+    with open(discounts_path, 'r') as file:
         new_discounts = json.load(file)
 
     if len(new_discounts) == 0:
         return False, "No discounts found"
 
     else:
-        with open('assets/old_discounts.json', 'r') as file:
+        old_discounts_path = os.path.join(current_directory, 'assets', 'old_discounts.json')
+        with open(old_discounts_path, 'r') as file:
             old_discounts = json.load(file)
 
         if len(new_discounts) != len(old_discounts):
@@ -55,19 +59,22 @@ def discounts_valid():
             return not old_discounts == new_discounts, "Same discounts as before"
 
 def send_email():
-    with open('assets/discounts.json', 'r') as file:
+    current_directory = os.path.dirname(os.path.abspath(__file__))
+    discounts_path = os.path.join(current_directory, 'assets', 'discounts.json')
+    with open(discounts_path, 'r') as file:
         discounts_data = json.load(file)
 
     valid, not_valid_message = discounts_valid()
     if valid:
-        save_to_json(discounts_data, "assets/old_discounts.json")
-        message = '<b>ALL DATA:</b> https://r6marketplace.github.io\n\n'
+        save_to_json(discounts_data, discounts_path)
+        message = '<b>ALL DATA:</b> **Under work**\n\n'
         total_discounts = 0
 
         msg = MIMEMultipart()
 
         # TODO: DELETE WHEN WEBSITE IS AUTOMATED
-        with open('website/index.html', 'rb') as file:
+        index_path = os.path.join(current_directory, 'website', 'index.html')
+        with open(index_path, 'rb') as file:
             html_attachment = MIMEApplication(file.read(), _subtype='html')
             html_attachment.add_header('Content-Disposition', 'attachment', filename='index.html')
             msg.attach(html_attachment)
@@ -114,12 +121,14 @@ def send_email():
         message += "Updated: " + now_formatted
 
         creds = []
-        with open('assets/credentials/bot_credentials.txt', 'r') as credentials:
+        bot_credentials_path = os.path.join(current_directory, 'assets', 'credentials', 'bot_credentials.txt')
+        with open(bot_credentials_path, 'r') as credentials:
             for line in credentials:
                 creds.append(line.strip())
 
         subs = []
-        with open('assets/credentials/email_subscribers.txt', 'r') as subscribers:
+        subscribers_path = os.path.join(current_directory, 'assets', 'credentials', 'email_subscribers.txt')
+        with open(subscribers_path, 'r') as subscribers:
             for line in subscribers:
                 subs.append(line.strip())
 
@@ -151,7 +160,9 @@ def send_email():
         return False
 
 def send_manual_email():
-    with open('assets/discounts.json', 'r') as file:
+    current_directory = os.path.dirname(os.path.abspath(__file__))
+    discounts_path = os.path.join(current_directory, 'assets', 'discounts.json')
+    with open(discounts_path, 'r') as file:
         discounts_data = json.load(file)
 
     message = ''
@@ -159,7 +170,8 @@ def send_manual_email():
 
     msg = MIMEMultipart()
 
-    with open('website/index.html', 'rb') as file:
+    index_path = os.path.join(current_directory, 'website', 'index.html')
+    with open(index_path, 'rb') as file:
         html_attachment = MIMEApplication(file.read(), _subtype='html')
         html_attachment.add_header('Content-Disposition', 'attachment', filename='index.html')
         msg.attach(html_attachment)
@@ -207,12 +219,14 @@ def send_manual_email():
     message += "Email sent manually."
 
     creds = []
-    with open('assets/credentials/bot_credentials.txt', 'r') as credentials:
+    bot_credentials_path = os.path.join(current_directory, 'assets', 'credentials', 'bot_credentials.txt')
+    with open(bot_credentials_path, 'r') as credentials:
         for line in credentials:
             creds.append(line.strip())
 
     subs = []
-    with open('assets/credentials/email_subscribers.txt', 'r') as subscribers:
+    subscribers_path = os.path.join(current_directory, 'assets', 'credentials', 'email_subscribers.txt')
+    with open(subscribers_path, 'r') as subscribers:
         for line in subscribers:
             subs.append(line.strip())
 

@@ -1,15 +1,18 @@
 import json
+import os
 from datetime import datetime
 
-
 def data_to_html():
-    with open('assets/data.json', 'r') as f:
+    current_directory = os.path.dirname(os.path.abspath(__file__))
+    data_path = os.path.join(current_directory, 'assets', 'data.json')
+    with open(data_path, 'r') as f:
         json_data = json.load(f)
 
     now = datetime.now()
     now_formatted = now.strftime('%d/%m/%Y %H:%M')
 
-    with open('website/index.html', 'w') as data_html:
+    index_path = os.path.join(current_directory, 'website', 'index.html')
+    with open(index_path, 'w') as data_html:
         data_html.write('<!DOCTYPE html>\n')
         data_html.write('<html>\n')
         data_html.write('<head>\n')
@@ -114,8 +117,9 @@ def data_to_html():
             data_html.write(f'<td>{updated_formatted}</td>\n')
             if item_data["sales-plot-path"] == "No data":
                 data_html.write(f'<td>{item_data["sales-plot-path"]}</td>\n')
-            else:
-                sales_plot_path = item_data["sales-plot-path"].replace("website/", "")
+            else:                   
+                plot_path = item_data["sales-plot-path"].split("/")[-1]
+                sales_plot_path = "./plots/" + plot_path + ".jpg"
                 data_html.write(f'<td><img src="{sales_plot_path}" alt="Sales" height="100px" onclick="window.open(\'{sales_plot_path}\', \'_blank\');"></td>\n')
             data_html.write('</tr>\n')
 
