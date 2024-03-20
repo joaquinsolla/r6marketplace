@@ -72,13 +72,6 @@ def send_email():
 
         msg = MIMEMultipart()
 
-        # TODO: DELETE WHEN WEBSITE IS AUTOMATED
-        index_path = os.path.join(current_directory, 'website', 'index.html')
-        with open(index_path, 'rb') as file:
-            html_attachment = MIMEApplication(file.read(), _subtype='html')
-            html_attachment.add_header('Content-Disposition', 'attachment', filename='index.html')
-            msg.attach(html_attachment)
-
         for key, value in discounts_data.items():
             price = value.get('price')
             avg_price = value.get('avg-price')
@@ -135,7 +128,7 @@ def send_email():
         email_address = creds[0]
         password = creds[1]
         recipient = subs[0]
-        subject = now_formatted + " - " + str(total_discounts) + " Discounts"
+        subject = "R6 Marketplace Data"
         body = message
 
         smtp_server = 'smtp.gmail.com'
@@ -169,12 +162,6 @@ def send_manual_email():
     total_discounts = 0
 
     msg = MIMEMultipart()
-
-    index_path = os.path.join(current_directory, 'website', 'index.html')
-    with open(index_path, 'rb') as file:
-        html_attachment = MIMEApplication(file.read(), _subtype='html')
-        html_attachment.add_header('Content-Disposition', 'attachment', filename='index.html')
-        msg.attach(html_attachment)
 
     for key, value in discounts_data.items():
         price = value.get('price')
@@ -233,7 +220,7 @@ def send_manual_email():
     email_address = creds[0]
     password = creds[1]
     recipient = subs[0]
-    subject = now_formatted + " - " + str(total_discounts) + " Discounts"
+    subject = "R6 Marketplace Data"
     body = message
 
     smtp_server = 'smtp.gmail.com'
