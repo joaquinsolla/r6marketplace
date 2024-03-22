@@ -67,7 +67,7 @@ def send_email():
     valid, not_valid_message = discounts_valid()
     if valid:
         save_to_json(discounts_data, discounts_path)
-        message = '<b>ALL DATA:</b> **Under work**\n\n'
+        message = 'All Data: http://77.26.6.236:8080\n\n'
         total_discounts = 0
 
         msg = MIMEMultipart()
@@ -108,6 +108,8 @@ def send_email():
             image_attachment = MIMEImage(image_data)
             image_attachment.add_header('Content-Disposition', 'attachment', filename=(key + " plot.png"))
             msg.attach(image_attachment)
+
+        message = f'Total Discounts: <b>{str(total_discounts)}</b>\n' + message
 
         now = datetime.now()
         now_formatted = now.strftime('%d/%m/%Y %H:%M')
@@ -158,7 +160,7 @@ def send_manual_email():
     with open(discounts_path, 'r') as file:
         discounts_data = json.load(file)
 
-    message = ''
+    message = 'All Data: http://77.26.6.236:8080\n\n'
     total_discounts = 0
 
     msg = MIMEMultipart()
@@ -199,6 +201,8 @@ def send_manual_email():
         image_attachment = MIMEImage(image_data)
         image_attachment.add_header('Content-Disposition', 'attachment', filename=(key + " plot.png"))
         msg.attach(image_attachment)
+
+    message = f'Total Discounts: <b>{str(total_discounts)}</b>\n' + message
 
     now = datetime.now()
     now_formatted = now.strftime('%d/%m/%Y %H:%M')
