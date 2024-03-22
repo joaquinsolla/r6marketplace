@@ -29,9 +29,6 @@ Then, create the folder '/assets/credentials', then you will create 3 files insi
 If you check an excessive amount of items or scan the marketplace in very small periods of time, you can get rate limited.
 My recommended settings: Over 200 items to check every 10 minutes.
 
-### Automatic website commits
-By default, you have to comment the line 'upload_website()' in 'main.py'. If you want to enable the auto-commit feature you have to configure your own website repository (I recommend GitHub Pages) and link it with the 'website' folder.
-
 ## Main Execution
 Install dependencies
 ```sh
@@ -52,11 +49,10 @@ The main execution of the program follows these operations in order:
    4. Log out
 3. Save retrieved data to a JSON file
 4. Build an HTML file to display the data
-5. [Disabled] Upload the HTML file to its Git repository
-6. Check for discounts
-7. Save discounts data to a JSON file
-8. Send an email with the discounts data (if needed)
-9. Write log
+5. Check for discounts
+6. Save discounts data to a JSON file
+7. Send an email with the discounts data (if needed)
+8. Write log
 
 ## Additional features
 
@@ -89,11 +85,6 @@ python ./graphic_agent.py aee4bdf2-0b54-4c6d-af93-9fe4848e1f76
 ### Send an email manually with last scanned data
 ```sh
 python ./email_agent.py
-```
-
-### Commit website changes manually
-```sh
-python ./git_agent.py
 ```
 
 ## Credit

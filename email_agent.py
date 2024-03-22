@@ -67,7 +67,7 @@ def send_email():
     valid, not_valid_message = discounts_valid()
     if valid:
         save_to_json(discounts_data, discounts_path)
-        message = 'All Data: http://77.26.6.236:8080\n\n'
+        message = 'All Data: http://r6marketplace.duckdns.org:8080\n\n'
         total_discounts = 0
 
         msg = MIMEMultipart()
@@ -160,7 +160,7 @@ def send_manual_email():
     with open(discounts_path, 'r') as file:
         discounts_data = json.load(file)
 
-    message = 'All Data: http://77.26.6.236:8080\n\n'
+    message = 'All Data: http://r6marketplace.duckdns.org:8080\n\n'
     total_discounts = 0
 
     msg = MIMEMultipart()
