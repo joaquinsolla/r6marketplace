@@ -1,5 +1,6 @@
 # R6 Marketplace Bot
-Scan the marketplace, analyze items' hidden data in an HTML view and get emails with discounted prices.
+Scan the marketplace, analyze items' hidden data in an HTML view and get emails with discounted prices.<br>
+Developed by: **_Joaquín Solla Vázquez_**
 
 ## Setup
 
@@ -86,6 +87,74 @@ python ./graphic_agent.py aee4bdf2-0b54-4c6d-af93-9fe4848e1f76
 ```sh
 python ./email_agent.py
 ```
+
+## Automation on Linux
+This program was developed to run automatically and constantly on a Linux-based machine, like a Raspberry or similar, and host the website into an Apache server. To configure it on your Linux system you can follow these steps:
+
+### Install Apache2 (if you didn't yet)
+```sh
+sudo apt install apache2
+```
+
+### Give permissions to the execution script
+```sh
+chmod 777 run_r6.sh
+```
+This script also copies the website files to the default Apache2 html folder, to automatically update your Apache2 webpage.
+
+### Set up the CRON service
+
+Open the edit view for the CRON service:
+```sh
+crontab -e
+```
+
+Add the line to run the program every 10 minutes every day (edit the field 'your_directory' to the directory where the cloned repository is located):
+```
+*/10 * * * * /your_directory/r6marketplace/run_r6.sh > /your_directory/r6marketplace/cron.log 2>&1
+```
+
+### Website visualization
+
+Now the program will execute every 10 minutes automatically (obviously, the machine needs to be turned on). You can check your website locally in your browser at:
+http://localhost:80
+
+You can also visit the webpage from other device if you are connected to the same network by browsing the machine IP, I recommend to set up a static IP. Example: http://192.168.1.33:80
+
+If you want to access the website from outside of this network, you have to set up port forwarding on your router (make sure your Internet provider did not set up CGNAT on your network).
+You can also configure a DNS service (I recommend https://duckdns.org, it is free and easy to configure).
+
+## Automation on Windows
+You can also automate the program on Windows by using the Tasks Manager.
+
+Press _Windows + R_ and insert the following line, then press _Enter_:
+```
+taskschd.msc
+```
+
+Then click on 'Create Task...'. Enter the name you want for the task.
+
+Click on 'Triggers' and then on 'New'. Complete the following information:
+```
+Configuration: Once
+Repeat every: 10 minutes
+During: Undefined
+Enabled
+```
+
+Click on 'Actions' and then on 'New'. Complete the following information (check your Python path if needed):
+```
+Action: Run a program
+Program or script: C:\Users\YOUR_USER\AppData\Local\Programs\Python\Python310\pythonw.exe
+Add arguments: main.py
+Run into: C:\YOUR_PATH\r6marketplace
+```
+_I recommend using pythonw.exe instead of python.exe, so a terminal won't display when the program is running._
+
+Then click 'Accept' and enable the task (if it is not enabled yet) by clicking on 'Enable'.
+
+**NOTE:** The program was not intended to host the website on a Windows service, but you can also access to the website locally by browsing: [file:///C:/YOUR_PATH/r6marketplace/website/index.html](file:///C:/YOUR_PATH/r6marketplace/website/index.html)
+
 
 ## Credit
 Part of the code of this project (specially the Auth code) was sourced from https://github.com/hiibolt/r6econ and https://github.com/CNDRD/siegeapi. Special thanks to their developers.

@@ -1,0 +1,16 @@
+[ Files Checked ]
+[ Authenticated ]
+Rate Limited!
+[X] Exception caught: 'int' object is not subscriptable
+[ Session Closed ]
+[ Saved: /home/raspy/Desktop/r6marketplace/assets/data.json ]
+[ HTML built: website/index.html ]
+[ Checking For Discounts ]
+ - Item in quarantine - operative status uniform
+ - Item in quarantine - black ice mp5sd
+ - Item in quarantine - smart material 9mm c1
+ - No discounts
+[ Saved: /home/raspy/Desktop/r6marketplace/assets/discounts.json ]
+[!] Email not sent: No discounts found
+[ Log updated ]
+[ Website files copied to Apache2 ]
