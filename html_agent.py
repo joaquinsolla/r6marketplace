@@ -113,7 +113,7 @@ def data_to_html():
             data_html.write(f'<td style="text-align: left">{item_data["id-name"].upper()}</td>\n')
             data_html.write(f'<td><a href="{item_data["url"]}" target="_blank">URL</a></td>\n')
             data_html.write(f'<td><img src="{item_data["asset-url"]}" alt="Image" height="100px" onclick="window.open(\'{item_data["asset-url"]}\', \'_blank\');"></td>\n')
-            data_html.write(f'<td>{avg_price}</td>\n')
+            data_html.write(f'<td>{item_data["data"]["avg-price"]}</td>\n')
             data_html.write(f'<td style="font-weight: bold">{item_data["data"]["lowest-seller"]}</td>\n')
             data_html.write(f'<td>{item_data["data"]["roi"]}</td>\n')
             data_html.write(f'<td>{item_data["data"]["highest-seller"]}</td>\n')
