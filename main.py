@@ -125,22 +125,22 @@ async def scan_market():
                     "roi": int(float(res[6]) / 0.9) if not isinstance(res[6], str) else "No data",
                     "avg-price": avg_price
                 }:
-                    if not isinstance(res[8], str) and not isinstance(res[5], str) and not isinstance(res[6], str) and not isinstance(res[7], str) and not isinstance(res[3], str) and not isinstance(res[4], str) and not isinstance(res[9], str):
+                    try:
                         data[item_id]["data"] = {
-                            "sellers": res[8],
-                            "buyers": res[5],
-                            "lowest-seller": res[6],
-                            "highest-seller": res[7],
-                            "lowest-buyer": res[3],
-                            "highest-buyer": res[4],
-                            "last-sold": res[9],
+                            "sellers": res[8] if not isinstance(res[8], str) else "No data",
+                            "buyers": res[5] if not isinstance(res[5], str) else "No data",
+                            "lowest-seller": res[6] if not isinstance(res[6], str) else "No data",
+                            "highest-seller": res[7] if not isinstance(res[7], str) else "No data",
+                            "lowest-buyer": res[3] if not isinstance(res[3], str) else "No data",
+                            "highest-buyer": res[4] if not isinstance(res[4], str) else "No data",
+                            "last-sold": res[9] if not isinstance(res[9], str) else "No data",
                             "roi": int(float(res[6]) / 0.9) if not isinstance(res[6], str) else "No data",
                             "avg-price": avg_price
                         }
                         data[item_id]["updated"] = time.time()
                         print(" + New data: \t" + key)
-                    else:
-                        print("[!] Exception avoided: Expected int was str on item " + key)
+                    except Exception:
+                        print("[!] Exception avoided on item: " + key)
 
                 if len(data[item_id]["sales_history"]) == 0 or data[item_id]["sales_history"][len(data[item_id]["sales_history"]) - 1][0] != res[9]:
                     data[item_id]["sales_history"] = data[item_id]["sales_history"] + [[res[9], time.time()]]

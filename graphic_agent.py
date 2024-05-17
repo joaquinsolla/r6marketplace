@@ -2,6 +2,14 @@ import json
 import os
 from datetime import datetime
 import matplotlib.pyplot as plt
+import numpy as np
+
+def moving_average(x, x_len_percent):
+    if len(x) > 0:
+        return np.convolve(x, np.ones(x_len_percent) / x_len_percent, mode='valid')
+    else:
+        return np.convolve(x, np.ones(1) / 1, mode='valid')
+
 
 def item_sales_to_plot_by_id(my_item_id):
     current_directory = os.path.dirname(os.path.abspath(__file__))
@@ -10,20 +18,24 @@ def item_sales_to_plot_by_id(my_item_id):
         json_data = json.load(f)
 
     if my_item_id in json_data:
-        sales_history = json_data[my_item_id]["sales_history"][-1000:]
+        sales_history = json_data[my_item_id]["sales_history"]
         item = json_data[my_item_id]["id-name"]
 
         if len(sales_history) > 0:
             prices = [sale[0] for sale in sales_history]
             num_sales = len(sales_history)
             sale_indices = range(1, num_sales + 1)
+            x_len_percent = int(round(len(prices) * 0.005))
+            if x_len_percent == 0: x_len_percent = 1
 
             timestamps = [datetime.fromtimestamp(sale[1]) for sale in sales_history]
             min_date = min(timestamps).strftime('%d/%m/%Y')
             max_date = max(timestamps).strftime('%d/%m/%Y')
 
+            smoothed_prices = moving_average(prices, x_len_percent)
+
             plt.figure(figsize=(12, 6))
-            plt.plot(sale_indices, prices, linestyle='-')
+            plt.plot(sale_indices[x_len_percent - 1:], smoothed_prices, linestyle='-')  # Graficamos la línea suavizada
             plt.title(item.upper())
             plt.ylabel('Price')
             plt.xlabel(f'Last {len(sales_history)} sales\n{min_date} to {max_date}')
@@ -60,20 +72,24 @@ def item_sales_to_plot_by_id(my_item_id):
 
 def item_sales_to_plot(item_data):
 
-    sales_history = item_data["sales_history"][-1000:]
+    sales_history = item_data["sales_history"]
     item = item_data["id-name"]
 
     if len(sales_history) > 0:
         prices = [sale[0] for sale in sales_history]
         num_sales = len(sales_history)
         sale_indices = range(1, num_sales + 1)
+        x_len_percent = int(round(len(prices) * 0.005))
+        if x_len_percent == 0: x_len_percent = 1
 
         timestamps = [datetime.fromtimestamp(sale[1]) for sale in sales_history]
         min_date = min(timestamps).strftime('%d/%m/%Y')
         max_date = max(timestamps).strftime('%d/%m/%Y')
 
+        smoothed_prices = moving_average(prices, x_len_percent)
+
         plt.figure(figsize=(12, 6))
-        plt.plot(sale_indices, prices, linestyle='-')
+        plt.plot(sale_indices[x_len_percent - 1:], smoothed_prices, linestyle='-')  # Graficamos la línea suavizada
         plt.title(item.upper())
         plt.ylabel('Price')
         plt.xlabel(f'Last {len(sales_history)} sales\n{min_date} to {max_date}')
