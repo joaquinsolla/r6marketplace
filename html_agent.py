@@ -109,15 +109,6 @@ def data_to_html():
         for item_id, item_data in json_data.items():
             updated_formatted = datetime.fromtimestamp(item_data["updated"]).strftime("%d/%m/%Y %H:%M")
 
-            print(item_data)
-
-            if item_data['data']['avg-price'] is None:
-                avg_price = item_data['data']['avg-price']
-            else:
-                avg_price = "No data"
-
-
-
             data_html.write('<tr>\n')
             data_html.write(f'<td style="text-align: left">{item_data["id-name"].upper()}</td>\n')
             data_html.write(f'<td><a href="{item_data["url"]}" target="_blank">URL</a></td>\n')
